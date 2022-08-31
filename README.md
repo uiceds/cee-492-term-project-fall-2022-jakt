@@ -1,8 +1,8 @@
 # Output directory containing the formatted manuscript
 
-The [`gh-pages`](https://github.com/manubot/rootstock/tree/gh-pages) branch hosts the contents of this directory at <https://manubot.github.io/rootstock/>.
-The permalink for this webpage version is <https://manubot.github.io/rootstock/v/defe787b0ad8a21a745cc82c3117770896caaf8b/>.
-To redirect to the permalink for the latest manuscript version at anytime, use the link <https://manubot.github.io/rootstock/v/freeze/>.
+The [`gh-pages`](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/gh-pages) branch hosts the contents of this directory at <https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/>.
+The permalink for this webpage version is <https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4fd88a91a00eab857390a57508bb89384caecf75/>.
+To redirect to the permalink for the latest manuscript version at anytime, use the link <https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/freeze/>.
 
 ## Files
 
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`defe787b0ad8a21a745cc82c3117770896caaf8b`](https://github.com/manubot/rootstock/commit/defe787b0ad8a21a745cc82c3117770896caaf8b).
+[`4fd88a91a00eab857390a57508bb89384caecf75`](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/commit/4fd88a91a00eab857390a57508bb89384caecf75).
