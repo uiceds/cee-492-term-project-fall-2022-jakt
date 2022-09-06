@@ -1,16 +1,13 @@
 ---
 <<<<<<< HEAD
 title: "Transportation Planning"
-=======
-title: "Transportation Project"
->>>>>>> 32fe8aa554d523b3150016ce2069ce7d151d0ead
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-<<<<<<< HEAD
+
   - github: Amirthavarshini246
     name: Amirthavarshini Muraleetharan
     initials: AM
@@ -21,8 +18,7 @@ authors:
       - Department of Civil and Environmental Engineering, University of Illinois, Urbana-Champaign
     funders:
       - Grant XXXXXXXX
-  
-=======
+
   - github: thomasNg
     name: Thomas Ngare
     initials: TN
@@ -41,4 +37,4 @@ authors:
     affiliations:
       - Civil and Environmental Engineering Department
       - UIUC
->>>>>>> 32fe8aa554d523b3150016ce2069ce7d151d0ead
+
