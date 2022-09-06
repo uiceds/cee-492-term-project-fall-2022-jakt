@@ -1,11 +1,16 @@
 ---
+<<<<<<< HEAD
 title: "Transportation Planning"
+=======
+title: "Transportation Project"
+>>>>>>> 32fe8aa554d523b3150016ce2069ce7d151d0ead
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
+<<<<<<< HEAD
   - github: Amirthavarshini246
     name: Amirthavarshini Muraleetharan
     initials: AM
@@ -17,3 +22,23 @@ authors:
     funders:
       - Grant XXXXXXXX
   
+=======
+  - github: thomasNg
+    name: Thomas Ngare
+    initials: TN
+    orcid: XXXX-XXXX-XXXX-XXXX
+    twitter: johndoe
+    email: tmatiki2@illinois.edu
+    affiliations:
+      - UIUC
+    funders:
+      - Grant XXXXXXXX
+  - github: thomasNg
+    name: Thomas Ngare
+    initials: TN
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: tmatiki2@illinois.edu
+    affiliations:
+      - UIUC
+      - UIUC
+>>>>>>> 32fe8aa554d523b3150016ce2069ce7d151d0ead
