@@ -6,13 +6,13 @@ keywords:
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
+  - github: kapilrs2
+    name: Kapil Shah
+    initials: KS
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: tmatiki2@illinois.edu
-    affiliations:
+    twitter: NIL
+    email: kapilrs2@illinois.edu
+    affiliations: Civil and Environmental Engineering, University of Illinois Urbana Champaign
       - UIUC
     funders:
       - Grant XXXXXXXX
