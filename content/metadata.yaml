@@ -1,26 +1,44 @@
 ---
-title: "492: Predicting the best for road construction"
+<<<<<<< HEAD
+title: "Transportation Planning"
+=======
+title: "Transportation Project"
+>>>>>>> 32fe8aa554d523b3150016ce2069ce7d151d0ead
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
+<<<<<<< HEAD
+  - github: Amirthavarshini246
+    name: Amirthavarshini Muraleetharan
+    initials: AM
+    orcid: XXXX-XXXX-XXXX-XXXX
+    twitter: NIL
+    email: am86@illinois.edu
+    affiliations:
+      - Department of Civil and Environmental Engineering, University of Illinois, Urbana-Champaign
+    funders:
+      - Grant XXXXXXXX
+  
+=======
+  - github: thomasNg
+    name: Thomas Ngare
+    initials: TN
+    orcid: XXXX-XXXX-XXXX-XXXX
+    twitter: johndoe
+    email: tmatiki2@illinois.edu
+    affiliations:
+      - UIUC
+    funders:
+      - Grant XXXXXXXX
   - github: kapilrs2
     name: Kapil Shah
     initials: KS
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: NIL
     email: kapilrs2@illinois.edu
-    affiliations: Civil and Environmental Engineering, University of Illinois Urbana Champaign
-      - UIUC
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Civil and Environmental Engineering Department
+      - UIUC
+>>>>>>> 32fe8aa554d523b3150016ce2069ce7d151d0ead
