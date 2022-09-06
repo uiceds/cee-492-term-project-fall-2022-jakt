@@ -1,18 +1,26 @@
 ---
-title: "492: Predicting the best route for road construction "
+title: "492: Predicting the best for road construction"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: kapilrs2
-    name: Kapil Shah
-    initials: KS
+  - github: johndoe
+    name: John Doe
+    initials: JD
     orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: 
-    email: kapilrs2@illinois.edu
+    twitter: johndoe
+    email: tmatiki2@illinois.edu
     affiliations:
-      - Civil and Environmental Engineering, University of Illinois Urbana Champaign
+      - UIUC
     funders:
       - Grant XXXXXXXX
+  - github: janeroe
+    name: Jane Roe
+    initials: JR
+    orcid: XXXX-XXXX-XXXX-XXXX
+    email: jane.roe@whatever.edu
+    affiliations:
+      - Department of Something, University of Whatever
+      - Department of Whatever, University of Something
