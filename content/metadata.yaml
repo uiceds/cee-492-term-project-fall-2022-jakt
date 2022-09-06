@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 title: "Transportation Planning"
+-------------------
 keywords:
   - markdown
   - publishing
@@ -29,7 +30,7 @@ authors:
       - UIUC
     funders:
       - Grant XXXXXXXX
-      
+
   - github: kapilrs2
     name: Kapil Shah
     initials: KS
@@ -38,4 +39,6 @@ authors:
     affiliations:
       - Civil and Environmental Engineering Department
       - UIUC
+    funders:
+    - Grant XXXXXXX
 
