@@ -1,6 +1,6 @@
 {
   "pandoc": {
-    "title": "Transportation Project",
+    "title": "Transportation Planning",
     "keywords": [
       "markdown",
       "publishing",
@@ -9,10 +9,11 @@
     "lang": "en-US",
     "date-meta": "2022-09-06",
     "author-meta": [
+      "Amirthavarshini Muraleetharan",
       "Thomas Ngare",
       "Thomas Ngare"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Transportation Project\" />\n<meta name=\"citation_title\" content=\"Transportation Project\" />\n<meta property=\"og:title\" content=\"Transportation Project\" />\n<meta property=\"twitter:title\" content=\"Transportation Project\" />\n<meta name=\"dc.date\" content=\"2022-09-06\" />\n<meta name=\"citation_publication_date\" content=\"2022-09-06\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Thomas Ngare\" />\n<meta name=\"citation_author_institution\" content=\"UIUC\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Thomas Ngare\" />\n<meta name=\"citation_author_institution\" content=\"UIUC\" />\n<meta name=\"citation_author_institution\" content=\"UIUC\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/32fe8aa554d523b3150016ce2069ce7d151d0ead/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/32fe8aa554d523b3150016ce2069ce7d151d0ead/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/32fe8aa554d523b3150016ce2069ce7d151d0ead/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Transportation Planning\" />\n<meta name=\"citation_title\" content=\"Transportation Planning\" />\n<meta property=\"og:title\" content=\"Transportation Planning\" />\n<meta property=\"twitter:title\" content=\"Transportation Planning\" />\n<meta name=\"dc.date\" content=\"2022-09-06\" />\n<meta name=\"citation_publication_date\" content=\"2022-09-06\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Amirthavarshini Muraleetharan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Civil and Environmental Engineering, University of Illinois, Urbana-Champaign\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@NIL\" />\n<meta name=\"citation_author\" content=\"Thomas Ngare\" />\n<meta name=\"citation_author_institution\" content=\"UIUC\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Thomas Ngare\" />\n<meta name=\"citation_author_institution\" content=\"UIUC\" />\n<meta name=\"citation_author_institution\" content=\"UIUC\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4b4924fd928f54402523014b6ec1638889ef108c/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4b4924fd928f54402523014b6ec1638889ef108c/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4b4924fd928f54402523014b6ec1638889ef108c/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -24,6 +25,23 @@
   "manubot": {
     "date": "September 6, 2022",
     "authors": [
+      {
+        "github": "Amirthavarshini246",
+        "name": "Amirthavarshini Muraleetharan",
+        "initials": "AM",
+        "orcid": "XXXX-XXXX-XXXX-XXXX",
+        "twitter": "NIL",
+        "email": "am86@illinois.edu",
+        "affiliations": [
+          "Department of Civil and Environmental Engineering, University of Illinois, Urbana-Champaign"
+        ],
+        "funders": [
+          "Grant XXXXXXXX"
+        ],
+        "affiliation_numbers": [
+          1
+        ]
+      },
       {
         "github": "thomasNg",
         "name": "Thomas Ngare",
@@ -38,7 +56,7 @@
           "Grant XXXXXXXX"
         ],
         "affiliation_numbers": [
-          1
+          2
         ]
       },
       {
@@ -52,15 +70,19 @@
           "UIUC"
         ],
         "affiliation_numbers": [
-          1,
-          1
+          2,
+          2
         ]
       }
     ],
     "affiliations": [
       {
-        "affiliation": "UIUC",
+        "affiliation": "Department of Civil and Environmental Engineering, University of Illinois, Urbana-Champaign",
         "affiliation_number": 1
+      },
+      {
+        "affiliation": "UIUC",
+        "affiliation_number": 2
       }
     ],
     "ci_source": {
@@ -68,15 +90,15 @@
       "repo_slug": "uiceds/cee-492-term-project-fall-2022-jakt",
       "repo_owner": "uiceds",
       "repo_name": "cee-492-term-project-fall-2022-jakt",
-      "commit": "32fe8aa554d523b3150016ce2069ce7d151d0ead",
-      "triggering_commit": "32fe8aa554d523b3150016ce2069ce7d151d0ead",
-      "build_url": "https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/commit/32fe8aa554d523b3150016ce2069ce7d151d0ead/checks",
+      "commit": "4b4924fd928f54402523014b6ec1638889ef108c",
+      "triggering_commit": "4b4924fd928f54402523014b6ec1638889ef108c",
+      "build_url": "https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/commit/4b4924fd928f54402523014b6ec1638889ef108c/checks",
       "job_url": "https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/runs/__run_3"
     },
     "html_url": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/",
     "pdf_url": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf",
-    "html_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/32fe8aa554d523b3150016ce2069ce7d151d0ead/",
-    "pdf_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/32fe8aa554d523b3150016ce2069ce7d151d0ead/manuscript.pdf",
+    "html_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4b4924fd928f54402523014b6ec1638889ef108c/",
+    "pdf_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4b4924fd928f54402523014b6ec1638889ef108c/manuscript.pdf",
     "manubot_version": "0.5.1",
     "rootstock_commit": null,
     "manuscript_stats": {
