@@ -5,11 +5,11 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-06'
+date-meta: '2022-09-08'
 author-meta:
 - Amirthavarshini Muraleetharan
 - Thomas Ngare
-- Thomas Ngare
+- Kapil Shah
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -20,8 +20,8 @@ header-includes: |-
   <meta name="citation_title" content="Transportation Planning" />
   <meta property="og:title" content="Transportation Planning" />
   <meta property="twitter:title" content="Transportation Planning" />
-  <meta name="dc.date" content="2022-09-06" />
-  <meta name="citation_publication_date" content="2022-09-06" />
+  <meta name="dc.date" content="2022-09-08" />
+  <meta name="citation_publication_date" content="2022-09-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -36,8 +36,8 @@ header-includes: |-
   <meta name="citation_author_institution" content="UIUC" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Thomas Ngare" />
-  <meta name="citation_author_institution" content="UIUC" />
+  <meta name="citation_author" content="Kapil Shah" />
+  <meta name="citation_author_institution" content="Civil and Environmental Engineering Department" />
   <meta name="citation_author_institution" content="UIUC" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
@@ -46,9 +46,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4b4924fd928f54402523014b6ec1638889ef108c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4b4924fd928f54402523014b6ec1638889ef108c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4b4924fd928f54402523014b6ec1638889ef108c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/1959f21832fdf9c16643b27cbd30b4d5068f2367/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/1959f21832fdf9c16643b27cbd30b4d5068f2367/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/1959f21832fdf9c16643b27cbd30b4d5068f2367/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,10 +70,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4b4924fd928f54402523014b6ec1638889ef108c/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/1959f21832fdf9c16643b27cbd30b4d5068f2367/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@4b4924f](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/4b4924fd928f54402523014b6ec1638889ef108c)
-on September 6, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jakt@1959f21](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/1959f21832fdf9c16643b27cbd30b4d5068f2367)
+on September 8, 2022.
 </em></small>
 
 ## Authors
@@ -104,13 +104,14 @@ on September 6, 2022.
      · Funded by Grant XXXXXXXX
   </small>
 
-+ **Thomas Ngare**<br>
++ **Kapil Shah**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [thomasNg](https://github.com/thomasNg)<br>
+    [kapilrs2](https://github.com/kapilrs2)<br>
   <small>
-     UIUC; UIUC
+     Civil and Environmental Engineering Department; UIUC
+     · Funded by Grant XXXXXXX
   </small>
 
 
