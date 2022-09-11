@@ -8,7 +8,7 @@ anim
 APIs
 aute
 CEE
-CHAMPAIGN
+Champaign
 cillum
 commodo
 consectetur
@@ -70,7 +70,7 @@ tempor
 thomasNg
 UIUC
 ullamco
-URBANA
+Urbana
 velit
 veniam
 voluptate
