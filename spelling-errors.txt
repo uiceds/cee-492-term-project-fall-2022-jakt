@@ -3,7 +3,7 @@ aliqua
 aliquip
 amet
 Amin
-Amirthavarshini
+amirthavarshini
 anim
 APIs
 aute
@@ -16,7 +16,7 @@ consequat
 CSV
 culpa
 cupidatat
-dataset
+Dataset
 dataset’s
 deserunt
 dolore
@@ -62,6 +62,7 @@ Rajiv
 Ramnath
 reprehenderit
 sed
+shkapil
 sint
 Sobhan
 spatiotemporal
@@ -69,7 +70,7 @@ sunt
 tempor
 thomasNg
 ullamco
-URBANA
+Urbana
 velit
 veniam
 voluptate

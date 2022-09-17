@@ -1,6 +1,6 @@
 {
   "pandoc": {
-    "title": "A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure",
+    "title": "CEE498 DS - Data Science for CEE - Fall 2022",
     "keywords": [
       "markdown",
       "publishing",
@@ -13,7 +13,7 @@
       "Thomas Ngare",
       "Kapil Shah"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure\" />\n<meta name=\"citation_title\" content=\"A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure\" />\n<meta property=\"og:title\" content=\"A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure\" />\n<meta property=\"twitter:title\" content=\"A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure\" />\n<meta name=\"dc.date\" content=\"2022-09-17\" />\n<meta name=\"citation_publication_date\" content=\"2022-09-17\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Amirthavarshini Muraleetharan\" />\n<meta name=\"citation_author_institution\" content=\"Department of CEE, University of Illinois Urbana Champaign\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@NIL\" />\n<meta name=\"citation_author\" content=\"Thomas Ngare\" />\n<meta name=\"citation_author_institution\" content=\"Department of CEE, University of Illinois Urbana Champaign\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Kapil Shah\" />\n<meta name=\"citation_author_institution\" content=\"Department of CEE, University of Illinois Urbana Champaign\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/be916d3bad406033351c5a3821999aef4ee7f9ce/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/be916d3bad406033351c5a3821999aef4ee7f9ce/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/be916d3bad406033351c5a3821999aef4ee7f9ce/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"CEE498 DS - Data Science for CEE - Fall 2022\" />\n<meta name=\"citation_title\" content=\"CEE498 DS - Data Science for CEE - Fall 2022\" />\n<meta property=\"og:title\" content=\"CEE498 DS - Data Science for CEE - Fall 2022\" />\n<meta property=\"twitter:title\" content=\"CEE498 DS - Data Science for CEE - Fall 2022\" />\n<meta name=\"dc.date\" content=\"2022-09-17\" />\n<meta name=\"citation_publication_date\" content=\"2022-09-17\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Amirthavarshini Muraleetharan\" />\n<meta name=\"citation_author_institution\" content=\"Department of CEE, University of Illinois Urbana Champaign\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@NIL\" />\n<meta name=\"citation_author\" content=\"Thomas Ngare\" />\n<meta name=\"citation_author_institution\" content=\"Department of CEE, University of Illinois Urbana Champaign\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@johndoe\" />\n<meta name=\"citation_author\" content=\"Kapil Shah\" />\n<meta name=\"citation_author_institution\" content=\"Department of CEE, University of Illinois Urbana Champaign\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@shkapil12295\" />\n<link rel=\"canonical\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta property=\"og:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta property=\"twitter:url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/\" />\n<meta name=\"citation_pdf_url\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/8ad03f66fdf9d3331c9b31163da554c4a675896d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/8ad03f66fdf9d3331c9b31163da554c4a675896d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/8ad03f66fdf9d3331c9b31163da554c4a675896d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -26,7 +26,7 @@
     "date": "September 17, 2022",
     "authors": [
       {
-        "github": "Amirthavarshini246",
+        "github": "amirthavarshini246",
         "name": "Amirthavarshini Muraleetharan",
         "initials": "AM",
         "orcid": "XXXX-XXXX-XXXX-XXXX",
@@ -58,6 +58,7 @@
         "name": "Kapil Shah",
         "initials": "KS",
         "orcid": "XXXX-XXXX-XXXX-XXXX",
+        "twitter": "shkapil12295",
         "email": "kapilrs2@illinois.edu",
         "affiliations": [
           "Department of CEE, University of Illinois Urbana Champaign"
@@ -78,19 +79,20 @@
       "repo_slug": "uiceds/cee-492-term-project-fall-2022-jakt",
       "repo_owner": "uiceds",
       "repo_name": "cee-492-term-project-fall-2022-jakt",
-      "commit": "be916d3bad406033351c5a3821999aef4ee7f9ce",
-      "triggering_commit": "be916d3bad406033351c5a3821999aef4ee7f9ce",
-      "build_url": "https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/commit/be916d3bad406033351c5a3821999aef4ee7f9ce/checks",
+      "commit": "8ad03f66fdf9d3331c9b31163da554c4a675896d",
+      "triggering_commit": "8ad03f66fdf9d3331c9b31163da554c4a675896d",
+      "build_url": "https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/commit/8ad03f66fdf9d3331c9b31163da554c4a675896d/checks",
       "job_url": "https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/runs/__run_3"
     },
     "html_url": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/",
     "pdf_url": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf",
-    "html_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/be916d3bad406033351c5a3821999aef4ee7f9ce/",
-    "pdf_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/be916d3bad406033351c5a3821999aef4ee7f9ce/manuscript.pdf",
+    "html_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/8ad03f66fdf9d3331c9b31163da554c4a675896d/",
+    "pdf_url_versioned": "https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/8ad03f66fdf9d3331c9b31163da554c4a675896d/manuscript.pdf",
     "manubot_version": "0.5.1",
     "rootstock_commit": null,
     "manuscript_stats": {
-      "word_count": 2247
+      "word_count": 2245
     }
-  }
+  },
+  "doc_title": "Term Project Proposal"
 }
