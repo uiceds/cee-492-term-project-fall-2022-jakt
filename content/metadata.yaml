@@ -1,5 +1,6 @@
 ---
-title: "A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure"
+title: "CEE498 DS - Data Science for CEE - Fall 2022"
+doc_title: "Term Project Proposal"
 keywords:
   - markdown
   - publishing
@@ -7,7 +8,7 @@ keywords:
 lang: en-US
 authors:
 
-  - github: Amirthavarshini246
+  - github: amirthavarshini246
     name: Amirthavarshini Muraleetharan
     initials: AM
     orcid: XXXX-XXXX-XXXX-XXXX
@@ -30,6 +31,7 @@ authors:
     name: Kapil Shah
     initials: KS
     orcid: XXXX-XXXX-XXXX-XXXX
+    twitter: shkapil12295
     email: kapilrs2@illinois.edu
     affiliations:
       - Department of CEE, University of Illinois Urbana Champaign
