@@ -1,5 +1,5 @@
 ---
-title: "Transportation Planning"
+title: "A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure"
 keywords:
   - markdown
   - publishing
@@ -14,9 +14,7 @@ authors:
     twitter: NIL
     email: am86@illinois.edu
     affiliations:
-      - Department of Civil and Environmental Engineering, University of Illinois, Urbana-Champaign
-    funders:
-      - Grant XXXXXXXX
+      - Department of CEE, University of Illinois Urbana Champaign
 
   - github: thomasNg
     name: Thomas Ngare
@@ -25,9 +23,8 @@ authors:
     twitter: johndoe
     email: tmatiki2@illinois.edu
     affiliations:
-      - UIUC
-    funders:
-      - Grant XXXXXXXX
+      - Department of CEE, University of Illinois Urbana Champaign
+    
 
   - github: kapilrs2
     name: Kapil Shah
@@ -35,7 +32,5 @@ authors:
     orcid: XXXX-XXXX-XXXX-XXXX
     email: kapilrs2@illinois.edu
     affiliations:
-      - Civil and Environmental Engineering Department
-      - UIUC
-    funders:
-    - Grant XXXXXXX
+      - Department of CEE, University of Illinois Urbana Champaign
+   
