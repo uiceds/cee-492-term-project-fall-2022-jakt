@@ -8,7 +8,7 @@ anim
 APIs
 aute
 CEE
-Champaign
+CHAMPAIGN
 cillum
 commodo
 consectetur
@@ -16,7 +16,7 @@ consequat
 CSV
 culpa
 cupidatat
-Dataset
+dataset
 dataset’s
 deserunt
 dolore
@@ -70,7 +70,7 @@ sunt
 tempor
 thomasNg
 ullamco
-Urbana
+URBANA
 velit
 veniam
 voluptate

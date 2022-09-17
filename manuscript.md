@@ -46,9 +46,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/8ad03f66fdf9d3331c9b31163da554c4a675896d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/8ad03f66fdf9d3331c9b31163da554c4a675896d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/8ad03f66fdf9d3331c9b31163da554c4a675896d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cb8608568596f1c35c55dc204a32ec1207b69d4c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cb8608568596f1c35c55dc204a32ec1207b69d4c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cb8608568596f1c35c55dc204a32ec1207b69d4c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/8ad03f66fdf9d3331c9b31163da554c4a675896d/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cb8608568596f1c35c55dc204a32ec1207b69d4c/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@8ad03f6](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/8ad03f66fdf9d3331c9b31163da554c4a675896d)
+from [uiceds/cee-492-term-project-fall-2022-jakt@cb86085](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/cb8608568596f1c35c55dc204a32ec1207b69d4c)
 on September 17, 2022.
 </em></small>
 
