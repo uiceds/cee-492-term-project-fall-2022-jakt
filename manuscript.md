@@ -1,11 +1,11 @@
 ---
-title: Transportation Planning
+title: A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure
 keywords:
 - markdown
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-11'
+date-meta: '2022-09-17'
 author-meta:
 - Amirthavarshini Muraleetharan
 - Thomas Ngare
@@ -16,12 +16,12 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Transportation Planning" />
-  <meta name="citation_title" content="Transportation Planning" />
-  <meta property="og:title" content="Transportation Planning" />
-  <meta property="twitter:title" content="Transportation Planning" />
-  <meta name="dc.date" content="2022-09-11" />
-  <meta name="citation_publication_date" content="2022-09-11" />
+  <meta name="dc.title" content="A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure" />
+  <meta name="citation_title" content="A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure" />
+  <meta property="og:title" content="A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure" />
+  <meta property="twitter:title" content="A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure" />
+  <meta name="dc.date" content="2022-09-17" />
+  <meta name="citation_publication_date" content="2022-09-17" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -29,16 +29,15 @@ header-includes: |-
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Amirthavarshini Muraleetharan" />
-  <meta name="citation_author_institution" content="Department of Civil and Environmental Engineering, University of Illinois, Urbana-Champaign" />
+  <meta name="citation_author_institution" content="Department of CEE, University of Illinois Urbana Champaign" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@NIL" />
   <meta name="citation_author" content="Thomas Ngare" />
-  <meta name="citation_author_institution" content="UIUC" />
+  <meta name="citation_author_institution" content="Department of CEE, University of Illinois Urbana Champaign" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <meta name="twitter:creator" content="@johndoe" />
   <meta name="citation_author" content="Kapil Shah" />
-  <meta name="citation_author_institution" content="Civil and Environmental Engineering Department" />
-  <meta name="citation_author_institution" content="UIUC" />
+  <meta name="citation_author_institution" content="Department of CEE, University of Illinois Urbana Champaign" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta property="og:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
@@ -46,9 +45,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/01e674c4776143fabb62e829a6216b7fd0555d27/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/01e674c4776143fabb62e829a6216b7fd0555d27/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/01e674c4776143fabb62e829a6216b7fd0555d27/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/be916d3bad406033351c5a3821999aef4ee7f9ce/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/be916d3bad406033351c5a3821999aef4ee7f9ce/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/be916d3bad406033351c5a3821999aef4ee7f9ce/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,10 +69,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/01e674c4776143fabb62e829a6216b7fd0555d27/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/be916d3bad406033351c5a3821999aef4ee7f9ce/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@01e674c](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/01e674c4776143fabb62e829a6216b7fd0555d27)
-on September 11, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jakt@be916d3](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/be916d3bad406033351c5a3821999aef4ee7f9ce)
+on September 17, 2022.
 </em></small>
 
 ## Authors
@@ -88,8 +87,7 @@ on September 11, 2022.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [NIL](https://twitter.com/NIL)<br>
   <small>
-     Department of Civil and Environmental Engineering, University of Illinois, Urbana-Champaign
-     · Funded by Grant XXXXXXXX
+     Department of CEE, University of Illinois Urbana Champaign
   </small>
 
 + **Thomas Ngare**<br>
@@ -100,8 +98,7 @@ on September 11, 2022.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [johndoe](https://twitter.com/johndoe)<br>
   <small>
-     UIUC
-     · Funded by Grant XXXXXXXX
+     Department of CEE, University of Illinois Urbana Champaign
   </small>
 
 + **Kapil Shah**<br>
@@ -110,8 +107,7 @@ on September 11, 2022.
     · ![GitHub icon](images/github.svg){.inline_icon}
     [kapilrs2](https://github.com/kapilrs2)<br>
   <small>
-     Civil and Environmental Engineering Department; UIUC
-     · Funded by Grant XXXXXXX
+     Department of CEE, University of Illinois Urbana Champaign
   </small>
 
 
