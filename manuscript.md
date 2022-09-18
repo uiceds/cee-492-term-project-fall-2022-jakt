@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/504d1ab2a332743c4f229166eb624a5676d86fc1/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/504d1ab2a332743c4f229166eb624a5676d86fc1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/504d1ab2a332743c4f229166eb624a5676d86fc1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d59c2c6c22f0a554fcd3a44787a31c97ad31305a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d59c2c6c22f0a554fcd3a44787a31c97ad31305a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d59c2c6c22f0a554fcd3a44787a31c97ad31305a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/504d1ab2a332743c4f229166eb624a5676d86fc1/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d59c2c6c22f0a554fcd3a44787a31c97ad31305a/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@504d1ab](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/504d1ab2a332743c4f229166eb624a5676d86fc1)
+from [uiceds/cee-492-term-project-fall-2022-jakt@d59c2c6](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/d59c2c6c22f0a554fcd3a44787a31c97ad31305a)
 on September 18, 2022.
 </em></small>
 
@@ -113,9 +113,9 @@ In general, this dataset can be used for a wide range of applications, including
 		
 Using this dataset, a machine learning model will be developed to predict road closure events, given inputs of pertinent features as mentioned in the below table @tbl:features. measurements from pertinent features that will be determined in this study. The developed algorithm will be tested on about 20% of the total samples, and validated with another 20% of the total samples, to be made suitable for real-time applications. The proposed algorithm will have the potential to estimate the likelihood that every road segment satisfying certain requirement will be is closed or open, such that it can be employed in mobile maps (like Google maps). Whenever the likelihood of a closure event exceeds a predetermined threshold, customer can be notified to find the efficient route. For mapping applications, this algorithm can it will automatically update maps further add to its real time monitoring. 
 
-To achieve this goal, data wrangling will be performed. The essential data frames for the study will be extracted from the original dataset followed by Exploratory Analysis. Exploratory analysis will enable us to drive insights by forming a pattern for better visualization and exploration.  be performed to make sense of the data and visualize them for better exploration. Based on the analysis, a classification model will be developed to predict the class or category for the data or draw a conclusion to the input data given for training. The developed model will be tested for various conditions.
+To achieve this goal, data wrangling will be performed. The essential data frames for the study will be extracted from the original dataset followed by exploratory analysis. Exploratory analysis will enable us to drive insights by forming a pattern for better visualization and exploration be performed to make sense of the data and visualize them for better exploration. Based on the analysis, a classification model will be developed to predict the class or category for the data or draw a conclusion to the input data given for training. The developed model will be tested for various conditions.
 
-|Features|[Description]{.right}|
+|[Features]{.center}|[Description]{.center}|
 |:-----------------|:-------------:|
 |ID|Unique identifier of construction record|
 |Severity|Shows the severity of the construction|
