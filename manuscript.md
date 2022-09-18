@@ -1,5 +1,5 @@
 ---
-title: CEE498 DS - Data Science for CEE - Fall 2022
+title: ''
 keywords:
 - markdown
 - publishing
@@ -16,10 +16,10 @@ header-includes: |-
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="CEE498 DS - Data Science for CEE - Fall 2022" />
-  <meta name="citation_title" content="CEE498 DS - Data Science for CEE - Fall 2022" />
-  <meta property="og:title" content="CEE498 DS - Data Science for CEE - Fall 2022" />
-  <meta property="twitter:title" content="CEE498 DS - Data Science for CEE - Fall 2022" />
+  <meta name="dc.title" content="" />
+  <meta name="citation_title" content="" />
+  <meta property="og:title" content="" />
+  <meta property="twitter:title" content="" />
   <meta name="dc.date" content="2022-09-18" />
   <meta name="citation_publication_date" content="2022-09-18" />
   <meta name="dc.language" content="en-US" />
@@ -30,25 +30,22 @@ header-includes: |-
   <meta name="citation_technical_report_institution" content="Manubot" />
   <meta name="citation_author" content="Amirthavarshini Muraleetharan" />
   <meta name="citation_author_institution" content="Department of CEE, University of Illinois Urbana Champaign" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@NIL" />
+  <meta name="citation_author_orcid" content="677-010-487" />
   <meta name="citation_author" content="Thomas Ngare" />
   <meta name="citation_author_institution" content="Department of CEE, University of Illinois Urbana Champaign" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
+  <meta name="citation_author_orcid" content="652-601-317" />
   <meta name="citation_author" content="Kapil Shah" />
   <meta name="citation_author_institution" content="Department of CEE, University of Illinois Urbana Champaign" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@shkapil12295" />
+  <meta name="citation_author_orcid" content="668-376-620" />
   <link rel="canonical" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta property="og:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta property="twitter:url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02deb4269c2caad12e8b1f0c20b4fec47a54c2f0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02deb4269c2caad12e8b1f0c20b4fec47a54c2f0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02deb4269c2caad12e8b1f0c20b4fec47a54c2f0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02deb4269c2caad12e8b1f0c20b4fec47a54c2f0/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@1148255](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/114825548160222be396eba318d76c136a6f8c1c)
+from [uiceds/cee-492-term-project-fall-2022-jakt@02deb42](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/02deb4269c2caad12e8b1f0c20b4fec47a54c2f0)
 on September 18, 2022.
 </em></small>
 
@@ -82,33 +79,27 @@ on September 18, 2022.
 
 + **Amirthavarshini Muraleetharan**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [677-010-487](https://orcid.org/677-010-487)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [amirthavarshini246](https://github.com/amirthavarshini246)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [NIL](https://twitter.com/NIL)<br>
+    [amirthavarshini246](https://github.com/amirthavarshini246)<br>
   <small>
      Department of CEE, University of Illinois Urbana Champaign
   </small>
 
 + **Thomas Ngare**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [652-601-317](https://orcid.org/652-601-317)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [thomasNg](https://github.com/thomasNg)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [thomasNg](https://github.com/thomasNg)<br>
   <small>
      Department of CEE, University of Illinois Urbana Champaign
   </small>
 
 + **Kapil Shah**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [668-376-620](https://orcid.org/668-376-620)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [kapilrs2](https://github.com/kapilrs2)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [shkapil12295](https://twitter.com/shkapil12295)<br>
+    [kapilrs2](https://github.com/kapilrs2)<br>
   <small>
      Department of CEE, University of Illinois Urbana Champaign
   </small>
@@ -117,51 +108,14 @@ on September 18, 2022.
 
 ## Abstract {.page_break_before}
 
-__ABCD__
-
-["A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure"]{.semibold}
-
-
-Amirthavarshini Muraleetharan1, Kapil Shah2, Thomas Ngare Matiki3
+__A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure__
 
 A nationwide dataset of road construction and closure events, including data from all 49 US states is chosen for the project. The roadwork included in this dataset's construction events ranges from minor paving repairs to significant undertakings that might take months to complete. Several APIs that provide streaming traffic incident (or event) data are used to collect the data between January 2016 and December 2021. These APIs transmit traffic information gathered by several organizations, including the US and state departments of transportation, law enforcement organizations, traffic cameras, and traffic sensors embedded in the road networks. The number of construction and shutdown records in this dataset currently stands at roughly 6.2 million. 
 In general, this dataset can be used for a wide range of applications, including the prediction of short- and long-term road construction, the prediction of road closures, the study of the life cycle of road construction, the development of insights to help city planners choose construction sites wisely with the most negligible negative impact on traffic flow, and the investigation of the influence of precipitation or other environmental stimuli on the need for road work. The dataset is being updated on an annual basis. The data will be obtained from US Road Construction and Closures (2016 - 2021), Kaggle, and it is available in CSV format. Presently, the dataset contains 6,170,627 observations comprising of features like Construction severity, Latitude and longitude, Precipitation, Traffic signal and many such taking a total of 47 columns. Table 1 elaborates the specifics of this data set.
-
-
-
-
 		
 Using this dataset, a machine learning model will be developed to predict road closure events, given inputs of pertinent features as mentioned in the below Table 1. measurements from pertinent features that will be determined in this study. The developed algorithm will be tested on about 20% of the total samples, and validated with another 20% of the total samples, to be made suitable for real-time applications. The proposed algorithm will have the potential to estimate the likelihood that every road segment satisfying certain requirement will be is closed or open, such that it can be employed in mobile maps (like Google maps). Whenever the likelihood of a closure event exceeds a predetermined threshold, customer can be notified to find the efficient route. For mapping applications, this algorithm can it will automatically update maps further add to its real time monitoring. 
 
 To achieve this goal, data wrangling will be performed. The essential data frames for the study will be extracted from the original dataset followed by Exploratory Analysis. Exploratory analysis will enable us to drive insights by forming a pattern for better visualization and exploration.  be performed to make sense of the data and visualize them for better exploration. Based on the analysis, a classification model will be developed to predict the class or category for the data or draw a conclusion to the input data given for training. The developed model will be tested for various conditions.
-
-
-
-| *Features* | Description          |
-|:-----------------|:-------------:|
-| ID | 
-|Severity |
-|Start and End Time |
-|End Time |
-|Latitude and Longitude |
-|Distance |
-|Street Details |
-|Address Details |
-|Time zone |
-|Weather |
-|Temperature, Wind, Humidity, and Pressure |
-|Visibility |
-|Wind Direction and Speed |
-|Precipitation and Weather condition |
-|Amenity |
-|Bump and Crossing |
-|Give way, Junction, railway |
-|Exit, Roundabout, Station, Stop |
-|Traffic Details |
-|Light Details |
-
-Table: Description of undertaking dataset.
-{#tbl:bowling-scores}
 
 | *Features* | Description          |
 |:-----------------|:-------------:|
