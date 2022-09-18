@@ -46,9 +46,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@725f4e7](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e)
+from [uiceds/cee-492-term-project-fall-2022-jakt@1148255](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/114825548160222be396eba318d76c136a6f8c1c)
 on September 18, 2022.
 </em></small>
 
@@ -135,56 +135,59 @@ Using this dataset, a machine learning model will be developed to predict road c
 
 To achieve this goal, data wrangling will be performed. The essential data frames for the study will be extracted from the original dataset followed by Exploratory Analysis. Exploratory analysis will enable us to drive insights by forming a pattern for better visualization and exploration.  be performed to make sense of the data and visualize them for better exploration. Based on the analysis, a classification model will be developed to predict the class or category for the data or draw a conclusion to the input data given for training. The developed model will be tested for various conditions.
 
-| *Features* | ID          | Severity          |
-| *Description* | Unique          | ABCD          |
-
-|          | **Colors** <!-- $colspan="2" --> |                      |
-|:--------:|:--------------------------------:|:--------------------:|
-| **Size** | **Text Color**                   | **Background Color** |
-| big      | blue                             | orange               |
-| small    | black                            | white                |
-
-Table: A table with merged cells using the `attributes` plugin.
-{#tbl: merged-cells}
 
 
-| *Bowling Scores* | Jane          | John          | Alice         | Bob           |
-|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
-| Game 1 | 150 | 187 | 210 | 105 |
-| Game 2 |  98 | 202 | 197 | 102 |
-| Game 3 | 123 | 180 | 238 | 134 |
+| *Features* | Description          |
+|:-----------------|:-------------:|
+| ID | 
+|Severity |
+|Start and End Time |
+|End Time |
+|Latitude and Longitude |
+|Distance |
+|Street Details |
+|Address Details |
+|Time zone |
+|Weather |
+|Temperature, Wind, Humidity, and Pressure |
+|Visibility |
+|Wind Direction and Speed |
+|Precipitation and Weather condition |
+|Amenity |
+|Bump and Crossing |
+|Give way, Junction, railway |
+|Exit, Roundabout, Station, Stop |
+|Traffic Details |
+|Light Details |
 
-Table: A table with a top caption and specified relative column widths.
+Table: Description of undertaking dataset.
 {#tbl:bowling-scores}
 
-|         | Digits 1-33                        | Digits 34-66                      | Digits 67-99                      | Ref.                                                        |
-|:--------|:-----------------------------------|:----------------------------------|:----------------------------------|:------------------------------------------------------------|
-| pi      | 3.14159265358979323846264338327950 | 288419716939937510582097494459230 | 781640628620899862803482534211706 | [`piday.org`](https://www.piday.org/million/)               |
-| e       | 2.71828182845904523536028747135266 | 249775724709369995957496696762772 | 407663035354759457138217852516642 | [`nasa.gov`](https://apod.nasa.gov/htmltest/gifcity/e.2mil) |
+| *Features* | Description          |
+|:-----------------|:-------------:|
+|  ID  |  Unique identifier of construction record  |
+|  Severity  |  Shows the severity of the construction  |
+|  Start and End Time  |  Shows the start time of construction  |
+|  End Time  |  Shows the end time of construction  |
+|  Latitude and Longitude  |  Shows the GPS coordinates  |
+|  Distance  |  The length of the road extent affected by the construction  |
+|  Street Details  |  Shows the street number, name and right/left side in address field  |
+|  Address Details  |  Shows the city, county, state, country and zip code in address field  |
+|  Time zone  |  Shows time zone based on the location of the construction event  |
+|  Weather  |  Shows the time stamp of weather observation record  |
+|  Temperature, Wind, Humidity, and Pressure  |  Shows the temperature, wind chill, humidity, and pressure  |
+|  Visibility  |  Shows visibility  |
+|  Wind Direction and Speed  |  Shows wind conditions  |
+|  Precipitation and Weather condition  |  Shows precipitation and weather condition  |
+|  Amenity  |  An annotation which indicates presence of amenity in a nearby location  |
+|  Bump and Crossing  |  Annotations which indicate presence of speed bump or hump and crossings  |
+|  Give way, Junction, railway  |  Annotations which indicate presence of give way, junction and railway  |
+|  Exit, Roundabout, Station, Stop  |  Annotation which indicates presence of no exit, railway, roundabout, and station  |
+|  Traffic Details  |  Annotations which indicate traffic calming, signal, turning loop  |
+|  Light Details  |  Annotations which indicate sunrise, sunset, civil twilight, nautical twilight, astronomical twilight  |
 
-
-Table 1: Description of Undertaking Dataset
-Features	Description
-ID	Unique identifier of construction record
-Severity	Shows the severity of the construction
-Start and End Time	Shows the start time of construction
-End Time	Shows the end time of construction
-Latitude and Longitude	Shows the GPS coordinates
-Distance	The length of the road extent affected by the construction
-Street Details	Shows the street number, name and right/left side in address field
-Address Details	Shows the city, county, state, country and zip code in address field
-Time zone	Shows time zone based on the location of the construction event
-Weather	Shows the time stamp of weather observation record
-Temperature, Wind, Humidity, and Pressure	Shows the temperature, wind chill, humidity, and pressure
-Visibility	Shows visibility
-Wind Direction and Speed	Shows wind conditions
-Precipitation and Weather condition	Shows precipitation and weather condition
-Amenity	An annotation which indicates presence of amenity in a nearby location
-Bump and Crossing	Annotations which indicate presence of speed bump or hump and crossings
-Give way, Junction, railway	Annotations which indicate presence of give way, junction and railway
-Exit, Roundabout, Station, Stop	Annotation which indicates presence of no exit, railway, roundabout, and station
-Traffic Details	Annotations which indicate traffic calming, signal, turning loop
-Light Details	Annotations which indicate sunrise, sunset, civil twilight, nautical twilight, astronomical twilight
+Table: Description of undertaking dataset.
+{#tbl:bowling-scores}
 
 Once successfully tested, this algorithm can further be developed (given the time permits) to choose construction sites which has less impact of traffic flow, thereby guiding city planners. Also, a study can be undertaken to understand the impact of precipitation on the need of road work. 
 
