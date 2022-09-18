@@ -138,9 +138,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -161,9 +161,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/114825548160222be396eba318d76c136a6f8c1c/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e">uiceds/cee-492-term-project-fall-2022-jakt@725f4e7</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/114825548160222be396eba318d76c136a6f8c1c">uiceds/cee-492-term-project-fall-2022-jakt@1148255</a>
 on September 18, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -207,132 +207,198 @@ Department of CEE, University of Illinois Urbana Champaign
 In general, this dataset can be used for a wide range of applications, including the prediction of short- and long-term road construction, the prediction of road closures, the study of the life cycle of road construction, the development of insights to help city planners choose construction sites wisely with the most negligible negative impact on traffic flow, and the investigation of the influence of precipitation or other environmental stimuli on the need for road work. The dataset is being updated on an annual basis. The data will be obtained from US Road Construction and Closures (2016 - 2021), Kaggle, and it is available in CSV format. Presently, the dataset contains 6,170,627 observations comprising of features like Construction severity, Latitude and longitude, Precipitation, Traffic signal and many such taking a total of 47 columns. Table 1 elaborates the specifics of this data set.</p>
 <p>Using this dataset, a machine learning model will be developed to predict road closure events, given inputs of pertinent features as mentioned in the below Table 1. measurements from pertinent features that will be determined in this study. The developed algorithm will be tested on about 20% of the total samples, and validated with another 20% of the total samples, to be made suitable for real-time applications. The proposed algorithm will have the potential to estimate the likelihood that every road segment satisfying certain requirement will be is closed or open, such that it can be employed in mobile maps (like Google maps). Whenever the likelihood of a closure event exceeds a predetermined threshold, customer can be notified to find the efficient route. For mapping applications, this algorithm can it will automatically update maps further add to its real time monitoring.</p>
 <p>To achieve this goal, data wrangling will be performed. The essential data frames for the study will be extracted from the original dataset followed by Exploratory Analysis. Exploratory analysis will enable us to drive insights by forming a pattern for better visualization and exploration. be performed to make sense of the data and visualize them for better exploration. Based on the analysis, a classification model will be developed to predict the class or category for the data or draw a conclusion to the input data given for training. The developed model will be tested for various conditions.</p>
-<div class="line-block"><em>Features</em> | ID | Severity |<br />
-<em>Description</em> | Unique | ABCD |</div>
-<div id="tbl:98cb1137-cef2-4ff9-94d8-886eebd04b53" class="tablenos">
-<table id="tbl:">
-<caption><span>Table 1:</span> A table with merged cells using the <code>attributes</code> plugin.
+<div id="tbl:bowling-scores" class="tablenos">
+<table id="tbl:bowling-scores">
+<caption><span>Table 1:</span> Description of undertaking dataset.
 </caption>
 <thead>
 <tr class="header">
-<th style="text-align: center;"></th>
-<th style="text-align: center;"><strong>Colors</strong> <!-- $colspan="2" --></th>
-<th style="text-align: center;"></th>
+<th style="text-align: left;"><em>Features</em></th>
+<th style="text-align: center;">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;"><strong>Size</strong></td>
-<td style="text-align: center;"><strong>Text Color</strong></td>
-<td style="text-align: center;"><strong>Background Color</strong></td>
+<td style="text-align: left;">ID</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">big</td>
-<td style="text-align: center;">blue</td>
-<td style="text-align: center;">orange</td>
+<td style="text-align: left;">Severity</td>
+<td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">small</td>
-<td style="text-align: center;">black</td>
-<td style="text-align: center;">white</td>
+<td style="text-align: left;">Start and End Time</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">End Time</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Latitude and Longitude</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Distance</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Street Details</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Address Details</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Time zone</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Weather</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Temperature, Wind, Humidity, and Pressure</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Visibility</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Wind Direction and Speed</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Precipitation and Weather condition</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Amenity</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bump and Crossing</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Give way, Junction, railway</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Exit, Roundabout, Station, Stop</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Traffic Details</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Light Details</td>
+<td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
 </div>
 <div id="tbl:bowling-scores" class="tablenos">
 <table id="tbl:bowling-scores">
-<caption><span>Table 2:</span> A table with a top caption and specified relative column widths.
+<caption><span>Table 2:</span> Description of undertaking dataset.
 </caption>
+<colgroup>
+<col style="width: 54%" />
+<col style="width: 45%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;"><em>Bowling Scores</em></th>
-<th style="text-align: center;">Jane</th>
-<th style="text-align: center;">John</th>
-<th style="text-align: center;">Alice</th>
-<th style="text-align: center;">Bob</th>
+<th style="text-align: left;"><em>Features</em></th>
+<th style="text-align: center;">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Game 1</td>
-<td style="text-align: center;">150</td>
-<td style="text-align: center;">187</td>
-<td style="text-align: center;">210</td>
-<td style="text-align: center;">105</td>
+<td style="text-align: left;">ID</td>
+<td style="text-align: center;">Unique identifier of construction record</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Game 2</td>
-<td style="text-align: center;">98</td>
-<td style="text-align: center;">202</td>
-<td style="text-align: center;">197</td>
-<td style="text-align: center;">102</td>
+<td style="text-align: left;">Severity</td>
+<td style="text-align: center;">Shows the severity of the construction</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Game 3</td>
-<td style="text-align: center;">123</td>
-<td style="text-align: center;">180</td>
-<td style="text-align: center;">238</td>
-<td style="text-align: center;">134</td>
+<td style="text-align: left;">Start and End Time</td>
+<td style="text-align: center;">Shows the start time of construction</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">End Time</td>
+<td style="text-align: center;">Shows the end time of construction</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Latitude and Longitude</td>
+<td style="text-align: center;">Shows the GPS coordinates</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Distance</td>
+<td style="text-align: center;">The length of the road extent affected by the construction</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Street Details</td>
+<td style="text-align: center;">Shows the street number, name and right/left side in address field</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Address Details</td>
+<td style="text-align: center;">Shows the city, county, state, country and zip code in address field</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Time zone</td>
+<td style="text-align: center;">Shows time zone based on the location of the construction event</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Weather</td>
+<td style="text-align: center;">Shows the time stamp of weather observation record</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Temperature, Wind, Humidity, and Pressure</td>
+<td style="text-align: center;">Shows the temperature, wind chill, humidity, and pressure</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Visibility</td>
+<td style="text-align: center;">Shows visibility</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Wind Direction and Speed</td>
+<td style="text-align: center;">Shows wind conditions</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Precipitation and Weather condition</td>
+<td style="text-align: center;">Shows precipitation and weather condition</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Amenity</td>
+<td style="text-align: center;">An annotation which indicates presence of amenity in a nearby location</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Bump and Crossing</td>
+<td style="text-align: center;">Annotations which indicate presence of speed bump or hump and crossings</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Give way, Junction, railway</td>
+<td style="text-align: center;">Annotations which indicate presence of give way, junction and railway</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Exit, Roundabout, Station, Stop</td>
+<td style="text-align: center;">Annotation which indicates presence of no exit, railway, roundabout, and station</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Traffic Details</td>
+<td style="text-align: center;">Annotations which indicate traffic calming, signal, turning loop</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Light Details</td>
+<td style="text-align: center;">Annotations which indicate sunrise, sunset, civil twilight, nautical twilight, astronomical twilight</td>
 </tr>
 </tbody>
 </table>
 </div>
-<table>
-<colgroup>
-<col style="width: 5%" />
-<col style="width: 20%" />
-<col style="width: 19%" />
-<col style="width: 19%" />
-<col style="width: 34%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: left;">Digits 1-33</th>
-<th style="text-align: left;">Digits 34-66</th>
-<th style="text-align: left;">Digits 67-99</th>
-<th style="text-align: left;">Ref.</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">pi</td>
-<td style="text-align: left;">3.14159265358979323846264338327950</td>
-<td style="text-align: left;">288419716939937510582097494459230</td>
-<td style="text-align: left;">781640628620899862803482534211706</td>
-<td style="text-align: left;"><a href="https://www.piday.org/million/"><code>piday.org</code></a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">e</td>
-<td style="text-align: left;">2.71828182845904523536028747135266</td>
-<td style="text-align: left;">249775724709369995957496696762772</td>
-<td style="text-align: left;">407663035354759457138217852516642</td>
-<td style="text-align: left;"><a href="https://apod.nasa.gov/htmltest/gifcity/e.2mil"><code>nasa.gov</code></a></td>
-</tr>
-</tbody>
-</table>
-<p>Table 1: Description of Undertaking Dataset
-Features Description
-ID Unique identifier of construction record
-Severity Shows the severity of the construction
-Start and End Time Shows the start time of construction
-End Time Shows the end time of construction
-Latitude and Longitude Shows the GPS coordinates
-Distance The length of the road extent affected by the construction
-Street Details Shows the street number, name and right/left side in address field
-Address Details Shows the city, county, state, country and zip code in address field
-Time zone Shows time zone based on the location of the construction event
-Weather Shows the time stamp of weather observation record
-Temperature, Wind, Humidity, and Pressure Shows the temperature, wind chill, humidity, and pressure
-Visibility Shows visibility
-Wind Direction and Speed Shows wind conditions
-Precipitation and Weather condition Shows precipitation and weather condition
-Amenity An annotation which indicates presence of amenity in a nearby location
-Bump and Crossing Annotations which indicate presence of speed bump or hump and crossings
-Give way, Junction, railway Annotations which indicate presence of give way, junction and railway
-Exit, Roundabout, Station, Stop Annotation which indicates presence of no exit, railway, roundabout, and station
-Traffic Details Annotations which indicate traffic calming, signal, turning loop
-Light Details Annotations which indicate sunrise, sunset, civil twilight, nautical twilight, astronomical twilight</p>
 <p>Once successfully tested, this algorithm can further be developed (given the time permits) to choose construction sites which has less impact of traffic flow, thereby guiding city planners. Also, a study can be undertaken to understand the impact of precipitation on the need of road work.</p>
 <p>References:</p>
 <ol type="1">
@@ -548,7 +614,7 @@ White background specified to serve as a backdrop for transparent sections of th
 </tbody>
 </table>
 </div>
-<div id="tbl:177e39b7-493e-47ff-94ef-fb04f7851325" class="tablenos">
+<div id="tbl:e365f6f4-4bfe-46e6-8f45-aaa2c0993382" class="tablenos">
 <table id="tbl:">
 <caption><span>Table 5:</span> A table with merged cells using the <code>attributes</code> plugin.
 </caption>
