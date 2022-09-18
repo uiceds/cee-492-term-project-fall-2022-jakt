@@ -3,7 +3,7 @@ aliqua
 aliquip
 amet
 Amin
-amirthavarshini
+Amirthavarshini
 anim
 APIs
 aute
@@ -59,6 +59,7 @@ Rajiv
 Ramnath
 reprehenderit
 sed
+semibold
 sint
 Sobhan
 spatiotemporal
