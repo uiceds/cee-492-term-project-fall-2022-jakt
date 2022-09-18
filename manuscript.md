@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/b6934efd44bbbae2335158fd11c842ad58a2855c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/b6934efd44bbbae2335158fd11c842ad58a2855c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/b6934efd44bbbae2335158fd11c842ad58a2855c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d0e36a283bcaf6e902a1ec75b51c99e9e983dc00/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d0e36a283bcaf6e902a1ec75b51c99e9e983dc00/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d0e36a283bcaf6e902a1ec75b51c99e9e983dc00/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/b6934efd44bbbae2335158fd11c842ad58a2855c/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d0e36a283bcaf6e902a1ec75b51c99e9e983dc00/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@b6934ef](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/b6934efd44bbbae2335158fd11c842ad58a2855c)
+from [uiceds/cee-492-term-project-fall-2022-jakt@d0e36a2](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/d0e36a283bcaf6e902a1ec75b51c99e9e983dc00)
 on September 18, 2022.
 </em></small>
 
@@ -148,8 +148,3 @@ Once successfully tested, this algorithm can further be developed (given the tim
 1. Karimi Monsefi, Amin, Sobhan Moosavi, and Rajiv Ramnath. “Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data.”, _2022_
 
 2. US Road Construction and Closures _2016 - 2021 from Kaggle_
-
-## References {.page_break_before}
-
-<!-- Explicitly insert bibliography here -->
-<div id="refs"></div>
