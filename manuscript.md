@@ -46,9 +46,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/9f099672572dc0924212d9ac987d9b2aa65b3184/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/9f099672572dc0924212d9ac987d9b2aa65b3184/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/9f099672572dc0924212d9ac987d9b2aa65b3184/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,9 +70,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/9f099672572dc0924212d9ac987d9b2aa65b3184/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@9f09967](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/9f099672572dc0924212d9ac987d9b2aa65b3184)
+from [uiceds/cee-492-term-project-fall-2022-jakt@725f4e7](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/725f4e7bc751b216b5a8dc643dd61e98ee3d2d2e)
 on September 18, 2022.
 </em></small>
 
@@ -137,6 +137,31 @@ To achieve this goal, data wrangling will be performed. The essential data frame
 
 | *Features* | ID          | Severity          |
 | *Description* | Unique          | ABCD          |
+
+|          | **Colors** <!-- $colspan="2" --> |                      |
+|:--------:|:--------------------------------:|:--------------------:|
+| **Size** | **Text Color**                   | **Background Color** |
+| big      | blue                             | orange               |
+| small    | black                            | white                |
+
+Table: A table with merged cells using the `attributes` plugin.
+{#tbl: merged-cells}
+
+
+| *Bowling Scores* | Jane          | John          | Alice         | Bob           |
+|:-----------------|:-------------:|:-------------:|:-------------:|:-------------:|
+| Game 1 | 150 | 187 | 210 | 105 |
+| Game 2 |  98 | 202 | 197 | 102 |
+| Game 3 | 123 | 180 | 238 | 134 |
+
+Table: A table with a top caption and specified relative column widths.
+{#tbl:bowling-scores}
+
+|         | Digits 1-33                        | Digits 34-66                      | Digits 67-99                      | Ref.                                                        |
+|:--------|:-----------------------------------|:----------------------------------|:----------------------------------|:------------------------------------------------------------|
+| pi      | 3.14159265358979323846264338327950 | 288419716939937510582097494459230 | 781640628620899862803482534211706 | [`piday.org`](https://www.piday.org/million/)               |
+| e       | 2.71828182845904523536028747135266 | 249775724709369995957496696762772 | 407663035354759457138217852516642 | [`nasa.gov`](https://apod.nasa.gov/htmltest/gifcity/e.2mil) |
+
 
 Table 1: Description of Undertaking Dataset
 Features	Description
