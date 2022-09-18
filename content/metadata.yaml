@@ -1,6 +1,6 @@
 ---
-title: "CEE498 DS - Data Science for CEE - Fall 2022"
-doc_title: "Term Project Proposal"
+title: "CEE492 DS - Data Science for CEE - Fall 2022"
+title: ""
 keywords:
   - markdown
   - publishing
@@ -11,27 +11,23 @@ authors:
   - github: amirthavarshini246
     name: Amirthavarshini Muraleetharan
     initials: AM
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: NIL
+    orcid: 677-010-487
     email: am86@illinois.edu
-    affiliations:
-      - Department of CEE, University of Illinois Urbana Champaign
+    affiliations: 
+    - Department of CEE, University of Illinois Urbana Champaign
 
   - github: thomasNg
     name: Thomas Ngare
     initials: TN
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
+    orcid: 652-601-317
     email: tmatiki2@illinois.edu
     affiliations:
       - Department of CEE, University of Illinois Urbana Champaign
     
-
   - github: kapilrs2
     name: Kapil Shah
     initials: KS
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: shkapil12295
+    orcid: 668-376-620
     email: kapilrs2@illinois.edu
     affiliations:
       - Department of CEE, University of Illinois Urbana Champaign
