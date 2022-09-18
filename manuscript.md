@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-09-17'
+date-meta: '2022-09-18'
 author-meta:
 - Amirthavarshini Muraleetharan
 - Thomas Ngare
@@ -20,8 +20,8 @@ header-includes: |-
   <meta name="citation_title" content="CEE498 DS - Data Science for CEE - Fall 2022" />
   <meta property="og:title" content="CEE498 DS - Data Science for CEE - Fall 2022" />
   <meta property="twitter:title" content="CEE498 DS - Data Science for CEE - Fall 2022" />
-  <meta name="dc.date" content="2022-09-17" />
-  <meta name="citation_publication_date" content="2022-09-17" />
+  <meta name="dc.date" content="2022-09-18" />
+  <meta name="citation_publication_date" content="2022-09-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -46,9 +46,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cb8608568596f1c35c55dc204a32ec1207b69d4c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cb8608568596f1c35c55dc204a32ec1207b69d4c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cb8608568596f1c35c55dc204a32ec1207b69d4c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0424725c12a4ac6814cf1105a3b038b0e9c2eeb3/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0424725c12a4ac6814cf1105a3b038b0e9c2eeb3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0424725c12a4ac6814cf1105a3b038b0e9c2eeb3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -70,10 +70,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cb8608568596f1c35c55dc204a32ec1207b69d4c/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0424725c12a4ac6814cf1105a3b038b0e9c2eeb3/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@cb86085](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/cb8608568596f1c35c55dc204a32ec1207b69d4c)
-on September 17, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jakt@0424725](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/0424725c12a4ac6814cf1105a3b038b0e9c2eeb3)
+on September 18, 2022.
 </em></small>
 
 ## Authors
@@ -117,14 +117,9 @@ on September 17, 2022.
 
 ## Abstract {.page_break_before}
 
-Introduction to transportation planning
-UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN
-DEPARTMENT OF CIVIL AND ENVIRONMENTAL ENGINEERING
+**Bold** __ABCD__
 
-CEE492 DS – Data Science for CEE - Fall 2022
-
-
-title: "A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure"
+[Semi-bold "A Machine Learning Based Approach, For Predicting Road Closure Events, Given Data of the US Road Construction and Closure"]{.semibold}
 Amirthavarshini Muraleetharan1, Kapil Shah2, Thomas Ngare Matiki3
 A nationwide dataset of road construction and closure events, including data from all 49 US states is chosen for the project. The roadwork included in this dataset's construction events ranges from minor paving repairs to significant undertakings that might take months to complete. Several APIs that provide streaming traffic incident (or event) data are used to collect the data between January 2016 and December 2021. These APIs transmit traffic information gathered by several organizations, including the US and state departments of transportation, law enforcement organizations, traffic cameras, and traffic sensors embedded in the road networks. The number of construction and shutdown records in this dataset currently stands at roughly 6.2 million. 
 In general, this dataset can be used for a wide range of applications, including the prediction of short- and long-term road construction, the prediction of road closures, the study of the life cycle of road construction, the development of insights to help city planners choose construction sites wisely with the most negligible negative impact on traffic flow, and the investigation of the influence of precipitation or other environmental stimuli on the need for road work. The dataset is being updated on an annual basis. The data will be obtained from US Road Construction and Closures (2016 - 2021), Kaggle, and it is available in CSV format. Presently, the dataset contains 6,170,627 observations comprising of features like Construction severity, Latitude and longitude, Precipitation, Traffic signal and many such taking a total of 47 columns. Table 1 elaborates the specifics of this data set.

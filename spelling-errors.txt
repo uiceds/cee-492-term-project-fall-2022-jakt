@@ -1,14 +1,15 @@
+ABCD
 adipiscing
 aliqua
 aliquip
 amet
 Amin
-amirthavarshini
+Amirthavarshini
 anim
 APIs
 aute
 CEE
-CHAMPAIGN
+Champaign
 cillum
 commodo
 consectetur
@@ -20,7 +21,6 @@ dataset
 dataset’s
 deserunt
 dolore
-DS
 Duis
 eiusmod
 elit
@@ -70,7 +70,7 @@ sunt
 tempor
 thomasNg
 ullamco
-URBANA
+Urbana
 velit
 veniam
 voluptate
