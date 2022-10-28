@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/09189f3338637fd93e880d9814f444ad3374bc8f/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/09189f3338637fd93e880d9814f444ad3374bc8f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/09189f3338637fd93e880d9814f444ad3374bc8f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c7fad39d76b75d354dc219787166299d1160ef2f/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c7fad39d76b75d354dc219787166299d1160ef2f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c7fad39d76b75d354dc219787166299d1160ef2f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/09189f3338637fd93e880d9814f444ad3374bc8f/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c7fad39d76b75d354dc219787166299d1160ef2f/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@09189f3](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/09189f3338637fd93e880d9814f444ad3374bc8f)
+from [uiceds/cee-492-term-project-fall-2022-jakt@c7fad39](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/c7fad39d76b75d354dc219787166299d1160ef2f)
 on October 28, 2022.
 </em></small>
 
@@ -149,28 +149,7 @@ The csv file obtained from Kaggle was composed of over 6.1 million observations,
 
 [Table 2: Dataset of road construction projects in USA]{.semibold} 
 
-![](vscode-remote://www.prairielearn.org/home/coder/cee-492-term-project-fall-2022-jakt/cee-492-term-project-fall-2022-jakt-2/content/images/Image%205.png)
-
-
-<img src="Image 5.png" width="800" />
-
-<img src="img/Image 5.png" />
-
 ![](images/Image 5.png)
-
-image: url("C:\Users\shahk\Downloads\Image 5.png")
-
-="images\Image 5.png">
-
-'''img src="Image/Image 5.PNG" />'''
-
-'''img src='Image/Image 5.PNG' />'''
-
-"img src="Image/Image 5.PNG" />"
-
-"img src='Image/Image 5.PNG' />"
-
-
 
 [Table 3: A summary of pertinent information of road construction projects in USA]{.semibold}
 
