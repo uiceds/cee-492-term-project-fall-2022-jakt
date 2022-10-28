@@ -1,5 +1,5 @@
 Amin
-amirthavarshini
+Amirthavarshini
 APIs
 boxplots
 CEE
@@ -28,6 +28,5 @@ Rajiv
 Ramnath
 Sobhan
 spatiotemporal
-src
 thomasNg
 Urbana
