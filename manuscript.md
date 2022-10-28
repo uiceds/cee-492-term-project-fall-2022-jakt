@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0d9670307be1fd44266720a4bf0e9363540a1c84/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0d9670307be1fd44266720a4bf0e9363540a1c84/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0d9670307be1fd44266720a4bf0e9363540a1c84/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f34bf724c827514580e9b58630ca9540cd6cd761/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f34bf724c827514580e9b58630ca9540cd6cd761/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f34bf724c827514580e9b58630ca9540cd6cd761/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0d9670307be1fd44266720a4bf0e9363540a1c84/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f34bf724c827514580e9b58630ca9540cd6cd761/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@0d96703](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/0d9670307be1fd44266720a4bf0e9363540a1c84)
+from [uiceds/cee-492-term-project-fall-2022-jakt@f34bf72](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/f34bf724c827514580e9b58630ca9540cd6cd761)
 on October 28, 2022.
 </em></small>
 
@@ -148,14 +148,33 @@ The data obtained from Kaggle is highly generic and unstructured, hence unsuited
 The csv file obtained from Kaggle was composed of over 6.1 million observations, which would have been computationally expensive to work with. To reduce the burden of computational time, while still retaining a good representation of the data, 1,048,575 observations (15% original data) were randomly selected with R. The data was converted to a data frame format suitable for analysis with Julia. However, some features were discovered with missing entries, which would be adversarial to subsequent codes and functions. To resolve this problem, a package in Julia (Missing package) was leveraged to filter out all observations with one or more missing entries. This process further reduced the size of the dataset to 482,849. Then, an intuitive search was made of pertinent features that could affect road construction duration, like the length of the road extent affected by the construction (denoted by “Distance” in miles), the total amount of precipitation, and other environmental factors. Although some of these pertinent features were discovered, most of the entries of each observation of these features were not in the format suitable for visualization (which requires real numbers) i.e., some variables were Strings, or Boolean values, hence the need to clean the data. Table 2 below shows a segment of the dataset after it has been roughly sampled, and missing entries removed, while Table 3 shows the summary of the dataset.
 
 Table 2: Dataset of road construction projects in USA 
+
+![
+**A square image at actual size and with a bottom caption.**
+Loaded from the latest version of image on GitHub.
+](123446.png "Wide image"){#fig:-image}
+
+Table 3: A summary of pertinent information of road construction projects in USA
 Figure @fig:wide-image
-123446.png
+Image 2.png
 
 2.2 Wrangling and feature derivation 
 
 It can be seen from Table 2 that the project duration is not explicitly stated. Hence, the project duration was defined to be the difference between the start and end time, after preprocessing the String data entries to a Date format. Table 4 shows the resulting features after preprocessing. 
 
+Table 4: Derivation of project duration from raw data
+Figure @fig:wide-image
+image 3.png
+
+Figure @fig:wide-image
+image 4.png
+
 Having computed the project durations as shown in Table 4, some anomalies were detected in the data. The 2nd and 3rd observations show that about 0.43mi and 0.19mi (692m and 305m) of road span was constructed in 1day respectively, whereas about 0.03mi (or 48m) was constructed in 8days as shown in the 4th entry which is unrealistic. To resolve this, a further investigation was done on the narrative of the dataset from Kaggle, and it was deduced that some of the observations were just minor repair works on existing roads (which would not take a long time irrespective of the road span) while others were new construction projects which takes longer to complete. Unfortunately, there exist no feature in the dataset that reveals if an observation was a minor repair task or a major construction task. To circumvent this, observations corresponding to project durations less than 50 days were filtered out, resulting in a dataset of 43,134 observations significantly dominated by new road construction projects or at least projects lasting longer than 50days. Furthermore, three (3) categories of projects durations were designated as short-, medium- and long-term new road construction projects. A short-term new road construction project is defined as one lasting less than 100 days, while a medium-term project lasts between 100-300 days, and a long-term project lasts longer the 300 days. Table 5 shows the resulting data after grouping into the specified classes.
+
+Table 5: Dataset for new road construction projects in US, or projects exceeding 50days of duration
+
+Figure @fig:wide-image
+image 5.png
 
 2.2.1 Feature detection and EDA 
 
