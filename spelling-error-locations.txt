@@ -22,13 +22,8 @@ content/01.abstract.md:40:dataset
 content/01.abstract.md:40:dataset
 content/01.abstract.md:40:Kaggle
 content/01.abstract.md:42:Dataset
-content/01.abstract.md:44:png
 content/01.abstract.md:44:src
-content/01.abstract.md:48:png
-content/01.abstract.md:50:png
-content/01.abstract.md:53:png
 content/01.abstract.md:53:src
-content/01.abstract.md:54:png
 content/01.abstract.md:54:src
 content/01.abstract.md:61:preprocessing
 content/01.abstract.md:61:preprocessing

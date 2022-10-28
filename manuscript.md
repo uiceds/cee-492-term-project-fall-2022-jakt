@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0b1da48972e27b24def4025f02f1773424dfe092/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0b1da48972e27b24def4025f02f1773424dfe092/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0b1da48972e27b24def4025f02f1773424dfe092/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c3acf07b08b1add5ee7f8a2e0ee424d3096c4a91/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c3acf07b08b1add5ee7f8a2e0ee424d3096c4a91/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c3acf07b08b1add5ee7f8a2e0ee424d3096c4a91/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0b1da48972e27b24def4025f02f1773424dfe092/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c3acf07b08b1add5ee7f8a2e0ee424d3096c4a91/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@0b1da48](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/0b1da48972e27b24def4025f02f1773424dfe092)
+from [uiceds/cee-492-term-project-fall-2022-jakt@c3acf07](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/c3acf07b08b1add5ee7f8a2e0ee424d3096c4a91)
 on October 28, 2022.
 </em></small>
 
@@ -149,17 +149,17 @@ The csv file obtained from Kaggle was composed of over 6.1 million observations,
 
 [Table 2: Dataset of road construction projects in USA]{.semibold} 
 
-src="C:\Users\shahk\Downloads\123446.png"
+src="https://pixabay.com/photos/tree-cat-silhouette-moon-full-moon-736877/"
 ![
 **A square image at actual size and with a bottom caption.**
 Loaded from the latest version of image on GitHub.
-](123446.png "Wide image"){#fig:-image}
+](https://pixabay.com/photos/tree-cat-silhouette-moon-full-moon-736877/ "Wide image"){#fig:-image}
 
 ![alt text](C:\Users\shahk\Downloads\123446.png)
 
 <p align="center">
-  <img src="C:\Users\shahk\Downloads\123446.png" width="350" title="hover text">
-  <img src="C:\Users\shahk\Downloads\123446.png" width="350" alt="accessibility text">
+  <img src="https://pixabay.com/photos/tree-cat-silhouette-moon-full-moon-736877/" width="350" title="hover text">
+  <img src="https://pixabay.com/photos/tree-cat-silhouette-moon-full-moon-736877/" width="350" alt="accessibility text">
 </p>
 
 [Table 3: A summary of pertinent information of road construction projects in USA]{.semibold}

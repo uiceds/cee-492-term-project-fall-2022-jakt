@@ -22,7 +22,6 @@ multicollinearity
 Muraleetharan
 Ngare
 PCA
-png
 preprocessing
 proje
 Rajiv
