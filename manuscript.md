@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/48022bc77ad4f3c6450a04511d69c62c7170b2a0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/48022bc77ad4f3c6450a04511d69c62c7170b2a0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/48022bc77ad4f3c6450a04511d69c62c7170b2a0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/09ddf525416e41b1e23bcecd4f2c37ca48d38057/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/09ddf525416e41b1e23bcecd4f2c37ca48d38057/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/09ddf525416e41b1e23bcecd4f2c37ca48d38057/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/48022bc77ad4f3c6450a04511d69c62c7170b2a0/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/09ddf525416e41b1e23bcecd4f2c37ca48d38057/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@48022bc](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/48022bc77ad4f3c6450a04511d69c62c7170b2a0)
+from [uiceds/cee-492-term-project-fall-2022-jakt@09ddf52](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/09ddf525416e41b1e23bcecd4f2c37ca48d38057)
 on October 28, 2022.
 </em></small>
 
@@ -151,6 +151,16 @@ The csv file obtained from Kaggle was composed of over 6.1 million observations,
 
 ![](vscode-remote://www.prairielearn.org/home/coder/cee-492-term-project-fall-2022-jakt/cee-492-term-project-fall-2022-jakt-2/content/images/Image%205.png)
 
+
+<img src="Image 5.png" width="800" />
+
+<img src="img/Image 5.png" />
+
+![](images/Image 5.png)
+
+image: url("C:\Users\shahk\Downloads\Image 5.png")
+
+="images\Image 5.png">
 
 
 
