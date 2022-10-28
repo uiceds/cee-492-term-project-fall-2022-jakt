@@ -5,8 +5,8 @@ boxplots
 CEE
 Champaign
 Combinatorics
-csv
-dataset
+CSV
+Dataset
 dataset’s
 Dimensionality
 durations
@@ -23,7 +23,6 @@ Muraleetharan
 Ngare
 PCA
 preprocessing
-proje
 Rajiv
 Ramnath
 Sobhan
