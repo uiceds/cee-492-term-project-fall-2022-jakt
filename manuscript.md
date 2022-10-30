@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4c4e88a520647a3d33769a77e081323233893c49/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4c4e88a520647a3d33769a77e081323233893c49/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4c4e88a520647a3d33769a77e081323233893c49/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6346fbcc0d8e13a0ccc9b05d2d7ec8982ff4cb1b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6346fbcc0d8e13a0ccc9b05d2d7ec8982ff4cb1b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6346fbcc0d8e13a0ccc9b05d2d7ec8982ff4cb1b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4c4e88a520647a3d33769a77e081323233893c49/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6346fbcc0d8e13a0ccc9b05d2d7ec8982ff4cb1b/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@4c4e88a](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/4c4e88a520647a3d33769a77e081323233893c49)
+from [uiceds/cee-492-term-project-fall-2022-jakt@6346fbc](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/6346fbcc0d8e13a0ccc9b05d2d7ec8982ff4cb1b)
 on October 30, 2022.
 </em></small>
 
@@ -151,11 +151,11 @@ on October 30, 2022.
 
 [Table 2: Dataset of road construction projects in USA]{.semibold} 
 
-![](images/Comp.png)
+![](images/Comp.PNG)
 
 [Table 3: A summary of pertinent information of road construction projects in USA]{.semibold}
 
-![](images/Comp2.png)
+![](images/Comp2.PNG)
 
 [2.2 Wrangling and feature derivation]{.semibold} 
 
@@ -179,7 +179,7 @@ on October 30, 2022.
 
 [Table 6: Extracted features for EDA]{.semibold} 
 
-![](images/Table6.png)
+![](images/Table6.PNG)
 
 <p align="justify">An indispensable aspect of EDA is to detect multicollinearity and prevent confounding in the modeling. Julia’s “Statistics” package was leveraged to compute and plot the correlation between all the independent (selected features) and the dependent variable (project duration). This plot not only enabled the discovery of statistically related features, but also enabled the realization of features that are pertinent to predicting the dependent variable. The figures below show the correlation plots for the selected features.</p>
 
@@ -218,7 +218,7 @@ on October 30, 2022.
 **__3.0. Predictive model development__**
 
  <p align="justify">The predictive model development stage would leverage both the original feature space (with either Temperature of Wind chill dropped out) and the PCA feature space. Series of classification tree networks would be developed and validated with a confusion matrix plot. For the PCA-feature-space case, given a test data observation, it must be transformed to the PCA coordinate frame before evaluation on the model. As stated earlier, the model would be validated on four folds i.e.,4 sets of the original data would be created, and three would be used for training, while one(1) for testing, and this process would be repeated on all four(4) sets of the data. This would potentially yield a robust and accurate model for the project task.</p>
-            
+
 [References:]{.semibold}
 
 1. Karimi Monsefi, Amin, Sobhan Moosavi, and Rajiv Ramnath. “Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data.”, _2022_

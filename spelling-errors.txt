@@ -1,11 +1,11 @@
 Amin
-Amirthavarshini
+amirthavarshini
 APIs
 boxplots
 CEE
 Champaign
 Combinatorics
-csv
+CSV
 dataset
 dataset’s
 Dimensionality
