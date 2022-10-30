@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6346fbcc0d8e13a0ccc9b05d2d7ec8982ff4cb1b/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6346fbcc0d8e13a0ccc9b05d2d7ec8982ff4cb1b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6346fbcc0d8e13a0ccc9b05d2d7ec8982ff4cb1b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6abf5ebd9e531f6ef535a7c69c06c9264dd7752c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6abf5ebd9e531f6ef535a7c69c06c9264dd7752c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6abf5ebd9e531f6ef535a7c69c06c9264dd7752c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6346fbcc0d8e13a0ccc9b05d2d7ec8982ff4cb1b/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6abf5ebd9e531f6ef535a7c69c06c9264dd7752c/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@6346fbc](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/6346fbcc0d8e13a0ccc9b05d2d7ec8982ff4cb1b)
+from [uiceds/cee-492-term-project-fall-2022-jakt@6abf5eb](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/6abf5ebd9e531f6ef535a7c69c06c9264dd7752c)
 on October 30, 2022.
 </em></small>
 
@@ -150,19 +150,37 @@ on October 30, 2022.
 <p align="justify">The csv file obtained from Kaggle was composed of over 6.1 million observations, which would have been computationally expensive to work with. To reduce the burden of computational time, while still retaining a good representation of the data, 1,048,575 observations (15% original data) were randomly selected with R. The data was converted to a data frame format suitable for analysis with Julia. However, some features were discovered with missing entries, which would be adversarial to subsequent codes and functions. To resolve this problem, a package in Julia (missing package) was leveraged to filter out all observations with one or more missing entries. This process further reduced the size of the dataset to 482,849. Then, an intuitive search was made of pertinent features that could affect road construction duration, like the length of the road extent affected by the construction (denoted by “Distance” in miles), the total amount of precipitation, and other weather parameters. Although some of these pertinent features were discovered, most of the entries of each observation of these features were not in the format suitable for visualization (which requires real numbers) i.e., some variables were strings, or boolean values, hence there was the need to clean the data. Table 2 below shows a segment of the dataset after it has been roughly sampled, and missing entries removed, while Table 3 shows the summary of the dataset.</p>
 
 [Table 2: Dataset of road construction projects in USA]{.semibold} 
-
 ![](images/Comp.PNG)
 
 [Table 3: A summary of pertinent information of road construction projects in USA]{.semibold}
-
 ![](images/Comp2.PNG)
 
 [2.2 Wrangling and feature derivation]{.semibold} 
 
 <p align="justify">It can be seen from Table 2 that the project duration is not explicitly stated. Hence, the project duration was defined to be the difference between the start and end time, after preprocessing the string data entries to a date format. Table 4 shows the resulting features after preprocessing.</p> 
 
-[Table 4: Derivation of project duration from raw data]{.semibold}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Table 4: Derivation of project duration from raw data]{.semibold}
 ![](images/Image 3.png)
 
 ![](images/Image 4.png)
@@ -201,8 +219,40 @@ on October 30, 2022.
 
 <p align="justify">To further explore the possibility of getting a concise representation of the dataset, and improve the model accuracy, PCA was done to transform the data and reduce the size of the feature space. This analysis revealed that with just two principal components, over 97% of the variance in the original dataset could be captured, which is a good representation of the original data and dramatically reduces the number of features to two in the PCA coordinate system. Code snippet 3 below shows the code and results obtained from the PCA analysis.</p> 
 
-[Table 7: Fraction of Variance]{.semibold} 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Table 7: Fraction of Variance]{.semibold} 
 ![](images/Image 11.png)
 
 ![](images/Image 12.png)
@@ -218,6 +268,24 @@ on October 30, 2022.
 **__3.0. Predictive model development__**
 
  <p align="justify">The predictive model development stage would leverage both the original feature space (with either Temperature of Wind chill dropped out) and the PCA feature space. Series of classification tree networks would be developed and validated with a confusion matrix plot. For the PCA-feature-space case, given a test data observation, it must be transformed to the PCA coordinate frame before evaluation on the model. As stated earlier, the model would be validated on four folds i.e.,4 sets of the original data would be created, and three would be used for training, while one(1) for testing, and this process would be repeated on all four(4) sets of the data. This would potentially yield a robust and accurate model for the project task.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [References:]{.semibold}
 
