@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0d8f55545c21eacd6d438f4c21d22001d6fd7b72/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0d8f55545c21eacd6d438f4c21d22001d6fd7b72/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0d8f55545c21eacd6d438f4c21d22001d6fd7b72/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/fc24977b1e66ef563fad9d58ac45f32c3f4acb12/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/fc24977b1e66ef563fad9d58ac45f32c3f4acb12/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/fc24977b1e66ef563fad9d58ac45f32c3f4acb12/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0d8f55545c21eacd6d438f4c21d22001d6fd7b72/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/fc24977b1e66ef563fad9d58ac45f32c3f4acb12/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@0d8f555](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/0d8f55545c21eacd6d438f4c21d22001d6fd7b72)
+from [uiceds/cee-492-term-project-fall-2022-jakt@fc24977](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/fc24977b1e66ef563fad9d58ac45f32c3f4acb12)
 on October 30, 2022.
 </em></small>
 
@@ -167,6 +167,16 @@ on October 30, 2022.
 
 
 
+
+
+
+
+
+
+
+
+
+
 [Table 2: Dataset of road construction projects in USA]{.semibold} 
 
 ![](images/Image 1.png)
@@ -236,6 +246,11 @@ on October 30, 2022.
 **__3.0. Predictive model development__**
 
  <p align="justify">The predictive model development stage would leverage both the original feature space (with either Temperature of Wind chill dropped out) and the PCA feature space. Series of classification tree networks would be developed and validated with a confusion matrix plot. For the PCA-feature-space case, given a test data observation, it must be transformed to the PCA coordinate frame before evaluation on the model. As stated earlier, the model would be validated on four folds i.e.,4 sets of the original data would be created, and three would be used for training, while one(1) for testing, and this process would be repeated on all four(4) sets of the data. This would potentially yield a robust and accurate model for the project task.</p>
+
+
+
+
+
 
 [References:]{.semibold}
 
