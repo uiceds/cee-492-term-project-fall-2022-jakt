@@ -6,7 +6,7 @@ CEE
 Champaign
 Combinatorics
 CSV
-Dataset
+dataset
 dataset’s
 Dimensionality
 durations
