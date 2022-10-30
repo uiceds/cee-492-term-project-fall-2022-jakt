@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d47718685203bda64bd0c97d65e75f3296b178a0/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d47718685203bda64bd0c97d65e75f3296b178a0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d47718685203bda64bd0c97d65e75f3296b178a0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/532018ca34e1ec99f387168d5f1e7937ea23d67c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/532018ca34e1ec99f387168d5f1e7937ea23d67c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/532018ca34e1ec99f387168d5f1e7937ea23d67c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d47718685203bda64bd0c97d65e75f3296b178a0/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/532018ca34e1ec99f387168d5f1e7937ea23d67c/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@d477186](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/d47718685203bda64bd0c97d65e75f3296b178a0)
+from [uiceds/cee-492-term-project-fall-2022-jakt@532018c](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/532018ca34e1ec99f387168d5f1e7937ea23d67c)
 on October 30, 2022.
 </em></small>
 
@@ -114,7 +114,7 @@ on October 30, 2022.
 
 <p align="justify">In general, this dataset can be used for a wide range of applications, including the prediction of short- and long-term road construction, the prediction of road closures, the study of the life cycle of road construction, the development of insights to help city planners choose construction sites wisely with the most negligible negative impact on traffic flow, and the investigation of the influence of precipitation or other environmental stimuli on the need for road work. The dataset is being updated on an annual basis. The data is obtained from US Road Construction and Closures (2016 - 2021),from Kaggle, and it is available in CSV format. Presently, the dataset contains 6,170,627 observations comprising of features like Construction severity, Latitude and longitude, Precipitation, Traffic signal and many such, making a total of 47 columns. Table 1 elaborates the specifics of this data set. Using this dataset, a machine learning model will be developed to predict the duration of a new road construction project as short, medium, or long term, given inputs of pertinent features derived from Table 1. The developed model will be cross validated in four(4) folds, to be made suitable for accurate and robust predictions. With this model, it is envisaged that contractors, city planners and relevant authorities can categorize potential road construction projects based on expected average weather conditions, for better planning and project delivery.</p>
 
-<p align="justify">To achieve this goal, data wrangling will be performed. The essential data frames for the study will be extracted from the original dataset followed by exploratory data analysis (EDA). EDA will enable us to derive insights by forming a pattern for better visualization and exploration.  Based on this, pertinent features will be realized to build a classification model that accurately predicts the duration of a road construction project.</p>
+<p align="justify">To achieve this goal, data wrangling will be performed. The essential data frames for the study will be extracted from the original dataset followed by Exploratory Data Analysis(EDA). EDA will enable us to derive insights by forming a pattern for better visualization and exploration.  Based on this, pertinent features will be realized to build a classification model that accurately predicts the duration of a road construction project.</p>
 
 [Table 1: Description of dataset]{.semibold}
 
