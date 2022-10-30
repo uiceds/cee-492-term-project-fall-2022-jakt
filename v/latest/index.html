@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c7bd336ff2c1b3f01fa1c4ac4c840fa4f3298276/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c7bd336ff2c1b3f01fa1c4ac4c840fa4f3298276/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c7bd336ff2c1b3f01fa1c4ac4c840fa4f3298276/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4c4e88a520647a3d33769a77e081323233893c49/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4c4e88a520647a3d33769a77e081323233893c49/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4c4e88a520647a3d33769a77e081323233893c49/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c7bd336ff2c1b3f01fa1c4ac4c840fa4f3298276/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/4c4e88a520647a3d33769a77e081323233893c49/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/c7bd336ff2c1b3f01fa1c4ac4c840fa4f3298276">uiceds/cee-492-term-project-fall-2022-jakt@c7bd336</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/4c4e88a520647a3d33769a77e081323233893c49">uiceds/cee-492-term-project-fall-2022-jakt@4c4e88a</a>
 on October 30, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -101,7 +101,7 @@ Department of CEE, University of Illinois Urbana Champaign
 Department of CEE, University of Illinois Urbana Champaign
 </small></p></li>
 </ul>
-<h2 class="page_break_before" id="abstract">Abstract</h2>
+<h2 class="page_break_before" id="section"></h2>
 <p><strong><strong>1.0 Introduction</strong></strong></p>
 <p align="justify">
 A nationwide dataset of road construction and closure events, including data from 49 US states is chosen for the project. The projects included in this dataset’s ranges from minor paving repairs to significant undertakings that might take months to complete. Several APIs that provide streaming traffic incident (or event) data was used to collect the data between January 2016 and December 2021. These APIs transmit traffic information gathered by several organizations, including the US and state departments of transportation, law enforcement organizations, traffic cameras, and traffic sensors embedded in the road networks. The number of construction and shutdown records in this dataset currently stands at roughly 6.2 million.
@@ -217,11 +217,11 @@ The csv file obtained from Kaggle was composed of over 6.1 million observations,
 </p>
 <p><span class="semibold">Table 2: Dataset of road construction projects in USA</span></p>
 <figure>
-<img src="images/Image%201.png" />
+<img src="images/Comp.png" />
 </figure>
 <p><span class="semibold">Table 3: A summary of pertinent information of road construction projects in USA</span></p>
 <figure>
-<img src="images/Image%202.png" />
+<img src="images/Comp2.png" />
 </figure>
 <p><span class="semibold">2.2 Wrangling and feature derivation</span></p>
 <p align="justify">
@@ -247,7 +247,7 @@ The resulting dataset, as presented in Table 5, was processed to reveal key feat
 </p>
 <p><span class="semibold">Table 6: Extracted features for EDA</span></p>
 <figure>
-<img src="images/Image%206.png" />
+<img src="images/Table6.png" />
 </figure>
 <p align="justify">
 An indispensable aspect of EDA is to detect multicollinearity and prevent confounding in the modeling. Julia’s “Statistics” package was leveraged to compute and plot the correlation between all the independent (selected features) and the dependent variable (project duration). This plot not only enabled the discovery of statistically related features, but also enabled the realization of features that are pertinent to predicting the dependent variable. The figures below show the correlation plots for the selected features.
