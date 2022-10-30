@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f5d46fbd1dd2f7d4ccf25f00a32665d77b91219d/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f5d46fbd1dd2f7d4ccf25f00a32665d77b91219d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f5d46fbd1dd2f7d4ccf25f00a32665d77b91219d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d47718685203bda64bd0c97d65e75f3296b178a0/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d47718685203bda64bd0c97d65e75f3296b178a0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d47718685203bda64bd0c97d65e75f3296b178a0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f5d46fbd1dd2f7d4ccf25f00a32665d77b91219d/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d47718685203bda64bd0c97d65e75f3296b178a0/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@f5d46fb](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/f5d46fbd1dd2f7d4ccf25f00a32665d77b91219d)
+from [uiceds/cee-492-term-project-fall-2022-jakt@d477186](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/d47718685203bda64bd0c97d65e75f3296b178a0)
 on October 30, 2022.
 </em></small>
 
@@ -219,6 +219,7 @@ on October 30, 2022.
 <p align="justify">To further explore the possibility of getting a concise representation of the dataset, and improve the model accuracy, PCA was done to transform the data and reduce the size of the feature space. This analysis revealed that with just two principal components, over 97% of the variance in the original dataset could be captured, which is a good representation of the original data and dramatically reduces the number of features to two in the PCA coordinate system. Code snippet 3 below shows the code and results obtained from the PCA analysis.</p> 
 
 [Table 7: Fraction of Variance]{.semibold} 
+
 ![](images/Image 11.png)
 
 ![](images/Image 12.png)
