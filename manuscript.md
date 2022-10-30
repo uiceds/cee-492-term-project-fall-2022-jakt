@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6abf5ebd9e531f6ef535a7c69c06c9264dd7752c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6abf5ebd9e531f6ef535a7c69c06c9264dd7752c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6abf5ebd9e531f6ef535a7c69c06c9264dd7752c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f5d46fbd1dd2f7d4ccf25f00a32665d77b91219d/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f5d46fbd1dd2f7d4ccf25f00a32665d77b91219d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f5d46fbd1dd2f7d4ccf25f00a32665d77b91219d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6abf5ebd9e531f6ef535a7c69c06c9264dd7752c/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/f5d46fbd1dd2f7d4ccf25f00a32665d77b91219d/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@6abf5eb](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/6abf5ebd9e531f6ef535a7c69c06c9264dd7752c)
+from [uiceds/cee-492-term-project-fall-2022-jakt@f5d46fb](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/f5d46fbd1dd2f7d4ccf25f00a32665d77b91219d)
 on October 30, 2022.
 </em></small>
 
@@ -181,6 +181,7 @@ on October 30, 2022.
 
 
 [Table 4: Derivation of project duration from raw data]{.semibold}
+
 ![](images/Image 3.png)
 
 ![](images/Image 4.png)
@@ -188,7 +189,6 @@ on October 30, 2022.
 <p align="justify">Having computed the project durations as shown in Table 4, some anomalies were detected in the data. The 2^nd^ and 3^rd^ observations show that about 0.43mi and 0.19mi (692m and 305m) of road span were constructed in 1 day, respectively, whereas about 0.03mi (or 48m) was constructed in 8 days as shown in the 4^th^ entry which is unrealistic. To resolve this, a further investigation was done on the narrative of the dataset from Kaggle, and it was deduced that some of the observations were just minor repair works on existing roads (which would not take a long time irrespective of the road span) while others were new construction projects which takes longer to complete. Unfortunately, there exist no feature in the dataset that reveals if an observation was a minor repair task or a major construction task. To circumvent this, observations corresponding to project durations less than 50 days were filtered out, resulting in a dataset of 43,134 observations significantly dominated by new road construction projects or at least projects lasting longer than 50days. Furthermore, three(3) categories of projects durations were designated as short-, medium- and long-term new road construction projects. A short-term new road construction project is defined as one lasting less than 100 days, while a medium-term project lasts between 100-300 days, and a long-term project lasts longer the 300 days. Table 5 shows the resulting data after grouping into the specified classes.</p>
 
 [Table 5: Dataset for new road construction projects in US, or projects exceeding 50 days of duration]{.semibold}
-
 ![](images/Image 5.png)
 
 [2.2.1 Feature detection and EDA]{.semibold} 
@@ -196,7 +196,6 @@ on October 30, 2022.
 <p align="justify">The resulting dataset, as presented in Table 5, was processed to reveal key features. A rough guess was made that the numeric features were quantifying weather conditions like temperature, humidity, precipitation, wind speed, and pressure together with the road construction span or “Distance” affects the project duration. It was further assumed that the average amount of these quantities (e.g., Temperature) was recorded during the entire project duration, as this information was not explicitly stated in the dataset description. Thus, given the expected or average environmental conditions, and the span or extent of the road construction, the developed model is expected to predict the class of the completion time of the project as short, medium or long-term. Table 6 shows the summary of the initial features selected for the development of the model.</p>
 
 [Table 6: Extracted features for EDA]{.semibold} 
-
 ![](images/Table6.PNG)
 
 <p align="justify">An indispensable aspect of EDA is to detect multicollinearity and prevent confounding in the modeling. Julia’s “Statistics” package was leveraged to compute and plot the correlation between all the independent (selected features) and the dependent variable (project duration). This plot not only enabled the discovery of statistically related features, but also enabled the realization of features that are pertinent to predicting the dependent variable. The figures below show the correlation plots for the selected features.</p>
@@ -218,39 +217,6 @@ on October 30, 2022.
 [2.3 Dimensionality reduction]{.semibold}
 
 <p align="justify">To further explore the possibility of getting a concise representation of the dataset, and improve the model accuracy, PCA was done to transform the data and reduce the size of the feature space. This analysis revealed that with just two principal components, over 97% of the variance in the original dataset could be captured, which is a good representation of the original data and dramatically reduces the number of features to two in the PCA coordinate system. Code snippet 3 below shows the code and results obtained from the PCA analysis.</p> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [Table 7: Fraction of Variance]{.semibold} 
 ![](images/Image 11.png)
