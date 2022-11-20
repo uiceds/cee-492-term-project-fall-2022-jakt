@@ -1,6 +1,6 @@
 AIAA
 Amin
-amirthavarshini
+Amirthavarshini
 APIs
 boxplots
 Briceno
@@ -13,7 +13,7 @@ DASC
 dataset
 dataset’s
 datasets
-Dimensionality
+dimensionality
 DNN
 durations
 EDA
