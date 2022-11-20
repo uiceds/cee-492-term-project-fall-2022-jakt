@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/97f6d3cee48984d2b1c77a5fcb662e6248323f07/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/97f6d3cee48984d2b1c77a5fcb662e6248323f07/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/97f6d3cee48984d2b1c77a5fcb662e6248323f07/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/da4a0bbaf924f0fbc41a3f2f27bec653bafdb5ea/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/da4a0bbaf924f0fbc41a3f2f27bec653bafdb5ea/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/da4a0bbaf924f0fbc41a3f2f27bec653bafdb5ea/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/97f6d3cee48984d2b1c77a5fcb662e6248323f07/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/da4a0bbaf924f0fbc41a3f2f27bec653bafdb5ea/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@97f6d3c](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/97f6d3cee48984d2b1c77a5fcb662e6248323f07)
+from [uiceds/cee-492-term-project-fall-2022-jakt@da4a0bb](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/da4a0bbaf924f0fbc41a3f2f27bec653bafdb5ea)
 on November 20, 2022.
 </em></small>
 
@@ -247,11 +247,11 @@ on November 20, 2022.
  <p align="justify">Having completed the model preparation and training, the open-source Sklearn [@{https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html}] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and also plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.</p>
 
 <p align="center">![](images/Figure 1.png)</p>
-_Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively_
+[_Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively_]{.center}
 <p align="justify">__Outcome:__ 65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.</p>
 
 <p align="center">![](images/Figure 2.png)</p>
-_Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively_
+[_Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively_]{.center}
 <p align="justify">__Outcome:__ 87% accuracy was obtained on the training data, with a loss of about 0.3</p>
 
 |Prediction Matrix|Description|
@@ -261,7 +261,7 @@ _Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64,
 |Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
 <p align="center">![](images/Figure 3.png)</p>
-_Fig 3. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_
+[_Fig 3. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_]{.center}
 <p align="justify">__Outcome:__ 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
 
 |Prediction Matrix|Description|
@@ -271,7 +271,7 @@ _Fig 3. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 
 |Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
 <p align="center">![](images/Figure 4.png)</p>
-_Fig 4. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_ 
+[_Fig 4. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_]{.center} 
 <p align="justify">__Outcome:__ 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
 
 |Prediction Matrix|Description|
@@ -281,11 +281,11 @@ _Fig 4. Confusion matrix for case 2 validation dataset, with 7 hidden layers wit
 |Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
 <p align="center">![](images/Figure 5.png)</p>
-_Fig 5. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively_
+[_Fig 5. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively_]{.center}
 <p align="justify">__Outcome:__ 65% accuracy was obtained on the training data, with a loss of about 0.9.The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset</p>
 
 <p align="center">![](images/Figure 6.png)</p>
-_Fig 6. Confusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively_
+[_Fig 6. Confusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively_]{.center}
 <p align="justify">__Outcome:__ 78% accuracy was obtained on the training data, with a loss of about 0.5</p>
 
 |Prediction Matrix|Description|
