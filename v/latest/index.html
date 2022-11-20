@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c0e83be5dc600c934ba378ad368cf02276a11aba/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c0e83be5dc600c934ba378ad368cf02276a11aba/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c0e83be5dc600c934ba378ad368cf02276a11aba/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5f12477c4e61cc7ee6af5e37ea3a42391f0f0c5b/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5f12477c4e61cc7ee6af5e37ea3a42391f0f0c5b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5f12477c4e61cc7ee6af5e37ea3a42391f0f0c5b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c0e83be5dc600c934ba378ad368cf02276a11aba/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5f12477c4e61cc7ee6af5e37ea3a42391f0f0c5b/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/c0e83be5dc600c934ba378ad368cf02276a11aba">uiceds/cee-492-term-project-fall-2022-jakt@c0e83be</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/5f12477c4e61cc7ee6af5e37ea3a42391f0f0c5b">uiceds/cee-492-term-project-fall-2022-jakt@5f12477</a>
 on November 20, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -308,18 +308,44 @@ To initiate the predictive modeling, the wrangled dataset comprising pertinent f
 </p>
 <p><span class="semibold">3.2 Methodology</span></p>
 <p align="justify">
-For the model development a deep neural network (DNN) [2] architecture – the sequential model from Keras library in Tensorflow was leveraged [3]. DNN was resorted due to the high dimensionality of the feature- space and the non-existence of a physical model that relates weather conditions to road construction project duration. Hence with DNN, patterns in the data feature-space would be automatically realised, weights would be generated to fit a model to the data and predict the output (project duration labels) given inputs of weather conditions (Temperature, Pressure, etc.). This sequential model accepts a single tensor of features and observations and returns a single tensor of labels for each observation as its output. Furthermore, the Keras library offers various loss functions depending on the kind of model to be built. For this project, the categorical cross-entropy loss function [4] was leveraged for multi-class classification. Python offers great flexibility and computational speed when it comes to addressing multiclass classification problems, hence it was adopted for model development.
+For the model development a deep neural network (DNN) <span class="citation" data-cites="isbn:10.1109/DASC.2016.7778092">[<a href="#ref-isbn:10.1109/DASC.2016.7778092" role="doc-biblioref"><strong>isbn:10.1109/DASC.2016.7778092?</strong></a>]</span> architecture – the sequential model from Keras library in Tensorflow was leveraged <span class="citation" data-cites="tx7QnH2O">[<a href="#ref-tx7QnH2O" role="doc-biblioref">1</a>]</span>. DNN was resorted due to the high dimensionality of the feature- space and the non-existence of a physical model that relates weather conditions to road construction project duration. Hence with DNN, patterns in the data feature-space would be automatically realised, weights would be generated to fit a model to the data and predict the output (project duration labels) given inputs of weather conditions (Temperature, Pressure, etc.). This sequential model accepts a single tensor of features and observations and returns a single tensor of labels for each observation as its output. Furthermore, the Keras library offers various loss functions depending on the kind of model to be built. For this project, the categorical cross-entropy loss function <span class="citation" data-cites="Z1RS5Q4V">[<a href="#ref-Z1RS5Q4V" role="doc-biblioref">2</a>]</span> was leveraged for multi-class classification. Python offers great flexibility and computational speed when it comes to addressing multiclass classification problems, hence it was adopted for model development.
 </p>
 <p align="justify">
-As inputs, Temperature, Wind chill, Humidity, Pressure, Visibility, Wind speed, Precipitation, and Distance are the features used to train the model, the input size is eight. The labels from the dataset (i.e., the dependent variable which is the project duration class) is represented in the one-hot [5] format. To get the intended predictions, three hidden layers with five neurons each were initially defined. However, the final architecture included seven hidden layers as the initial three hidden layers resulted in 65% training accuracy, which was considered suboptimal. Therefore, in addition to input, and hidden layers, parameters like learning rate – the “Adams learning rate” <span class="citation" data-cites="tx7QnH2O">[<a href="#ref-tx7QnH2O" role="doc-biblioref">1</a>]</span> – a regularization factor that varied from 1e-3 to 1e-6, an epoch (number of steps of gradient descent) of 500, and a batch size of 10, were defined to complete the process of building and training the neural network. These parameters were chosen based on recommendations by [6].
+As inputs, Temperature, Wind chill, Humidity, Pressure, Visibility, Wind speed, Precipitation, and Distance are the features used to train the model, the input size is eight. The labels from the dataset (i.e., the dependent variable which is the project duration class) is represented in the one-hot <span class="citation" data-cites="xWG4Vah1">[<a href="#ref-xWG4Vah1" role="doc-biblioref">3</a>]</span> format. To get the intended predictions, three hidden layers with five neurons each were initially defined. However, the final architecture included seven hidden layers as the initial three hidden layers resulted in 65% training accuracy, which was considered suboptimal. Therefore, in addition to input, and hidden layers, parameters like learning rate – the “Adams learning rate” <span class="citation" data-cites="tx7QnH2O">[<a href="#ref-tx7QnH2O" role="doc-biblioref">1</a>]</span> – a regularization factor that varied from 1e-3 to 1e-6, an epoch (number of steps of gradient descent) of 500, and a batch size of 10, were defined to complete the process of building and training the neural network. These parameters were chosen based on recommendations by <span class="citation" data-cites="vhATYuuJ">[<a href="#ref-vhATYuuJ" role="doc-biblioref">4</a>]</span>.
 </p>
 <p align="justify">
-Additionally, the activation function between hidden layers was set to ReLU [7], since the input data were mainly numerical data that is continuous in space. However, the sigmoid [8] activation function was used between the last hidden layer and the output, because the output is categorical i.e., “short term”, “medium term” and “long term”. This sigmoid function computes the probability of occurrence of each label per observation, that ranges from 0 through 1. The predicted label from various observations is the one which has maximum output probability and is assigned as 1, keeping other labels as 0. To enhance global optimality, stochastic gradient descent “sgd” [9] was also tried as the learning rate function in the model development.
+Additionally, the activation function between hidden layers was set to ReLU [@{https://machinelearningmastery.com rectified-linear-activation-function-for-deep-learning-neural-networks/}], since the input data were mainly numerical data that is continuous in space. However, the sigmoid <span class="citation" data-cites="b0s6U0Y7">[<a href="#ref-b0s6U0Y7" role="doc-biblioref">5</a>]</span> activation function was used between the last hidden layer and the output, because the output is categorical i.e., “short term”, “medium term” and “long term”. This sigmoid function computes the probability of occurrence of each label per observation, that ranges from 0 through 1. The predicted label from various observations is the one which has maximum output probability and is assigned as 1, keeping other labels as 0. To enhance global optimality, stochastic gradient descent “sgd” <span class="citation" data-cites="18qUzPHri">[<a href="#ref-18qUzPHri" role="doc-biblioref">6</a>]</span> was also tried as the learning rate function in the model development.
 </p>
 <p><span class="semibold">3.3 Results</span></p>
 <p align="justify">
-Having completed the model preparation and training, the open-source Sklearn [10] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and also plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.
+Having completed the model preparation and training, the open-source Sklearn <span class="citation" data-cites="gqPedYqI">[<a href="#ref-gqPedYqI" role="doc-biblioref">7</a>]</span> package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and also plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.
 </p>
+<p>|:———————————-|:————————————-|
+|<img src="images/Figure%201.png" />|<img src="images/Figure%202.png" />|
+|Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively|Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively|
+|The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset|Test metrics:
+Precision: 0.35, 0.66, and 0.26 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
+Recall: 0.22, 0.72, 0.19, for labels 1, 2, and 3 respectively
+Proportion of each class in original dataset:
+25%, 65% and 0.1% for label 1, 2 and 3 respectively|
+|<img src="images/Figure%203.png" />|<img src="images/Figure%204.png" />|
+|Fig 3. Confusion matrix for case 2 test dataset (i.e., case 1 dataset in PCA coordinate frame), with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 68% accuracy was obtained on the training data, with a loss of about 0.7|Fig 4. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 68% accuracy was obtained on the training data, with a loss of about 0.7|
+|Test metrics:
+Precision: 0.34, 0.66, and 0.36 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
+Recall: 0.06, 0.95, 0.06, for labels 1, 2, and 3 respectively
+Proportion of each class in original dataset:
+25%, 65% and 0.1% for label 1, 2 and 3 respectively|Test metrics:
+Precision: 0.52, 0.67, and 0.58 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
+Recall: 0.08, 0.96, 0.11, for labels 1, 2, and 3 respectively
+Proportion of each class in original dataset:
+25%, 65% and 0.1% for label 1, 2 and 3 respectively|
+|<img src="images/Figure%205.png" />|<img src="images/Figure%206.png" />|
+|Fig 5. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively. 65% accuracy was obtained on the training data, with a loss of about 0.9|Fig 6. Confusion matrix for case 3 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 78% accuracy was obtained on the training data, with a loss of about 0.5|
+|The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset|Test metrics:
+Precision: 0.41, 0.30, and 0.45 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
+Recall: 0.34, 0.29, 0.52, for labels 1, 2, and 3 respectively
+Proportion of each class in original dataset:
+33%, 27% and 40% for label 1, 2 and 3 respectively|</p>
 <p align="center">
 <img src="images/Figure%201.png" title="fig:" />
 </p>
@@ -423,15 +449,15 @@ Finally, the key lesson learnt is that the developed model is as good as the dat
 </p>
 <p><span class="semibold">References:</span></p>
 <p>[1] Karimi Monsefi, Amin, Sobhan Moosavi, and Rajiv Ramnath. “Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data.”, <em>2022</em></p>
-<p>[2] Y. J. Kim, S. Choi, S. Briceno and D. Mavris, “A deep learning approach to flight delay prediction,” <em>2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC), 2016, pp. 1-6, doi: 10.1109/DASC.2016.7778092.</em></p>
+<p>[2] Y. J. Kim, S. Choi, S. Briceno and D. Mavris, “A deep learning approach to flight delay prediction,” _2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC)</p>
 <p>[3] Keras sequential model, Tensorflow</p>
-<p>[4] Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal loss, and all those confusing names: <span class="citation" data-cites="Z1RS5Q4V">[<a href="#ref-Z1RS5Q4V" role="doc-biblioref">2</a>]</span></p>
-<p>[5] When to Use One-Hot Encoding in Deep Learning? <span class="citation" data-cites="xWG4Vah1">[<a href="#ref-xWG4Vah1" role="doc-biblioref">3</a>]</span></p>
-<p>[6] Constructing a Multi-Class Classifier Using Neural Network with Python: <span class="citation" data-cites="vhATYuuJ">[<a href="#ref-vhATYuuJ" role="doc-biblioref">4</a>]</span></p>
-<p>[7] A Gentle Introduction to the Rectified Linear Unit (ReLU): <span class="citation" data-cites="JdHhha9B">[<a href="#ref-JdHhha9B" role="doc-biblioref">5</a>]</span></p>
-<p>[8] A Gentle Introduction To Sigmoid Function: <span class="citation" data-cites="b0s6U0Y7">[<a href="#ref-b0s6U0Y7" role="doc-biblioref">6</a>]</span></p>
-<p>[9] Stochastic Gradient Descent – Clearly Explained!! <span class="citation" data-cites="18qUzPHri">[<a href="#ref-18qUzPHri" role="doc-biblioref">7</a>]</span></p>
-<p>[10] Confusion Matrix with Sklearn: <span class="citation" data-cites="gqPedYqI">[<a href="#ref-gqPedYqI" role="doc-biblioref">8</a>]</span></p>
+<p>[4] Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal loss, and all those confusing names</p>
+<p>[5] When to Use One-Hot Encoding in Deep Learning?</p>
+<p>[6] Constructing a Multi-Class Classifier Using Neural Network with Python</p>
+<p>[7] A Gentle Introduction to the Rectified Linear Unit (ReLU)</p>
+<p>[8] A Gentle Introduction To Sigmoid Function</p>
+<p>[9] Stochastic Gradient Descent – Clearly Explained!!</p>
+<p>[10] Confusion Matrix with Sklearn</p>
 <div id="refs" class="references csl-bib-body" role="doc-bibliography">
 <div id="ref-tx7QnH2O" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Keras documentation: The Sequential model</strong> <div class="csl-block">Keras Team</div> <a href="https://keras.io/guides/sequential_model/">https://keras.io/guides/sequential_model/</a></div>
@@ -445,17 +471,14 @@ Finally, the key lesson learnt is that the developed model is as good as the dat
 <div id="ref-vhATYuuJ" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Part 07 - Constructing a Multi-Class Classifier Using Neural Network with Python (Tensorflow Keras)</strong> <a href="https://www.youtube.com/watch?v=2WdPdE2hq78">https://www.youtube.com/watch?v=2WdPdE2hq78</a></div>
 </div>
-<div id="ref-JdHhha9B" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>A Gentle Introduction to the Rectified Linear Unit (ReLU)</strong> <div class="csl-block">Jason Brownlee</div> <em>MachineLearningMastery.com</em> (2019-01-08) <a href="https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/">https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/</a></div>
-</div>
 <div id="ref-b0s6U0Y7" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>A Gentle Introduction To Sigmoid Function</strong> <div class="csl-block">Mehreen Saeed</div> <em>MachineLearningMastery.com</em> (2021-08-24) <a href="https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/">https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/</a></div>
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>A Gentle Introduction To Sigmoid Function</strong> <div class="csl-block">Mehreen Saeed</div> <em>MachineLearningMastery.com</em> (2021-08-24) <a href="https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/">https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/</a></div>
 </div>
 <div id="ref-18qUzPHri" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Stochastic Gradient Descent — Clearly Explained !!</strong> <div class="csl-block">Aishwarya V Srinivasan</div> <em>Medium</em> (2019-09-07) <a href="https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31">https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31</a></div>
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Stochastic Gradient Descent — Clearly Explained !!</strong> <div class="csl-block">Aishwarya V Srinivasan</div> <em>Medium</em> (2019-09-07) <a href="https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31">https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31</a></div>
 </div>
 <div id="ref-gqPedYqI" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>sklearn.metrics.confusion_matrix</strong> <div class="csl-block">scikit-learn</div> <a href="https://scikit-learn/stable/modules/generated/sklearn.metrics.confusion_matrix.html">https://scikit-learn/stable/modules/generated/sklearn.metrics.confusion_matrix.html</a></div>
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>sklearn.metrics.confusion_matrix</strong> <div class="csl-block">scikit-learn</div> <a href="https://scikit-learn/stable/modules/generated/sklearn.metrics.confusion_matrix.html">https://scikit-learn/stable/modules/generated/sklearn.metrics.confusion_matrix.html</a></div>
 </div>
 </div>
 <!-- default theme -->
