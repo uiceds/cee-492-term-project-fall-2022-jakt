@@ -4,7 +4,6 @@ amirthavarshini
 APIs
 boxplots
 Briceno
-CConfusion
 CEE
 Champaign
 Choi
@@ -42,7 +41,7 @@ Ramnath
 realised
 ReLU
 sgd
-sigmoid
+Sigmoid
 Sklearn
 Sobhan
 Softmax

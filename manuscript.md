@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/7c0503b476bd0640a1387c7ccc5b6168d9595bf3/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/7c0503b476bd0640a1387c7ccc5b6168d9595bf3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/7c0503b476bd0640a1387c7ccc5b6168d9595bf3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c0e83be5dc600c934ba378ad368cf02276a11aba/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c0e83be5dc600c934ba378ad368cf02276a11aba/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c0e83be5dc600c934ba378ad368cf02276a11aba/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/7c0503b476bd0640a1387c7ccc5b6168d9595bf3/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c0e83be5dc600c934ba378ad368cf02276a11aba/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@7c0503b](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/7c0503b476bd0640a1387c7ccc5b6168d9595bf3)
+from [uiceds/cee-492-term-project-fall-2022-jakt@c0e83be](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/c0e83be5dc600c934ba378ad368cf02276a11aba)
 on November 20, 2022.
 </em></small>
 
@@ -184,8 +184,6 @@ on November 20, 2022.
 
 ![](images/Image 3.png)
 
-![](images/Image 4.png)
-
 <p align="justify">Having computed the project durations as shown in Table 4, some anomalies were detected in the data. The 2^nd^ and 3^rd^ observations show that about 0.43mi and 0.19mi (692m and 305m) of road span were constructed in 1 day, respectively, whereas about 0.03mi (or 48m) was constructed in 8 days as shown in the 4^th^ entry which is unrealistic. To resolve this, a further investigation was done on the narrative of the dataset from Kaggle, and it was deduced that some of the observations were just minor repair works on existing roads (which would not take a long time irrespective of the road span) while others were new construction projects which takes longer to complete. Unfortunately, there exist no feature in the dataset that reveals if an observation was a minor repair task or a major construction task. To circumvent this, observations corresponding to project durations less than 50 days were filtered out, resulting in a dataset of 43,134 observations significantly dominated by new road construction projects or at least projects lasting longer than 50 days. Furthermore, three(3) categories of projects durations were designated as short-, medium- and long-term new road construction projects. A short-term new road construction project is defined as one lasting less than 100 days, while a medium-term project lasts between 100-300 days, and a long-term project lasts longer the 300 days. Table 5 shows the resulting data after grouping into the specified classes.</p>
 
 [Table 5: Dataset for new road construction projects in US, or projects exceeding 50 days of duration]{.semibold}
@@ -204,8 +202,6 @@ on November 20, 2022.
 
 <p align="justify">The “Combinatorics” package in Julia was leveraged to create three(3) combinations of all features plus the dependent variable in order to generate the correlation plots that enabled the determination of the most relevant statistical features. A total of 56 combinations were generated and plotted in Julia, but due to space constraint, only some of the plots are presented in the figures above. The code snippet below illustrates how the figures above were generated.</p>
 
-![](images/Image 8.png)
-
 <p align="justify">It can be deduced from Fig. 1 that a strong correlation exists between Temperature and Wind chill, hence Temperature was retained for the model development, while Wind chill was eliminated by choice and convenience. Following the correlation plots above, the scatter plots in Fig. 5, show promise in the development of classification tree networks.</p>
 
 ![](images/Image 9.png)
@@ -221,8 +217,6 @@ on November 20, 2022.
 [Table 7: Fraction of Variance]{.semibold} 
 
 ![](images/Image 11.png)
-
-![](images/Image 12.png)
 
 <p align="justify">Indeed, the PCA shows promise of reducing the feature space, as scatter plots corresponding to all PCA coordinate frames shows the potential of developing a classification tree to meet the goals of this project. As with the original feature space, and outlier analysis was done to detect outliers in the PCA coordinate frames. This post process would yield better accuracy in the model development.</p>
 
@@ -244,7 +238,7 @@ on November 20, 2022.
 
 <p align="justify">For the model development a deep neural network (DNN) [2] architecture – the sequential model from Keras library in Tensorflow was leveraged [3]. DNN was resorted due to the high dimensionality of the feature- space and the non-existence of a physical model that relates weather conditions to road construction project duration. Hence with DNN, patterns in the data feature-space would be automatically realised, weights would be generated to fit a model to the data and predict the output (project duration labels) given inputs of weather conditions (Temperature, Pressure, etc.). This sequential model accepts a single tensor of features and observations and returns a single tensor of labels for each observation as its output.  Furthermore, the Keras library offers various loss functions depending on the kind of model to be built. For this project, the categorical cross-entropy loss function [4] was leveraged for multi-class classification. Python offers great flexibility and computational speed when it comes to addressing multiclass classification problems, hence it was adopted for model development.</p>
 
-<p align="justify">As inputs, Temperature, Wind chill, Humidity, Pressure, Visibility, Wind speed, Precipitation, and Distance are the features used to train the model, the input size is eight. The labels from the dataset (i.e., the dependent variable which is the project duration class) is represented in the one-hot [5] format. To get the intended predictions, three hidden layers with five neurons each were initially defined. However, the final architecture included seven hidden layers as the initial three hidden layers resulted in 65% training accuracy, which was considered suboptimal. Therefore, in addition to input, and hidden layers, parameters like learning rate – the “Adams learning rate” [3] – a regularization factor that varied from 1e-3 to 1e-6, an epoch (number of steps of gradient descent) of 500, and a batch size of 10, were defined to complete the process of building and training the neural network. These parameters were chosen based on recommendations by [6].</p>
+<p align="justify">As inputs, Temperature, Wind chill, Humidity, Pressure, Visibility, Wind speed, Precipitation, and Distance are the features used to train the model, the input size is eight. The labels from the dataset (i.e., the dependent variable which is the project duration class) is represented in the one-hot [5] format. To get the intended predictions, three hidden layers with five neurons each were initially defined. However, the final architecture included seven hidden layers as the initial three hidden layers resulted in 65% training accuracy, which was considered suboptimal. Therefore, in addition to input, and hidden layers, parameters like learning rate – the “Adams learning rate” [@{https://keras.io/guides/sequential_model/}] – a regularization factor that varied from 1e-3 to 1e-6, an epoch (number of steps of gradient descent) of 500, and a batch size of 10, were defined to complete the process of building and training the neural network. These parameters were chosen based on recommendations by [6].</p>
 
 <p align="justify">Additionally, the activation function between hidden layers was set to ReLU [7], since the input data were mainly numerical data that is continuous in space. However, the sigmoid [8] activation function was used between the last hidden layer and the output, because the output is categorical i.e., “short term”, “medium term” and “long term”. This sigmoid function computes the probability of occurrence of each label per observation, that ranges from 0 through 1. The predicted label from various observations is the one which has maximum output probability and is assigned as 1, keeping other labels as 0. To enhance global optimality, stochastic gradient descent “sgd” [9] was also tried as the learning rate function in the model development.</p>
 
@@ -289,7 +283,7 @@ on November 20, 2022.
 <p align="justify">The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.</p>
 
 <p align="center">![](images/Figure 6.png)</p>
-<p align="justify">CConfusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 78% accuracy was obtained on the training data, with a loss of about 0.5</p>
+<p align="justify">Confusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 78% accuracy was obtained on the training data, with a loss of about 0.5</p>
 
 [Test metrics:]{.semibold}
 <p align="justify">Precision: 0.41, 0.30, and 0.45 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
@@ -312,7 +306,7 @@ on November 20, 2022.
 
 [2] Y. J. Kim, S. Choi, S. Briceno and D. Mavris, "A deep learning approach to flight delay prediction," _2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC), 2016, pp. 1-6, doi: 10.1109/DASC.2016.7778092._
 
-[3] Keras sequential model, Tensorflow: [@{https://keras.io/guides/sequential_model/}]
+[3] Keras sequential model, Tensorflow
 
 [4] Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal loss, and all those confusing names: [@{https://gombru.github.io/2018/05/23/cross_entropy_loss/}]
 
