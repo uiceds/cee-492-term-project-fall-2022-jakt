@@ -9,12 +9,12 @@ CEE
 Champaign
 Choi
 Combinatorics
-CSV
+csv
 DASC
 dataset
 dataset’s
 datasets
-dimensionality
+Dimensionality
 DNN
 durations
 EDA
@@ -42,7 +42,7 @@ Ramnath
 realised
 ReLU
 sgd
-Sigmoid
+sigmoid
 Sklearn
 Sobhan
 Softmax
