@@ -10,10 +10,10 @@ Choi
 Combinatorics
 CSV
 DASC
-Dataset
+dataset
 dataset’s
 datasets
-Dimensionality
+dimensionality
 DNN
 durations
 EDA
