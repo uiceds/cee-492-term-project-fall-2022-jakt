@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/bf4c90edd811bde58c6a66eda72703bf77bdccbd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/bf4c90edd811bde58c6a66eda72703bf77bdccbd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/bf4c90edd811bde58c6a66eda72703bf77bdccbd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/bf4c90edd811bde58c6a66eda72703bf77bdccbd/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@bf4c90e](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/bf4c90edd811bde58c6a66eda72703bf77bdccbd)
+from [uiceds/cee-492-term-project-fall-2022-jakt@3f9020d](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/3f9020d9be555cff16cc6b9463ddf224b82a0c20)
 on November 20, 2022.
 </em></small>
 
@@ -255,6 +255,7 @@ _Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64,
 <p align="justify">__Output:__ 87% accuracy was obtained on the training data, with a loss of about 0.3</p>
 
 [Test metrics:]{.semibold}
+
 |[Prediction Matrix]|[Description]|
 |:-----------------------------------------------|:-------------------------------------|
 |Precision|0.35, 0.66, and 0.26 for short term, medium term and long term respectively|
