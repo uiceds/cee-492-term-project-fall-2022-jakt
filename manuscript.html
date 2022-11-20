@@ -17,6 +17,25 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -53,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/625ca69a5e489daddba297a24aac1b527b03c307/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/625ca69a5e489daddba297a24aac1b527b03c307/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/625ca69a5e489daddba297a24aac1b527b03c307/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5bd1953aff9c6f6b6e09ec0bfd6fa4c4ac9e22ea/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5bd1953aff9c6f6b6e09ec0bfd6fa4c4ac9e22ea/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5bd1953aff9c6f6b6e09ec0bfd6fa4c4ac9e22ea/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +88,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/625ca69a5e489daddba297a24aac1b527b03c307/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5bd1953aff9c6f6b6e09ec0bfd6fa4c4ac9e22ea/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/625ca69a5e489daddba297a24aac1b527b03c307">uiceds/cee-492-term-project-fall-2022-jakt@625ca69</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/5bd1953aff9c6f6b6e09ec0bfd6fa4c4ac9e22ea">uiceds/cee-492-term-project-fall-2022-jakt@5bd1953</a>
 on November 20, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -310,9 +329,12 @@ Additionally, the activation function between hidden layers was set to ReLU [7],
 <p align="justify">
 Having completed the model preparation and training, the open-source Sklearn [10] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and also plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.
 </p>
+<p align="center">
 <img src="images/Figure%201.png" title="fig:" />
+</p>
 <p align="justify">
-<p>Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively.</p>
+Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively.
+</p>
 <p align="justify">
 65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.
 </p>
@@ -400,15 +422,41 @@ Finally, the key lesson learnt is that the developed model is as good as the dat
 </p>
 <p><span class="semibold">References:</span></p>
 <p>[1] Karimi Monsefi, Amin, Sobhan Moosavi, and Rajiv Ramnath. “Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data.”, <em>2022</em></p>
-<p>[2] Y. J. Kim, S. Choi, S. Briceno and D. Mavris, “A deep learning approach to flight delay prediction,” 2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC), 2016, pp. 1-6, doi: 10.1109/DASC.2016.7778092.</p>
-<p>[3] Keras sequential model, Tensorflow: https://keras.io/guides/sequential_model/</p>
-<p>[4] Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal loss, and all those confusing names: https://gombru.github.io/2018/05/23/cross_entropy_loss/</p>
-<p>[5] When to Use One-Hot Encoding in Deep Learning? https://analyticsindiamag.com/when-to-use-one-hot-encoding-in-deep-learning/</p>
-<p>[6] Constructing a Multi-Class Classifier Using Neural Network with Python: https://www.youtube.com/watch?v=2WdPdE2hq78</p>
-<p>[7] A Gentle Introduction to the Rectified Linear Unit (ReLU): https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/</p>
-<p>[8] A Gentle Introduction To Sigmoid Function: https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/</p>
-<p>[9] Stochastic Gradient Descent – Clearly Explained!! https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31</p>
-<p>[10] Confusion Matrix with Sklearn: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html</p>
+<p>[2] Y. J. Kim, S. Choi, S. Briceno and D. Mavris, “A deep learning approach to flight delay prediction,” <em>2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC), 2016, pp. 1-6, doi: 10.1109/DASC.2016.7778092.</em></p>
+<p>[3] Keras sequential model, Tensorflow: <span class="citation" data-cites="tx7QnH2O">[<a href="#ref-tx7QnH2O" role="doc-biblioref">1</a>]</span></p>
+<p>[4] Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal loss, and all those confusing names: <span class="citation" data-cites="Z1RS5Q4V">[<a href="#ref-Z1RS5Q4V" role="doc-biblioref">2</a>]</span></p>
+<p>[5] When to Use One-Hot Encoding in Deep Learning? <span class="citation" data-cites="xWG4Vah1">[<a href="#ref-xWG4Vah1" role="doc-biblioref">3</a>]</span></p>
+<p>[6] Constructing a Multi-Class Classifier Using Neural Network with Python: <span class="citation" data-cites="vhATYuuJ">[<a href="#ref-vhATYuuJ" role="doc-biblioref">4</a>]</span></p>
+<p>[7] A Gentle Introduction to the Rectified Linear Unit (ReLU): <span class="citation" data-cites="JdHhha9B">[<a href="#ref-JdHhha9B" role="doc-biblioref">5</a>]</span></p>
+<p>[8] A Gentle Introduction To Sigmoid Function: <span class="citation" data-cites="b0s6U0Y7">[<a href="#ref-b0s6U0Y7" role="doc-biblioref">6</a>]</span></p>
+<p>[9] Stochastic Gradient Descent – Clearly Explained!! <span class="citation" data-cites="18qUzPHri">[<a href="#ref-18qUzPHri" role="doc-biblioref">7</a>]</span></p>
+<p>[10] Confusion Matrix with Sklearn: <span class="citation" data-cites="gqPedYqI">[<a href="#ref-gqPedYqI" role="doc-biblioref">8</a>]</span></p>
+<div id="refs" class="references csl-bib-body" role="doc-bibliography">
+<div id="ref-tx7QnH2O" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Keras documentation: The Sequential model</strong> <div class="csl-block">Keras Team</div> <a href="https://keras.io/guides/sequential_model/">https://keras.io/guides/sequential_model/</a></div>
+</div>
+<div id="ref-Z1RS5Q4V" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal Loss and all those confusing names</strong> <a href="https://gombru.github.io/2018/05/23/cross_entropy_loss/">https://gombru.github.io/2018/05/23/cross_entropy_loss/</a></div>
+</div>
+<div id="ref-xWG4Vah1" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline"><strong>When to Use One-Hot Encoding in Deep Learning?</strong> <div class="csl-block">Victor Dey</div> <em>Analytics India Magazine</em> (2021-08-25) <a href="https://analyticsindiamag.com/when-to-use-one-hot-encoding-in-deep-learning/">https://analyticsindiamag.com/when-to-use-one-hot-encoding-in-deep-learning/</a></div>
+</div>
+<div id="ref-vhATYuuJ" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Part 07 - Constructing a Multi-Class Classifier Using Neural Network with Python (Tensorflow Keras)</strong> <a href="https://www.youtube.com/watch?v=2WdPdE2hq78">https://www.youtube.com/watch?v=2WdPdE2hq78</a></div>
+</div>
+<div id="ref-JdHhha9B" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>A Gentle Introduction to the Rectified Linear Unit (ReLU)</strong> <div class="csl-block">Jason Brownlee</div> <em>MachineLearningMastery.com</em> (2019-01-08) <a href="https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/">https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/</a></div>
+</div>
+<div id="ref-b0s6U0Y7" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>A Gentle Introduction To Sigmoid Function</strong> <div class="csl-block">Mehreen Saeed</div> <em>MachineLearningMastery.com</em> (2021-08-24) <a href="https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/">https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/</a></div>
+</div>
+<div id="ref-18qUzPHri" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Stochastic Gradient Descent — Clearly Explained !!</strong> <div class="csl-block">Aishwarya V Srinivasan</div> <em>Medium</em> (2019-09-07) <a href="https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31">https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31</a></div>
+</div>
+<div id="ref-gqPedYqI" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>sklearn.metrics.confusion_matrix</strong> <div class="csl-block">scikit-learn</div> <a href="https://scikit-learn/stable/modules/generated/sklearn.metrics.confusion_matrix.html">https://scikit-learn/stable/modules/generated/sklearn.metrics.confusion_matrix.html</a></div>
+</div>
+</div>
 <!-- default theme -->
 
 <style>

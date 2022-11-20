@@ -9,7 +9,7 @@ CEE
 Champaign
 Choi
 Combinatorics
-csv
+CSV
 DASC
 dataset
 dataset’s
@@ -42,7 +42,7 @@ Ramnath
 realised
 ReLU
 sgd
-sigmoid
+Sigmoid
 Sklearn
 Sobhan
 Softmax
