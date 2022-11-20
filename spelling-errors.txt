@@ -1,6 +1,6 @@
 AIAA
 Amin
-Amirthavarshini
+amirthavarshini
 APIs
 boxplots
 Briceno
@@ -8,9 +8,9 @@ CEE
 Champaign
 Choi
 Combinatorics
-csv
+CSV
 DASC
-Dataset
+dataset
 dataset’s
 datasets
 Dimensionality
