@@ -17,6 +17,25 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -53,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0a6c469f648a67a66ddf45425e4973d11d18d9a2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0a6c469f648a67a66ddf45425e4973d11d18d9a2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0a6c469f648a67a66ddf45425e4973d11d18d9a2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +88,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0a6c469f648a67a66ddf45425e4973d11d18d9a2/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/0a6c469f648a67a66ddf45425e4973d11d18d9a2">uiceds/cee-492-term-project-fall-2022-jakt@0a6c469</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/d3825eced5960eb578ca0457245b83c1e0171016">uiceds/cee-492-term-project-fall-2022-jakt@d3825ec</a>
 on November 20, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -312,16 +331,18 @@ Having completed the model preparation and training, the open-source Sklearn [10
 </p>
 <img src="images/Figure%201.png" title="fig:" />
 <p align="justify">
-Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively. 65% accuracy was obtained on the training data, with a loss of about 0.6
-</p>
+<p>Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively.</p>
 <p align="justify">
-The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.
+65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.
 </p>
 <img src="images/Figure%202.png" title="fig:" />
 <p align="justify">
-Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 87% accuracy was obtained on the training data, with a loss of about 0.3
+Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively.
 </p>
-Test metrics:{.semibold}
+<p align="justify">
+87% accuracy was obtained on the training data, with a loss of about 0.3
+</p>
+<span class="semibold">Test metrics:</span>
 <p align="justify">
 Precision: 0.35, 0.66, and 0.26 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
 </p>
@@ -333,9 +354,12 @@ Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 a
 </p>
 <img src="images/Figure%203.png" title="fig:" />
 <p align="justify">
-Fig 3. Confusion matrix for case 2 test dataset (i.e., case 1 dataset in PCA coordinate frame), with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 68% accuracy was obtained on the training data, with a loss of about 0.7
+Fig 3. Confusion matrix for case 2 test dataset (i.e., case 1 dataset in PCA coordinate frame), with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively.
 </p>
-Test metrics:{.semibold}
+<p align="justify">
+68% accuracy was obtained on the training data, with a loss of about 0.7
+</p>
+<span class="semibold">Test metrics:</span>
 <p align="justify">
 Precision: 0.34, 0.66, and 0.36 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
 </p>
@@ -349,7 +373,7 @@ Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 a
 <p align="justify">
 Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 68% accuracy was obtained on the training data, with a loss of about 0.7
 </p>
-Test metrics:{.semibold}
+<span class="semibold">Test metrics:</span>
 <p align="justify">
 Precision: 0.52, 0.67, and 0.58 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
 </p>
@@ -370,7 +394,7 @@ The accuracy on the training dataset was suboptimal and hence, no testing was pe
 <p align="justify">
 CConfusion matrix for case 3 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 78% accuracy was obtained on the training data, with a loss of about 0.5
 </p>
-Test metrics:{.semibold}
+<span class="semibold">Test metrics:</span>
 <p align="justify">
 Precision: 0.41, 0.30, and 0.45 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
 </p>
@@ -396,7 +420,8 @@ Finally, the key lesson learnt is that the developed model is as good as the dat
 <p><span class="semibold">References:</span></p>
 <p>[1] Karimi Monsefi, Amin, Sobhan Moosavi, and Rajiv Ramnath. “Will there be a construction? Predicting road constructions based on heterogeneous spatiotemporal data.”, <em>2022</em></p>
 <p>[2] Y. J. Kim, S. Choi, S. Briceno and D. Mavris, “A deep learning approach to flight delay prediction,” 2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC), 2016, pp. 1-6, doi: 10.1109/DASC.2016.7778092.</p>
-<p>[3] Keras sequential model, Tensorflow: https://keras.io/guides/sequential_model/</p>
+<p><span class="citation" data-cites="1GGGHdsew">[<a href="#ref-1GGGHdsew" role="doc-biblioref">1</a>]</span></p>
+<p>[3] Keras sequential model, Tensorflow: <span class="citation" data-cites="tx7QnH2O">[<a href="#ref-tx7QnH2O" role="doc-biblioref">2</a>]</span></p>
 <p>[4] Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal loss, and all those confusing names: https://gombru.github.io/2018/05/23/cross_entropy_loss/</p>
 <p>[5] When to Use One-Hot Encoding in Deep Learning? https://analyticsindiamag.com/when-to-use-one-hot-encoding-in-deep-learning/</p>
 <p>[6] Constructing a Multi-Class Classifier Using Neural Network with Python: https://www.youtube.com/watch?v=2WdPdE2hq78</p>
@@ -404,6 +429,14 @@ Finally, the key lesson learnt is that the developed model is as good as the dat
 <p>[8] A Gentle Introduction To Sigmoid Function: https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/</p>
 <p>[9] Stochastic Gradient Descent – Clearly Explained!! https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31</p>
 <p>[10] Confusion Matrix with Sklearn: https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html</p>
+<div id="refs" class="references csl-bib-body" role="doc-bibliography">
+<div id="ref-1GGGHdsew" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline"><strong>Open collaborative writing with Manubot</strong> <div class="csl-block">Daniel S Himmelstein, Vincent Rubinetti, David R Slochower, Dongbo Hu, Venkat S Malladi, Casey S Greene, Anthony Gitter</div> <em>Manubot</em> (2020-05-25) <a href="https://greenelab.github.io/meta-review/">https://greenelab.github.io/meta-review/</a></div>
+</div>
+<div id="ref-tx7QnH2O" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline"><strong>Keras documentation: The Sequential model</strong> <div class="csl-block">Keras Team</div> <a href="https://keras.io/guides/sequential_model/">https://keras.io/guides/sequential_model/</a></div>
+</div>
+</div>
 <!-- default theme -->
 
 <style>

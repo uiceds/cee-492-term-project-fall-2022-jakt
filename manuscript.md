@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0a6c469f648a67a66ddf45425e4973d11d18d9a2/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0a6c469f648a67a66ddf45425e4973d11d18d9a2/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0a6c469f648a67a66ddf45425e4973d11d18d9a2/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/0a6c469f648a67a66ddf45425e4973d11d18d9a2/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@0a6c469](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/0a6c469f648a67a66ddf45425e4973d11d18d9a2)
+from [uiceds/cee-492-term-project-fall-2022-jakt@d3825ec](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/d3825eced5960eb578ca0457245b83c1e0171016)
 on November 20, 2022.
 </em></small>
 
@@ -253,22 +253,26 @@ on November 20, 2022.
  <p align="justify">Having completed the model preparation and training, the open-source Sklearn [10] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and also plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.</p>
 
 ![](images/Figure 1.png)
-<p align="justify">Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively. 65% accuracy was obtained on the training data, with a loss of about 0.6</p>
+<p align="justify">Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively. 
 
-<p align="justify">The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.</p>
+<p align="justify">65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.</p>
 
 ![](images/Figure 2.png)
-<p align="justify">Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 87% accuracy was obtained on the training data, with a loss of about 0.3</p>
+<p align="justify">Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively.</p> 
 
-Test metrics:{.semibold}
+<p align="justify">87% accuracy was obtained on the training data, with a loss of about 0.3</p>
+
+[Test metrics:]{.semibold}
 <p align="justify">Precision: 0.35, 0.66, and 0.26 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
 <p align="justify">Recall:  0.22, 0.72, 0.19, for labels 1, 2, and 3 respectively</p>
 <p align="justify">Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 and 3 respectively</p>
 
 ![](images/Figure 3.png)
-<p align="justify">Fig 3. Confusion matrix for case 2 test dataset (i.e., case 1 dataset  in PCA coordinate frame), with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
+<p align="justify">Fig 3. Confusion matrix for case 2 test dataset (i.e., case 1 dataset  in PCA coordinate frame), with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively.</p> 
 
-Test metrics:{.semibold}
+<p align="justify">68% accuracy was obtained on the training data, with a loss of about 0.7</p>
+
+[Test metrics:]{.semibold}
 <p align="justify">Precision: 0.34, 0.66, and 0.36 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
 <p align="justify">Recall:  0.06, 0.95, 0.06, for labels 1, 2, and 3 respectively</p>
 <p align="justify">Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 and 3 respectively</p>
@@ -276,7 +280,7 @@ Test metrics:{.semibold}
 ![](images/Figure 4.png)
 <p align="justify">Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
 
-Test metrics:{.semibold}
+[Test metrics:]{.semibold}
 <p align="justify">Precision: 0.52, 0.67, and 0.58 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
 <p align="justify">Recall:  0.08, 0.96, 0.11, for labels 1, 2, and 3 respectively</p>
 <p align="justify">Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 and 3 respectively</p>
@@ -289,7 +293,7 @@ Test metrics:{.semibold}
 ![](images/Figure 6.png)
 <p align="justify">CConfusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 78% accuracy was obtained on the training data, with a loss of about 0.5</p>
 
-Test metrics:{.semibold}
+[Test metrics:]{.semibold}
 <p align="justify">Precision: 0.41, 0.30, and 0.45 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
 <p align="justify">Recall:  0.34, 0.29, 0.52, for labels 1, 2, and 3 respectively</p>
 <p align="justify">Proportion of each class in original dataset: 33%, 27% and 40% for label 1, 2 and 3 respectively</p>
@@ -310,7 +314,9 @@ Test metrics:{.semibold}
 
 [2] Y. J. Kim, S. Choi, S. Briceno and D. Mavris, "A deep learning approach to flight delay prediction," 2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC), 2016, pp. 1-6, doi: 10.1109/DASC.2016.7778092.
 
-[3] Keras sequential model, Tensorflow: https://keras.io/guides/sequential_model/
+[@{https://greenelab.github.io/meta-review/}]
+
+[3] Keras sequential model, Tensorflow: [@{https://keras.io/guides/sequential_model/}]
 
 [4] Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal loss, and all those confusing names: https://gombru.github.io/2018/05/23/cross_entropy_loss/
 

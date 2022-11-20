@@ -14,7 +14,7 @@ DASC
 dataset
 dataset’s
 datasets
-Dimensionality
+dimensionality
 DNN
 durations
 EDA
@@ -41,7 +41,6 @@ Rajiv
 Ramnath
 realised
 ReLU
-semibold
 sgd
 Sigmoid
 Sklearn
