@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/61d7002d6bb26efec18046908a6be20a7b6113c2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/61d7002d6bb26efec18046908a6be20a7b6113c2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/61d7002d6bb26efec18046908a6be20a7b6113c2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/61d7002d6bb26efec18046908a6be20a7b6113c2/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/3f9020d9be555cff16cc6b9463ddf224b82a0c20">uiceds/cee-492-term-project-fall-2022-jakt@3f9020d</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/61d7002d6bb26efec18046908a6be20a7b6113c2">uiceds/cee-492-term-project-fall-2022-jakt@61d7002</a>
 on November 20, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -334,11 +334,10 @@ Having completed the model preparation and training, the open-source Sklearn <sp
 <p align="justify">
 <strong>Output:</strong> 87% accuracy was obtained on the training data, with a loss of about 0.3
 </p>
-<p><span class="semibold">Test metrics:</span></p>
 <table>
 <colgroup>
-<col style="width: 55%" />
-<col style="width: 44%" />
+<col style="width: 37%" />
+<col style="width: 62%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -368,16 +367,32 @@ Having completed the model preparation and training, the open-source Sklearn <sp
 <p align="justify">
 <strong>Output:</strong> 68% accuracy was obtained on the training data, with a loss of about 0.7
 </p>
-<span class="semibold">Test metrics:</span>
-<p align="justify">
-Precision: 0.34, 0.66, and 0.36 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
-</p>
-<p align="justify">
-Recall: 0.06, 0.95, 0.06, for labels 1, 2, and 3 respectively
-</p>
-<p align="justify">
-Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 and 3 respectively
-</p>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 62%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">[Prediction Matrix]</th>
+<th style="text-align: left;">[Description]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Precision</td>
+<td style="text-align: left;">0.34, 0.66, and 0.36 for short term, medium term and long term respectively</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Recall</td>
+<td style="text-align: left;">0.06, 0.95, 0.06, for short term, medium term and long term respectively</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Proportion of each class in original dataset</td>
+<td style="text-align: left;">25%, 65% and 0.1% for short term, medium term and long term respectively</td>
+</tr>
+</tbody>
+</table>
 <p align="center">
 <img src="images/Figure%204.png" title="fig:" />
 </p>
@@ -385,16 +400,32 @@ Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 a
 <p align="justify">
 <strong>Output:</strong> 68% accuracy was obtained on the training data, with a loss of about 0.7
 </p>
-<span class="semibold">Test metrics:</span>
-<p align="justify">
-Precision: 0.52, 0.67, and 0.58 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
-</p>
-<p align="justify">
-Recall: 0.08, 0.96, 0.11, for labels 1, 2, and 3 respectively
-</p>
-<p align="justify">
-Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 and 3 respectively
-</p>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 62%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">[Prediction Matrix]</th>
+<th style="text-align: left;">[Description]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Precision</td>
+<td style="text-align: left;">0.52, 0.67, and 0.58 for short term, medium term and long term respectively</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Recall</td>
+<td style="text-align: left;">0.08, 0.96, 0.11, for short term, medium term and long term respectively</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Proportion of each class in original dataset</td>
+<td style="text-align: left;">25%, 65% and 0.1% for short term, medium term and long term respectively</td>
+</tr>
+</tbody>
+</table>
 <p align="center">
 <img src="images/Figure%205.png" title="fig:" />
 </p>
@@ -409,16 +440,32 @@ Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 a
 <p align="justify">
 <strong>Output:</strong> 78% accuracy was obtained on the training data, with a loss of about 0.5
 </p>
-<span class="semibold">Test metrics:</span>
-<p align="justify">
-Precision: 0.41, 0.30, and 0.45 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
-</p>
-<p align="justify">
-Recall: 0.34, 0.29, 0.52, for labels 1, 2, and 3 respectively
-</p>
-<p align="justify">
-Proportion of each class in original dataset: 33%, 27% and 40% for label 1, 2 and 3 respectively
-</p>
+<table>
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 62%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">[Prediction Matrix]</th>
+<th style="text-align: left;">[Description]</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Precision</td>
+<td style="text-align: left;">0.41, 0.30, and 0.45 for short term, medium term and long term respectively</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Recall</td>
+<td style="text-align: left;">0.34, 0.29, 0.52, for short term, medium term and long term respectively</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Proportion of each class in original dataset</td>
+<td style="text-align: left;">3%, 27% and 40% for short term, medium term and long term respectively</td>
+</tr>
+</tbody>
+</table>
 <p><span class="semibold">3.4 Discussion and Inferences</span></p>
 <p align="justify">
 The model development could have resulted in a better output if the data was collected keeping the projects’ objective in mind. During the data wrangling stage, some observations were unrealistic as they had a very short duration for relatively long-span projects. Despite filtering and cleaning, the assumptions evoked could not sufficiently produce the near ideal dataset intended. Even with this challenge, the developed model performs quite well in some test cases as seen in section 3.3.

@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/61d7002d6bb26efec18046908a6be20a7b6113c2/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/61d7002d6bb26efec18046908a6be20a7b6113c2/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/61d7002d6bb26efec18046908a6be20a7b6113c2/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f9020d9be555cff16cc6b9463ddf224b82a0c20/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/61d7002d6bb26efec18046908a6be20a7b6113c2/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@3f9020d](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/3f9020d9be555cff16cc6b9463ddf224b82a0c20)
+from [uiceds/cee-492-term-project-fall-2022-jakt@61d7002](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/61d7002d6bb26efec18046908a6be20a7b6113c2)
 on November 20, 2022.
 </em></small>
 
@@ -254,10 +254,8 @@ _Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64,
 _Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively_
 <p align="justify">__Output:__ 87% accuracy was obtained on the training data, with a loss of about 0.3</p>
 
-[Test metrics:]{.semibold}
-
 |[Prediction Matrix]|[Description]|
-|:-----------------------------------------------|:-------------------------------------|
+|:----------------------|:-------------------------------------|
 |Precision|0.35, 0.66, and 0.26 for short term, medium term and long term respectively|
 |Recall|0.22, 0.72, 0.19, for short term, medium term and long term respectively|
 |Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
@@ -267,19 +265,21 @@ _Fig 3. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 
 
 <p align="justify">__Output:__ 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
 
-[Test metrics:]{.semibold}
-<p align="justify">Precision: 0.34, 0.66, and 0.36 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
-<p align="justify">Recall:  0.06, 0.95, 0.06, for labels 1, 2, and 3 respectively</p>
-<p align="justify">Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 and 3 respectively</p>
+|[Prediction Matrix]|[Description]|
+|:----------------------|:-------------------------------------|
+|Precision|0.34, 0.66, and 0.36 for short term, medium term and long term respectively|
+|Recall|0.06, 0.95, 0.06, for short term, medium term and long term respectively|
+|Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
 <p align="center">![](images/Figure 4.png)</p>
 _Fig 4. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_ 
 <p align="justify">__Output:__ 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
 
-[Test metrics:]{.semibold}
-<p align="justify">Precision: 0.52, 0.67, and 0.58 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
-<p align="justify">Recall:  0.08, 0.96, 0.11, for labels 1, 2, and 3 respectively</p>
-<p align="justify">Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 and 3 respectively</p>
+|[Prediction Matrix]|[Description]|
+|:----------------------|:-------------------------------------|
+|Precision|0.52, 0.67, and 0.58 for short term, medium term and long term respectively|
+|Recall|0.08, 0.96, 0.11, for short term, medium term and long term respectively|
+|Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
 <p align="center">![](images/Figure 5.png)</p>
 _Fig 5. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively_
@@ -289,10 +289,12 @@ _Fig 5. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64,
 _Fig 6. Confusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively_
 <p align="justify">__Output:__ 78% accuracy was obtained on the training data, with a loss of about 0.5</p>
 
-[Test metrics:]{.semibold}
-<p align="justify">Precision: 0.41, 0.30, and 0.45 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
-<p align="justify">Recall:  0.34, 0.29, 0.52, for labels 1, 2, and 3 respectively</p>
-<p align="justify">Proportion of each class in original dataset: 33%, 27% and 40% for label 1, 2 and 3 respectively</p>
+|[Prediction Matrix]|[Description]|
+|:----------------------|:-------------------------------------|
+|Precision|0.41, 0.30, and 0.45 for short term, medium term and long term respectively|
+|Recall|0.34, 0.29, 0.52, for short term, medium term and long term respectively|
+|Proportion of each class in original dataset|3%, 27% and 40% for short term, medium term and long term respectively|
+
 
 [3.4 Discussion and Inferences]{.semibold}
 
