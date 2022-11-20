@@ -1,6 +1,6 @@
 AIAA
 Amin
-Amirthavarshini
+amirthavarshini
 APIs
 boxplots
 Briceno
@@ -44,7 +44,6 @@ sgd
 sigmoid
 Sklearn
 Sobhan
-Softmax
 spatiotemporal
 suboptimal
 thomasNg
