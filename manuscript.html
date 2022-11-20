@@ -72,9 +72,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d685895747f83b1ad28aafb91c900e93e42313bd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d685895747f83b1ad28aafb91c900e93e42313bd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d685895747f83b1ad28aafb91c900e93e42313bd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02b21d7c0571c8f2823a8ab06b94a5c3fab6d660/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02b21d7c0571c8f2823a8ab06b94a5c3fab6d660/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02b21d7c0571c8f2823a8ab06b94a5c3fab6d660/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -88,9 +88,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d685895747f83b1ad28aafb91c900e93e42313bd/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02b21d7c0571c8f2823a8ab06b94a5c3fab6d660/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/d685895747f83b1ad28aafb91c900e93e42313bd">uiceds/cee-492-term-project-fall-2022-jakt@d685895</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/02b21d7c0571c8f2823a8ab06b94a5c3fab6d660">uiceds/cee-492-term-project-fall-2022-jakt@02b21d7</a>
 on November 20, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -314,11 +314,11 @@ For the model development a deep neural network (DNN) architecture – the seque
 As inputs, Temperature, Wind chill, Humidity, Pressure, Visibility, Wind speed, Precipitation, and Distance are the features used to train the model, the input size is eight. The labels from the dataset (i.e., the dependent variable which is the project duration class) is represented in the one-hot <span class="citation" data-cites="xWG4Vah1">[<a href="#ref-xWG4Vah1" role="doc-biblioref">3</a>]</span> format. To get the intended predictions, three hidden layers with five neurons each were initially defined. However, the final architecture included seven hidden layers as the initial three hidden layers resulted in 65% training accuracy, which was considered suboptimal. Therefore, in addition to input, and hidden layers, parameters like learning rate – the “Adams learning rate” <span class="citation" data-cites="tx7QnH2O">[<a href="#ref-tx7QnH2O" role="doc-biblioref">1</a>]</span> – a regularization factor that varied from 1e-3 to 1e-6, an epoch (number of steps of gradient descent) of 500, and a batch size of 10, were defined to complete the process of building and training the neural network. These parameters were chosen based on recommendations by <span class="citation" data-cites="vhATYuuJ">[<a href="#ref-vhATYuuJ" role="doc-biblioref">4</a>]</span>.
 </p>
 <p align="justify">
-Additionally, the activation function between hidden layers was set to ReLU [@{https://machinelearningmastery.com rectified-linear-activation-function-for-deep-learning-neural-networks/}], since the input data were mainly numerical data that is continuous in space. However, the sigmoid <span class="citation" data-cites="b0s6U0Y7">[<a href="#ref-b0s6U0Y7" role="doc-biblioref">5</a>]</span> activation function was used between the last hidden layer and the output, because the output is categorical i.e., “short term”, “medium term” and “long term”. This sigmoid function computes the probability of occurrence of each label per observation, that ranges from 0 through 1. The predicted label from various observations is the one which has maximum output probability and is assigned as 1, keeping other labels as 0. To enhance global optimality, stochastic gradient descent “sgd” <span class="citation" data-cites="18qUzPHri">[<a href="#ref-18qUzPHri" role="doc-biblioref">6</a>]</span> was also tried as the learning rate function in the model development.
+Additionally, the activation function between hidden layers was set to ReLU <span class="citation" data-cites="JdHhha9B">[<a href="#ref-JdHhha9B" role="doc-biblioref">5</a>]</span>, since the input data were mainly numerical data that is continuous in space. However, the sigmoid <span class="citation" data-cites="b0s6U0Y7">[<a href="#ref-b0s6U0Y7" role="doc-biblioref">6</a>]</span> activation function was used between the last hidden layer and the output, because the output is categorical i.e., “short term”, “medium term” and “long term”. This sigmoid function computes the probability of occurrence of each label per observation, that ranges from 0 through 1. The predicted label from various observations is the one which has maximum output probability and is assigned as 1, keeping other labels as 0. To enhance global optimality, stochastic gradient descent “sgd” <span class="citation" data-cites="18qUzPHri">[<a href="#ref-18qUzPHri" role="doc-biblioref">7</a>]</span> was also tried as the learning rate function in the model development.
 </p>
 <p><span class="semibold">3.3 Results</span></p>
 <p align="justify">
-Having completed the model preparation and training, the open-source Sklearn <span class="citation" data-cites="gqPedYqI">[<a href="#ref-gqPedYqI" role="doc-biblioref">7</a>]</span> package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and also plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.
+Having completed the model preparation and training, the open-source Sklearn <span class="citation" data-cites="gqPedYqI">[<a href="#ref-gqPedYqI" role="doc-biblioref">8</a>]</span> package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and also plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.
 </p>
 <p align="center">
 <img src="images/Figure%201.png" title="fig:" />
@@ -330,30 +330,20 @@ Having completed the model preparation and training, the open-source Sklearn <sp
 <p align="center">
 <img src="images/Figure%202.png" title="fig:" />
 </p>
+<em>Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em>
 <p align="justify">
-Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively.
+__Output:__87% accuracy was obtained on the training data, with a loss of about 0.3
 </p>
-<p align="justify">
-87% accuracy was obtained on the training data, with a loss of about 0.3
-</p>
-<span class="semibold">Test metrics:</span>
-<p align="justify">
-Precision: 0.35, 0.66, and 0.26 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”
-</p>
-<p align="justify">
-Recall: 0.22, 0.72, 0.19, for labels 1, 2, and 3 respectively
-</p>
-<p align="justify">
-Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 and 3 respectively
-</p>
+<p><span class="semibold">Test metrics:</span>
+|Precision|0.35, 0.66, and 0.26 for short term, medium term and long term respectively|
+|Recall|0.22, 0.72, 0.19, for short term, medium term and long term respectively|
+|Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|</p>
 <p align="center">
 <img src="images/Figure%203.png" title="fig:" />
 </p>
+<p><em>Fig 3. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></p>
 <p align="justify">
-Fig 3. Confusion matrix for case 2 test dataset (i.e., case 1 dataset in PCA coordinate frame), with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively.
-</p>
-<p align="justify">
-68% accuracy was obtained on the training data, with a loss of about 0.7
+__Output:__68% accuracy was obtained on the training data, with a loss of about 0.7
 </p>
 <span class="semibold">Test metrics:</span>
 <p align="justify">
@@ -368,8 +358,9 @@ Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 a
 <p align="center">
 <img src="images/Figure%204.png" title="fig:" />
 </p>
+<em>Fig 4. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em>
 <p align="justify">
-Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 68% accuracy was obtained on the training data, with a loss of about 0.7
+__Output:__68% accuracy was obtained on the training data, with a loss of about 0.7
 </p>
 <span class="semibold">Test metrics:</span>
 <p align="justify">
@@ -384,17 +375,16 @@ Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 a
 <p align="center">
 <img src="images/Figure%205.png" title="fig:" />
 </p>
+<em>Fig 5. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively</em>
 <p align="justify">
-Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively. 65% accuracy was obtained on the training data, with a loss of about 0.9
-</p>
-<p align="justify">
-The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.
+__Output:__65% accuracy was obtained on the training data, with a loss of about 0.9.The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset
 </p>
 <p align="center">
 <img src="images/Figure%206.png" title="fig:" />
 </p>
+<em>Fig 6. Confusion matrix for case 3 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em>
 <p align="justify">
-Confusion matrix for case 3 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 78% accuracy was obtained on the training data, with a loss of about 0.5
+__Output:__78% accuracy was obtained on the training data, with a loss of about 0.5
 </p>
 <span class="semibold">Test metrics:</span>
 <p align="justify">
@@ -443,14 +433,17 @@ Finally, the key lesson learnt is that the developed model is as good as the dat
 <div id="ref-vhATYuuJ" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">4. </div><div class="csl-right-inline"><strong>Part 07 - Constructing a Multi-Class Classifier Using Neural Network with Python (Tensorflow Keras)</strong> <a href="https://www.youtube.com/watch?v=2WdPdE2hq78">https://www.youtube.com/watch?v=2WdPdE2hq78</a></div>
 </div>
+<div id="ref-JdHhha9B" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>A Gentle Introduction to the Rectified Linear Unit (ReLU)</strong> <div class="csl-block">Jason Brownlee</div> <em>MachineLearningMastery.com</em> (2019-01-08) <a href="https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/">https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/</a></div>
+</div>
 <div id="ref-b0s6U0Y7" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">5. </div><div class="csl-right-inline"><strong>A Gentle Introduction To Sigmoid Function</strong> <div class="csl-block">Mehreen Saeed</div> <em>MachineLearningMastery.com</em> (2021-08-24) <a href="https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/">https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/</a></div>
+<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>A Gentle Introduction To Sigmoid Function</strong> <div class="csl-block">Mehreen Saeed</div> <em>MachineLearningMastery.com</em> (2021-08-24) <a href="https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/">https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/</a></div>
 </div>
 <div id="ref-18qUzPHri" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">6. </div><div class="csl-right-inline"><strong>Stochastic Gradient Descent — Clearly Explained !!</strong> <div class="csl-block">Aishwarya V Srinivasan</div> <em>Medium</em> (2019-09-07) <a href="https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31">https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31</a></div>
+<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>Stochastic Gradient Descent — Clearly Explained !!</strong> <div class="csl-block">Aishwarya V Srinivasan</div> <em>Medium</em> (2019-09-07) <a href="https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31">https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31</a></div>
 </div>
 <div id="ref-gqPedYqI" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>sklearn.metrics.confusion_matrix</strong> <div class="csl-block">scikit-learn</div> <a href="https://scikit-learn/stable/modules/generated/sklearn.metrics.confusion_matrix.html">https://scikit-learn/stable/modules/generated/sklearn.metrics.confusion_matrix.html</a></div>
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>sklearn.metrics.confusion_matrix</strong> <div class="csl-block">scikit-learn</div> <a href="https://scikit-learn/stable/modules/generated/sklearn.metrics.confusion_matrix.html">https://scikit-learn/stable/modules/generated/sklearn.metrics.confusion_matrix.html</a></div>
 </div>
 </div>
 <!-- default theme -->

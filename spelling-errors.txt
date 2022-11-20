@@ -1,6 +1,6 @@
 AIAA
 Amin
-amirthavarshini
+Amirthavarshini
 APIs
 boxplots
 Briceno
@@ -10,10 +10,10 @@ Choi
 Combinatorics
 CSV
 DASC
-dataset
+Dataset
 dataset’s
 datasets
-dimensionality
+Dimensionality
 DNN
 durations
 EDA
@@ -41,7 +41,7 @@ Ramnath
 realised
 ReLU
 sgd
-Sigmoid
+sigmoid
 Sklearn
 Sobhan
 Softmax

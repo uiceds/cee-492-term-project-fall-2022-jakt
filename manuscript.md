@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d685895747f83b1ad28aafb91c900e93e42313bd/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d685895747f83b1ad28aafb91c900e93e42313bd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d685895747f83b1ad28aafb91c900e93e42313bd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02b21d7c0571c8f2823a8ab06b94a5c3fab6d660/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02b21d7c0571c8f2823a8ab06b94a5c3fab6d660/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02b21d7c0571c8f2823a8ab06b94a5c3fab6d660/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d685895747f83b1ad28aafb91c900e93e42313bd/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/02b21d7c0571c8f2823a8ab06b94a5c3fab6d660/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@d685895](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/d685895747f83b1ad28aafb91c900e93e42313bd)
+from [uiceds/cee-492-term-project-fall-2022-jakt@02b21d7](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/02b21d7c0571c8f2823a8ab06b94a5c3fab6d660)
 on November 20, 2022.
 </em></small>
 
@@ -240,31 +240,29 @@ on November 20, 2022.
 
 <p align="justify">As inputs, Temperature, Wind chill, Humidity, Pressure, Visibility, Wind speed, Precipitation, and Distance are the features used to train the model, the input size is eight. The labels from the dataset (i.e., the dependent variable which is the project duration class) is represented in the one-hot [@{https://analyticsindiamag.com/when-to-use-one-hot-encoding-in-deep-learning/}] format. To get the intended predictions, three hidden layers with five neurons each were initially defined. However, the final architecture included seven hidden layers as the initial three hidden layers resulted in 65% training accuracy, which was considered suboptimal. Therefore, in addition to input, and hidden layers, parameters like learning rate – the “Adams learning rate” [@{https://keras.io/guides/sequential_model/}] – a regularization factor that varied from 1e-3 to 1e-6, an epoch (number of steps of gradient descent) of 500, and a batch size of 10, were defined to complete the process of building and training the neural network. These parameters were chosen based on recommendations by [@{https://www.youtube.com/watch?v=2WdPdE2hq78}].</p>
 
-<p align="justify">Additionally, the activation function between hidden layers was set to ReLU [@{https://machinelearningmastery.com rectified-linear-activation-function-for-deep-learning-neural-networks/}], since the input data were mainly numerical data that is continuous in space. However, the sigmoid [@{https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/}] activation function was used between the last hidden layer and the output, because the output is categorical i.e., “short term”, “medium term” and “long term”. This sigmoid function computes the probability of occurrence of each label per observation, that ranges from 0 through 1. The predicted label from various observations is the one which has maximum output probability and is assigned as 1, keeping other labels as 0. To enhance global optimality, stochastic gradient descent “sgd” [@{https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31}] was also tried as the learning rate function in the model development.</p>
+<p align="justify">Additionally, the activation function between hidden layers was set to ReLU [@{https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/}], since the input data were mainly numerical data that is continuous in space. However, the sigmoid [@{https://machinelearningmastery.com/a-gentle-introduction-to-sigmoid-function/}] activation function was used between the last hidden layer and the output, because the output is categorical i.e., “short term”, “medium term” and “long term”. This sigmoid function computes the probability of occurrence of each label per observation, that ranges from 0 through 1. The predicted label from various observations is the one which has maximum output probability and is assigned as 1, keeping other labels as 0. To enhance global optimality, stochastic gradient descent “sgd” [@{https://towardsdatascience.com/stochastic-gradient-descent-clearly-explained-53d239905d31}] was also tried as the learning rate function in the model development.</p>
 
 [3.3 Results]{.semibold}
 
  <p align="justify">Having completed the model preparation and training, the open-source Sklearn [@{https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html}] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and also plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.</p>
-
- 
 
 <p align="center">![](images/Figure 1.png)</p>
 _Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively_
 <p align="justify">__Output:__ 65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.</p>
 
 <p align="center">![](images/Figure 2.png)</p>
-<p align="justify">Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively.</p> 
-<p align="justify">87% accuracy was obtained on the training data, with a loss of about 0.3</p>
+_Fig 2. Confusion matrix for case 1 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively_
+<p align="justify">__Output:__87% accuracy was obtained on the training data, with a loss of about 0.3</p>
 
 [Test metrics:]{.semibold}
-<p align="justify">Precision: 0.35, 0.66, and 0.26 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
-<p align="justify">Recall:  0.22, 0.72, 0.19, for labels 1, 2, and 3 respectively</p>
-<p align="justify">Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 and 3 respectively</p>
+|Precision|0.35, 0.66, and 0.26 for short term, medium term and long term respectively|
+|Recall|0.22, 0.72, 0.19, for short term, medium term and long term respectively|
+|Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
 <p align="center">![](images/Figure 3.png)</p>
-<p align="justify">Fig 3. Confusion matrix for case 2 test dataset (i.e., case 1 dataset  in PCA coordinate frame), with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively.</p> 
+_Fig 3. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_
 
-<p align="justify">68% accuracy was obtained on the training data, with a loss of about 0.7</p>
+<p align="justify">__Output:__68% accuracy was obtained on the training data, with a loss of about 0.7</p>
 
 [Test metrics:]{.semibold}
 <p align="justify">Precision: 0.34, 0.66, and 0.36 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
@@ -272,7 +270,8 @@ _Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64,
 <p align="justify">Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 and 3 respectively</p>
 
 <p align="center">![](images/Figure 4.png)</p>
-<p align="justify">Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
+_Fig 4. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_ 
+<p align="justify">__Output:__68% accuracy was obtained on the training data, with a loss of about 0.7</p>
 
 [Test metrics:]{.semibold}
 <p align="justify">Precision: 0.52, 0.67, and 0.58 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
@@ -280,12 +279,12 @@ _Fig 1. Confusion matrix for case 1 test dataset with 3 hidden layers of 32, 64,
 <p align="justify">Proportion of each class in original dataset: 25%, 65% and 0.1% for label 1, 2 and 3 respectively</p>
 
 <p align="center">![](images/Figure 5.png)</p>
-<p align="justify">Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively. 65% accuracy was obtained on the training data, with a loss of about   0.9</p>
-
-<p align="justify">The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.</p>
+_Fig 5. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively_
+<p align="justify">__Output:__65% accuracy was obtained on the training data, with a loss of about 0.9.The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset</p>
 
 <p align="center">![](images/Figure 6.png)</p>
-<p align="justify">Confusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively. 78% accuracy was obtained on the training data, with a loss of about 0.5</p>
+_Fig 6. Confusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively_
+<p align="justify">__Output:__78% accuracy was obtained on the training data, with a loss of about 0.5</p>
 
 [Test metrics:]{.semibold}
 <p align="justify">Precision: 0.41, 0.30, and 0.45 for label 1, 2 and 3 respectively i.e., “short term”, “medium term” and “long term”</p>
