@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/625ca69a5e489daddba297a24aac1b527b03c307/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/625ca69a5e489daddba297a24aac1b527b03c307/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/625ca69a5e489daddba297a24aac1b527b03c307/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d3825eced5960eb578ca0457245b83c1e0171016/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/625ca69a5e489daddba297a24aac1b527b03c307/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@d3825ec](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/d3825eced5960eb578ca0457245b83c1e0171016)
+from [uiceds/cee-492-term-project-fall-2022-jakt@625ca69](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/625ca69a5e489daddba297a24aac1b527b03c307)
 on November 20, 2022.
 </em></small>
 
@@ -314,9 +314,7 @@ on November 20, 2022.
 
 [2] Y. J. Kim, S. Choi, S. Briceno and D. Mavris, "A deep learning approach to flight delay prediction," 2016 IEEE/AIAA 35th Digital Avionics Systems Conference (DASC), 2016, pp. 1-6, doi: 10.1109/DASC.2016.7778092.
 
-[@{https://greenelab.github.io/meta-review/}]
-
-[3] Keras sequential model, Tensorflow: [@{https://keras.io/guides/sequential_model/}]
+[3] Keras sequential model, Tensorflow: https://keras.io/guides/sequential_model/
 
 [4] Understanding Categorical Cross-Entropy Loss, Binary Cross-Entropy Loss, Softmax Loss, Logistic Loss, Focal loss, and all those confusing names: https://gombru.github.io/2018/05/23/cross_entropy_loss/
 

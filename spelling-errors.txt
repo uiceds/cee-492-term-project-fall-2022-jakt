@@ -42,7 +42,7 @@ Ramnath
 realised
 ReLU
 sgd
-Sigmoid
+sigmoid
 Sklearn
 Sobhan
 Softmax
