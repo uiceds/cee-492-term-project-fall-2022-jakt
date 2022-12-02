@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/gh-pages) branch hosts the contents of this directory at <https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/>.
-The permalink for this webpage version is <https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/fef03d682d2810bab3ea1a4d7123deedfbe1bf6b/>.
+The permalink for this webpage version is <https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6009827393e2289c1359e48f07e0a14c665071ac/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`fef03d682d2810bab3ea1a4d7123deedfbe1bf6b`](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/commit/fef03d682d2810bab3ea1a4d7123deedfbe1bf6b).
+[`6009827393e2289c1359e48f07e0a14c665071ac`](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/commit/6009827393e2289c1359e48f07e0a14c665071ac).
