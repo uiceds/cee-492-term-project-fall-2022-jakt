@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6cfc9c2e9dad9134a917c87850c5e6e383728d7c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6cfc9c2e9dad9134a917c87850c5e6e383728d7c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6cfc9c2e9dad9134a917c87850c5e6e383728d7c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cbe938909b64c8bdc8738e72367560b350c01a85/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cbe938909b64c8bdc8738e72367560b350c01a85/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cbe938909b64c8bdc8738e72367560b350c01a85/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6cfc9c2e9dad9134a917c87850c5e6e383728d7c/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cbe938909b64c8bdc8738e72367560b350c01a85/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@6cfc9c2](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/6cfc9c2e9dad9134a917c87850c5e6e383728d7c)
+from [uiceds/cee-492-term-project-fall-2022-jakt@cbe9389](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/cbe938909b64c8bdc8738e72367560b350c01a85)
 on December 2, 2022.
 </em></small>
 
@@ -193,6 +193,9 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 <p align="justify">PCA is performed to get a concise dataset representation, improve the model accuracy, and transform the data set. This analysis captured 97% of the variance in the original dataset with just two principal components, which is a good representation of the original data. Furthermore, it dramatically reduced the number of features to two, hinting at a strong possibility of a classification model.Outlier analysis too is done to identify outliers in the PCA coordinate frames for tuning and feature selection. These scatter plots with the outlier detection analysis are presented in the appendices for better understanding. A quick overview makes one feel that the first two principal components would be sufficient for the classification task. However, this is not the case. The plots in Fig. 17 in the appendix reveal that the 4th, 5th, 6th, 7th, and 8th PCA coordinate frames, too, offer significant promise for the project goal. Fig. 17 and Fig. 18 of the appendix showcase that cuts can be readily made to develop robust decision trees based on the Gini-impurity algorithm [9], or a Deep Neural Network could be easily employed.</p> 
 
 
+
+
+
 **__3.0. Model Development and Evaluation__**
 
 [3.1 Datasets for model development]{.semibold}
@@ -245,11 +248,11 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 
 ![](images/Figure 5.png){.center}
 [[*Fig 12. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively*]{.center}]{.semibold}
-<p align="justify">__Outcome:__ 65% accuracy was obtained on the training data, with a loss of about 0.9.The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset</p>
+<p align="justify">__Outcome from Fig. 12:__ 65% accuracy was obtained on the training data, with a loss of about 0.9.The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset</p>
 
 ![](images/Figure 6.png){.center}
 [[*Fig 13. Confusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively*]{.center}]{.semibold}
-<p align="justify">__Outcome:__ 78% accuracy was obtained on the training data, with a loss of about 0.5</p>
+<p align="justify">__Outcome from Fig. 13:__ 78% accuracy was obtained on the training data, with a loss of about 0.5</p>
 
 |Prediction Matrix|Description|
 |:----------------------|:-------------------------------------|
@@ -299,7 +302,9 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 
 [17]	sklearn.metrics.confusion_matrix: https://scikit-learn/stable/modules/generated/sklearn.metrics.confusion_matrix.html
 
-[Appendix:]{.semibold}
+
+
+**__Appendix__**
 
 ![](images/Fig 14.png){.center}
 [[*Fig. 14: Summary of the cleaned dataset*]{.center}]{.semibold}
@@ -319,5 +324,5 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 ![](images/Figu 19.jpg){.center}
 [[*Fig. 19: Confusion matrix plots from R for case 2 test dataset, with 1  hidden layer of  32 neurons respectively*]{.center}]{.semibold}
 
-![](images/Figu 20.jpg){.center}
+![](images/Fig 20.jpg){.center}
 [[*Fig. 20: Confusion matrix plots from R for case 2 validation dataset with 1 hidden layer of 32 neurons respectively*]{.center}]{.semibold}
