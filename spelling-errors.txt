@@ -10,7 +10,7 @@ Combinatorics
 CSV
 dataset
 dataset’s
-Datasets
+datasets
 dimensionality
 DNN
 durations
@@ -36,7 +36,7 @@ Rajiv
 Ramnath
 ReLU
 sgd
-Sigmoid
+sigmoid
 Sklearn
 Sobhan
 Softmax
