@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cbe938909b64c8bdc8738e72367560b350c01a85/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cbe938909b64c8bdc8738e72367560b350c01a85/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cbe938909b64c8bdc8738e72367560b350c01a85/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6577f1f100f5d4ab5aff3370d64ac33b959ee5bf/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6577f1f100f5d4ab5aff3370d64ac33b959ee5bf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6577f1f100f5d4ab5aff3370d64ac33b959ee5bf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/cbe938909b64c8bdc8738e72367560b350c01a85/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6577f1f100f5d4ab5aff3370d64ac33b959ee5bf/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@cbe9389](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/cbe938909b64c8bdc8738e72367560b350c01a85)
+from [uiceds/cee-492-term-project-fall-2022-jakt@6577f1f](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/6577f1f100f5d4ab5aff3370d64ac33b959ee5bf)
 on December 2, 2022.
 </em></small>
 
@@ -304,7 +304,10 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 
 
 
+
+
 **__Appendix__**
+
 
 ![](images/Fig 14.png){.center}
 [[*Fig. 14: Summary of the cleaned dataset*]{.center}]{.semibold}
@@ -324,5 +327,5 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 ![](images/Figu 19.jpg){.center}
 [[*Fig. 19: Confusion matrix plots from R for case 2 test dataset, with 1  hidden layer of  32 neurons respectively*]{.center}]{.semibold}
 
-![](images/Fig 20.jpg){.center}
+![](images/Figure  20.jpg){.center}
 [[*Fig. 20: Confusion matrix plots from R for case 2 validation dataset with 1 hidden layer of 32 neurons respectively*]{.center}]{.semibold}
