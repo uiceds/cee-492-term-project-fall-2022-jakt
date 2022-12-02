@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6cfc9c2e9dad9134a917c87850c5e6e383728d7c/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6cfc9c2e9dad9134a917c87850c5e6e383728d7c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6cfc9c2e9dad9134a917c87850c5e6e383728d7c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/6cfc9c2e9dad9134a917c87850c5e6e383728d7c/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@3f4beff](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/3f4beffa2d6fbc6d1578fb9efab47b0917af4873)
+from [uiceds/cee-492-term-project-fall-2022-jakt@6cfc9c2](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/6cfc9c2e9dad9134a917c87850c5e6e383728d7c)
 on December 2, 2022.
 </em></small>
 
@@ -192,6 +192,7 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 
 <p align="justify">PCA is performed to get a concise dataset representation, improve the model accuracy, and transform the data set. This analysis captured 97% of the variance in the original dataset with just two principal components, which is a good representation of the original data. Furthermore, it dramatically reduced the number of features to two, hinting at a strong possibility of a classification model.Outlier analysis too is done to identify outliers in the PCA coordinate frames for tuning and feature selection. These scatter plots with the outlier detection analysis are presented in the appendices for better understanding. A quick overview makes one feel that the first two principal components would be sufficient for the classification task. However, this is not the case. The plots in Fig. 17 in the appendix reveal that the 4th, 5th, 6th, 7th, and 8th PCA coordinate frames, too, offer significant promise for the project goal. Fig. 17 and Fig. 18 of the appendix showcase that cuts can be readily made to develop robust decision trees based on the Gini-impurity algorithm [9], or a Deep Neural Network could be easily employed.</p> 
 
+
 **__3.0. Model Development and Evaluation__**
 
 [3.1 Datasets for model development]{.semibold}
@@ -309,14 +310,14 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 ![](images/Fig 16.png){.center}
 [[*Fig. 16: Data set after adding project duration classification*]{.center}]{.semibold}
 
-![](images/Figu 17.png){.center}
+![](images/Figu 17.jpg){.center}
 [[*Fig. 17: Transformed data in PCA coordinate frame*]{.center}]{.semibold}
 
-![](images/Figu 18.png){.center}
+![](images/Figu 18.jpg){.center}
 [[*Fig. 18: Boxplots of transformed data in PCA coordinate frame*]{.center}]{.semibold}
 
-![](images/Figu 19.png){.center}
+![](images/Figu 19.jpg){.center}
 [[*Fig. 19: Confusion matrix plots from R for case 2 test dataset, with 1  hidden layer of  32 neurons respectively*]{.center}]{.semibold}
 
-![](images/Figu 20.png){.center}
+![](images/Figu 20.jpg){.center}
 [[*Fig. 20: Confusion matrix plots from R for case 2 validation dataset with 1 hidden layer of 32 neurons respectively*]{.center}]{.semibold}
