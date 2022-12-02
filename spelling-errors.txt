@@ -10,8 +10,8 @@ Combinatorics
 CSV
 dataset
 dataset’s
-datasets
-dimensionality
+Datasets
+Dimensionality
 DNN
 durations
 EDA
