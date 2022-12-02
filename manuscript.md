@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/fb224e0a866a35088a99d3fc85fdbcd870ba2a15/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/fb224e0a866a35088a99d3fc85fdbcd870ba2a15/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/fb224e0a866a35088a99d3fc85fdbcd870ba2a15/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/70edffb3cbc33ddf5efc670a97144fb3d89fd13a/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/70edffb3cbc33ddf5efc670a97144fb3d89fd13a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/70edffb3cbc33ddf5efc670a97144fb3d89fd13a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/fb224e0a866a35088a99d3fc85fdbcd870ba2a15/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/70edffb3cbc33ddf5efc670a97144fb3d89fd13a/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@fb224e0](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/fb224e0a866a35088a99d3fc85fdbcd870ba2a15)
+from [uiceds/cee-492-term-project-fall-2022-jakt@70edffb](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/70edffb3cbc33ddf5efc670a97144fb3d89fd13a)
 on December 2, 2022.
 </em></small>
 
@@ -167,7 +167,7 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 <p align="justify">The resulting dataset, as presented in Fig. 16 of the appendix, is processed to reveal critical features. A rough guess is that the features quantifying environmental conditions like temperature, wind chill, pressure, and humidity together with the road construction span affect the project duration as there is a considerable spread in their histogram distributions. It is assumed that the recorded values of these environmental features are an average over the entire project duration. Thus, given the average environmental conditions and the span of road construction, the developed model is expected to predict the class of the project's completion time as short, medium, or long-term. Table 2 below shows the summary of features selected for the predictive model.</p>
 
 [![](images/Fig 1.png)]{.center}
-[*Fig. 1: Histogram plots showing spread of Temperature, Wind Chill, Pressure and Humidity in the selected dataset*]{.semibold}{.center}
+[[*Fig. 1: Histogram plots showing spread of Temperature, Wind Chill, Pressure and Humidity in the selected dataset*]{.center}]{.semibold}
 
 [Table 2: Extracted features for performing EDA]{.semibold}
 ![](images/Table 2.png)
@@ -208,12 +208,21 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 
 [3.3 Results]{.semibold}
 
- <p align="justify">Having completed the model preparation and training, the open-source Sklearn [17] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.</p>
+<p align="justify">Having completed the model preparation and training, the open-source Sklearn [17] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.</p>
 
-|:----------------------|
-|![](images/Fig 8.png)|
-|*Fig 8. Confusion matrix for case 1 test dataset, with 3 hidden layers of 32, 64, and 128 neurons respectively*|
-|<p align="justify">65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.</p>|
+<p align="center">![](images/Figure 1.png)</p>
+[_Fig 1. Confusion matrix for case 1 test dataset, with 3 hidden layers of 32, 64, and 128 neurons respectively_]{.center}
+<p align="justify">__Outcome:__ 65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.</p>
+
+<p align="center">![](images/Figure 2.png)</p>
+[_Fig 3. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_]{.center}
+<p align="justify">__Outcome:__ 87% accuracy was obtained on the training data</p>
+
+|Prediction Matrix|Description|
+|:----------------------|:-------------------------------------|
+|Precision|0.35, 0.66, and 0.26 for short term, medium term and long term respectively|
+|Recall|0.22, 0.72, 0.19, for short term, medium term and long term respectively|
+|Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
 <p align="center">![](images/Figure 3.png)</p>
 [_Fig 3. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_]{.center}
@@ -222,8 +231,6 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 |Prediction Matrix|Description|
 |:----------------------|:-------------------------------------|
 |Precision|0.34, 0.66, and 0.36 for short term, medium term and long term respectively|
-|Recall|0.06, 0.95, 0.06, for short term, medium term and long term respectively|
-|Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
 <p align="center">![](images/Figure 4.png)</p>
 [_Fig 4. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_]{.center} 
