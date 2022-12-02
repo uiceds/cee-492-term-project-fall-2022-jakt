@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/60e5c498bc36cc077c08a9f469a8c72b6df6f554/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/60e5c498bc36cc077c08a9f469a8c72b6df6f554/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/60e5c498bc36cc077c08a9f469a8c72b6df6f554/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/60e5c498bc36cc077c08a9f469a8c72b6df6f554/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@60e5c49](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/60e5c498bc36cc077c08a9f469a8c72b6df6f554)
+from [uiceds/cee-492-term-project-fall-2022-jakt@3f4beff](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/3f4beffa2d6fbc6d1578fb9efab47b0917af4873)
 on December 2, 2022.
 </em></small>
 
@@ -169,8 +169,8 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 [![](images/Fig 1.png)]{.center}
 [[*Fig. 1: Histogram plots showing spread of Temperature, Wind Chill, Pressure and Humidity in the selected dataset*]{.center}]{.semibold}
 
-[Table 2: Extracted features for performing EDA]{.semibold}
-![](images/Table 2.png)
+[[Table 2: Extracted features for performing EDA]{.center}]{.semibold}
+![](images/Table 2.png){.center}
 
 [2.2.1 Feature detection and EDA]{.semibold} 
 
@@ -210,13 +210,13 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 
 <p align="justify">Having completed the model preparation and training, the open-source Sklearn [17] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.</p>
 
-<p align="center">![](images/Figure 1.png)</p>
-[_Fig 8. Confusion matrix for case 1 test dataset, with 3 hidden layers of 32, 64, and 128 neurons respectively_]{.center}
-<p align="justify">__Outcome:__ 65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.</p>
+![](images/Figure 1.png){.center}
+[[*Fig. 8. Confusion matrix for case 1 test dataset, with 3 hidden layers of 32, 64, and 128 neurons respectively*]{.center}]{.semibold}
+<p align="justify">__Outcome from Fig. 8:__ 65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.</p>
 
-<p align="center">![](images/Figure 2.png)</p>
-[_Fig 9. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_]{.center}
-<p align="justify">__Outcome:__ 87% accuracy was obtained on the training data</p>
+![](images/Figure 2.png){.center}
+[[*Fig. 9. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively*]{.center}]{.semibold}
+<p align="justify">__Outcome from Fig. 9:__ 87% accuracy was obtained on the training data</p>
 
 |Prediction Matrix|Description|
 |:----------------------|:-------------------------------------|
@@ -224,17 +224,17 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 |Recall|0.22, 0.72, 0.19, for short term, medium term and long term respectively|
 |Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
-<p align="center">![](images/Figure 3.png)</p>
-[_Fig 10. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_]{.center}
-<p align="justify">__Outcome:__ 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
+![](images/Figure 3.png){.center}
+[[*Fig 10. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively*]{.center}]{.semibold}
+<p align="justify">__Outcome from Fig. 10:__ 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
 
 |Prediction Matrix|Description|
 |:----------------------|:-------------------------------------|
 |Precision|0.34, 0.66, and 0.36 for short term, medium term and long term respectively|
 
-<p align="center">![](images/Figure 4.png)</p>
-[_Fig 11. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively_]{.center} 
-<p align="justify">__Outcome:__ 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
+[![](images/Figure 4.png){.center}
+[*Fig 11. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively*]{.center}]{.semibold} 
+<p align="justify">__Outcome from Fig. 11:__ 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
 
 |Prediction Matrix|Description|
 |:----------------------|:-------------------------------------|
@@ -242,12 +242,12 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 |Recall|0.08, 0.96, 0.11, for short term, medium term and long term respectively|
 |Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
-<p align="center">![](images/Figure 5.png)</p>
-[_Fig 12. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively_]{.center}
+![](images/Figure 5.png){.center}
+[[*Fig 12. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively*]{.center}]{.semibold}
 <p align="justify">__Outcome:__ 65% accuracy was obtained on the training data, with a loss of about 0.9.The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset</p>
 
-<p align="center">![](images/Figure 6.png)</p>
-[_Fig 13. Confusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively_]{.center}
+![](images/Figure 6.png){.center}
+[[*Fig 13. Confusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively*]{.center}]{.semibold}
 <p align="justify">__Outcome:__ 78% accuracy was obtained on the training data, with a loss of about 0.5</p>
 
 |Prediction Matrix|Description|
@@ -309,14 +309,14 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 ![](images/Fig 16.png){.center}
 [[*Fig. 16: Data set after adding project duration classification*]{.center}]{.semibold}
 
-![](images/Fig 17.png){.center}
+![](images/Figu 17.png){.center}
 [[*Fig. 17: Transformed data in PCA coordinate frame*]{.center}]{.semibold}
 
-![](images/Fig 18.png){.center}
+![](images/Figu 18.png){.center}
 [[*Fig. 18: Boxplots of transformed data in PCA coordinate frame*]{.center}]{.semibold}
 
-![](images/Fig 19.png){.center}
+![](images/Figu 19.png){.center}
 [[*Fig. 19: Confusion matrix plots from R for case 2 test dataset, with 1  hidden layer of  32 neurons respectively*]{.center}]{.semibold}
 
-![](images/Fig 20.png){.center}
+![](images/Figu 20.png){.center}
 [[*Fig. 20: Confusion matrix plots from R for case 2 validation dataset with 1 hidden layer of 32 neurons respectively*]{.center}]{.semibold}

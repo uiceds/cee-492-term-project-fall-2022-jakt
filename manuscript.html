@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/60e5c498bc36cc077c08a9f469a8c72b6df6f554/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/60e5c498bc36cc077c08a9f469a8c72b6df6f554/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/60e5c498bc36cc077c08a9f469a8c72b6df6f554/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/60e5c498bc36cc077c08a9f469a8c72b6df6f554/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/3f4beffa2d6fbc6d1578fb9efab47b0917af4873/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/60e5c498bc36cc077c08a9f469a8c72b6df6f554">uiceds/cee-492-term-project-fall-2022-jakt@60e5c49</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/3f4beffa2d6fbc6d1578fb9efab47b0917af4873">uiceds/cee-492-term-project-fall-2022-jakt@3f4beff</a>
 on December 2, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -236,8 +236,8 @@ The resulting dataset, as presented in Fig. 16 of the appendix, is processed to 
 </p>
 <p><span class="center"><img src="images/Fig%201.png" /></span>
 <span class="semibold"><span class="center"><em>Fig. 1: Histogram plots showing spread of Temperature, Wind Chill, Pressure and Humidity in the selected dataset</em></span></span></p>
-<p><span class="semibold">Table 2: Extracted features for performing EDA</span>
-<img src="images/Table%202.png" /></p>
+<p><span class="semibold"><span class="center">Table 2: Extracted features for performing EDA</span></span>
+<img src="images/Table%202.png" class="center" /></p>
 <p><span class="semibold">2.2.1 Feature detection and EDA</span></p>
 <p align="justify">
 The data presented in Table 2 is a dataset that is easier for all the subsequent working. It currently comprises eight independent features, with project duration as the dependent feature. An indispensable aspect of EDA is detecting multicollinearity and preventing modeling confounding. Therefore, Julia’s “Statistics” package is leveraged to compute and plot the correlation between all the independent and the dependent variables. This plot enabled the discovery of statistically related features. The figures (Fig. 2 through Fig. 5) below show the correlation plots for the selected features. The “Combinatorics” package in Julia is leveraged to create three (3) combinations of all features, including the dependent variable. A total of fifty-six (56) combinations were generated and plotted in Julia.
@@ -278,19 +278,15 @@ Additionally, the activation function between hidden layers was set to ReLU [14]
 <p align="justify">
 Having completed the model preparation and training, the open-source Sklearn [17] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.
 </p>
-<p align="center">
-<img src="images/Figure%201.png" title="fig:" />
-</p>
-<span class="center"><em>Fig 8. Confusion matrix for case 1 test dataset, with 3 hidden layers of 32, 64, and 128 neurons respectively</em></span>
+<img src="images/Figure%201.png" class="center" />
+<span class="semibold"><span class="center"><em>Fig. 8. Confusion matrix for case 1 test dataset, with 3 hidden layers of 32, 64, and 128 neurons respectively</em></span></span>
 <p align="justify">
-<strong>Outcome:</strong> 65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.
+<strong>Outcome from Fig. 8:</strong> 65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.
 </p>
-<p align="center">
-<img src="images/Figure%202.png" title="fig:" />
-</p>
-<span class="center"><em>Fig 9. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span>
+<img src="images/Figure%202.png" class="center" />
+<span class="semibold"><span class="center"><em>Fig. 9. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span></span>
 <p align="justify">
-<strong>Outcome:</strong> 87% accuracy was obtained on the training data
+<strong>Outcome from Fig. 9:</strong> 87% accuracy was obtained on the training data
 </p>
 <table>
 <colgroup>
@@ -318,12 +314,10 @@ Having completed the model preparation and training, the open-source Sklearn [17
 </tr>
 </tbody>
 </table>
-<p align="center">
-<img src="images/Figure%203.png" title="fig:" />
-</p>
-<span class="center"><em>Fig 10. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span>
+<img src="images/Figure%203.png" class="center" />
+<span class="semibold"><span class="center"><em>Fig 10. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span></span>
 <p align="justify">
-<strong>Outcome:</strong> 68% accuracy was obtained on the training data, with a loss of about 0.7
+<strong>Outcome from Fig. 10:</strong> 68% accuracy was obtained on the training data, with a loss of about 0.7
 </p>
 <table>
 <colgroup>
@@ -343,12 +337,10 @@ Having completed the model preparation and training, the open-source Sklearn [17
 </tr>
 </tbody>
 </table>
-<p align="center">
-<img src="images/Figure%204.png" title="fig:" />
-</p>
-<span class="center"><em>Fig 11. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span>
+<span class="semibold"><img src="images/Figure%204.png" class="center" />
+<span class="center"><em>Fig 11. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span></span>
 <p align="justify">
-<strong>Outcome:</strong> 68% accuracy was obtained on the training data, with a loss of about 0.7
+<strong>Outcome from Fig. 11:</strong> 68% accuracy was obtained on the training data, with a loss of about 0.7
 </p>
 <table>
 <colgroup>
@@ -376,17 +368,13 @@ Having completed the model preparation and training, the open-source Sklearn [17
 </tr>
 </tbody>
 </table>
-<p align="center">
-<img src="images/Figure%205.png" title="fig:" />
-</p>
-<span class="center"><em>Fig 12. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively</em></span>
+<img src="images/Figure%205.png" class="center" />
+<span class="semibold"><span class="center"><em>Fig 12. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively</em></span></span>
 <p align="justify">
 <strong>Outcome:</strong> 65% accuracy was obtained on the training data, with a loss of about 0.9.The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset
 </p>
-<p align="center">
-<img src="images/Figure%206.png" title="fig:" />
-</p>
-<span class="center"><em>Fig 13. Confusion matrix for case 3 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span>
+<img src="images/Figure%206.png" class="center" />
+<span class="semibold"><span class="center"><em>Fig 13. Confusion matrix for case 3 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span></span>
 <p align="justify">
 <strong>Outcome:</strong> 78% accuracy was obtained on the training data, with a loss of about 0.5
 </p>
@@ -448,13 +436,13 @@ For the following steps, the authors propose to explore other techniques for imp
 <span class="semibold"><span class="center"><em>Fig. 15: Figure showing data set before and after data wrangling</em></span></span></p>
 <p><img src="images/Fig%2016.png" class="center" />
 <span class="semibold"><span class="center"><em>Fig. 16: Data set after adding project duration classification</em></span></span></p>
-<p><img src="images/Fig%2017.png" class="center" />
+<p><img src="images/Figu%2017.png" class="center" />
 <span class="semibold"><span class="center"><em>Fig. 17: Transformed data in PCA coordinate frame</em></span></span></p>
-<p><img src="images/Fig%2018.png" class="center" />
+<p><img src="images/Figu%2018.png" class="center" />
 <span class="semibold"><span class="center"><em>Fig. 18: Boxplots of transformed data in PCA coordinate frame</em></span></span></p>
-<p><img src="images/Fig%2019.png" class="center" />
+<p><img src="images/Figu%2019.png" class="center" />
 <span class="semibold"><span class="center"><em>Fig. 19: Confusion matrix plots from R for case 2 test dataset, with 1 hidden layer of 32 neurons respectively</em></span></span></p>
-<p><img src="images/Fig%2020.png" class="center" />
+<p><img src="images/Figu%2020.png" class="center" />
 <span class="semibold"><span class="center"><em>Fig. 20: Confusion matrix plots from R for case 2 validation dataset with 1 hidden layer of 32 neurons respectively</em></span></span></p>
 <!-- default theme -->
 
