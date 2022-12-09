@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-02'
+date-meta: '2022-12-09'
 author-meta:
 - Amirthavarshini Muraleetharan
 - Thomas Ngare
@@ -20,8 +20,8 @@ header-includes: |-
   <meta name="citation_title" content="Predictive Modeling of Effect of Weather Conditions on Road Construction Projects in USA" />
   <meta property="og:title" content="Predictive Modeling of Effect of Weather Conditions on Road Construction Projects in USA" />
   <meta property="twitter:title" content="Predictive Modeling of Effect of Weather Conditions on Road Construction Projects in USA" />
-  <meta name="dc.date" content="2022-12-02" />
-  <meta name="citation_publication_date" content="2022-12-02" />
+  <meta name="dc.date" content="2022-12-09" />
+  <meta name="citation_publication_date" content="2022-12-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c2e8acb13671744e6be3f2f1c706cf7159734984/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c2e8acb13671744e6be3f2f1c706cf7159734984/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c2e8acb13671744e6be3f2f1c706cf7159734984/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/ab877a959aa2bca435cdc8f75efbd22b004f3c26/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/ab877a959aa2bca435cdc8f75efbd22b004f3c26/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/ab877a959aa2bca435cdc8f75efbd22b004f3c26/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/c2e8acb13671744e6be3f2f1c706cf7159734984/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/ab877a959aa2bca435cdc8f75efbd22b004f3c26/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@c2e8acb](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/c2e8acb13671744e6be3f2f1c706cf7159734984)
-on December 2, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jakt@ab877a9](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/ab877a959aa2bca435cdc8f75efbd22b004f3c26)
+on December 9, 2022.
 </em></small>
 
 ## Authors
@@ -214,11 +214,11 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 
 <p align="justify">Having completed the model preparation and training, the open-source Sklearn [17] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.</p>
 
-![](images/Figure 1.png){.center}
+![](images/P8.png){.center}
 [[*Fig. 8. Confusion matrix for case 1 test dataset, with 3 hidden layers of 32, 64, and 128 neurons respectively*]{.center}]{.semibold}
 <p align="justify">__Outcome from Fig. 8:__ 65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.</p>
 
-![](images/Figure 2.png){.center}
+![](images/P9.png){.center}
 [[*Fig. 9. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively*]{.center}]{.semibold}
 <p align="justify">__Outcome from Fig. 9:__ 87% accuracy was obtained on the training data</p>
 
@@ -228,7 +228,7 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 |Recall|0.22, 0.72, 0.19, for short term, medium term and long term respectively|
 |Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
-![](images/Figure 3.png){.center}
+![](images/P10.png){.center}
 [[*Fig 10. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively*]{.center}]{.semibold}
 <p align="justify">__Outcome from Fig. 10:__ 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
 
@@ -236,7 +236,7 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 |:----------------------|:-------------------------------------|
 |Precision|0.34, 0.66, and 0.36 for short term, medium term and long term respectively|
 
-[![](images/Figure 4.png){.center}
+[![](images/P11.png){.center}
 [*Fig 11. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively*]{.center}]{.semibold} 
 <p align="justify">__Outcome from Fig. 11:__ 68% accuracy was obtained on the training data, with a loss of about 0.7</p>
 
@@ -246,11 +246,11 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 |Recall|0.08, 0.96, 0.11, for short term, medium term and long term respectively|
 |Proportion of each class in original dataset|25%, 65% and 0.1% for short term, medium term and long term respectively|
 
-![](images/Figure 5.png){.center}
+![](images/P12.png){.center}
 [[*Fig 12. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively*]{.center}]{.semibold}
 <p align="justify">__Outcome from Fig. 12:__ 65% accuracy was obtained on the training data, with a loss of about 0.9.The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset</p>
 
-![](images/Figure 6.png){.center}
+![](images/P13.png){.center}
 [[*Fig 13. Confusion matrix for case 3 test dataset  with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively*]{.center}]{.semibold}
 <p align="justify">__Outcome from Fig. 13:__ 78% accuracy was obtained on the training data, with a loss of about 0.5</p>
 
