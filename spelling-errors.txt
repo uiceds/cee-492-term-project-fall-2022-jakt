@@ -1,5 +1,5 @@
 Amin
-amirthavarshini
+Amirthavarshini
 APIs
 arxiv
 Boxplots
@@ -10,8 +10,8 @@ Combinatorics
 CSV
 dataset
 dataset’s
-Datasets
-dimensionality
+datasets
+Dimensionality
 DNN
 durations
 EDA
