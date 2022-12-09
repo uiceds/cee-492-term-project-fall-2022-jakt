@@ -10,8 +10,8 @@ Combinatorics
 CSV
 dataset
 dataset’s
-datasets
-Dimensionality
+Datasets
+dimensionality
 DNN
 durations
 EDA
@@ -36,7 +36,7 @@ Rajiv
 Ramnath
 ReLU
 sgd
-Sigmoid
+sigmoid
 Sklearn
 Sobhan
 Softmax
