@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d4716675661c573375328e05813e58929009ca7c/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d4716675661c573375328e05813e58929009ca7c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d4716675661c573375328e05813e58929009ca7c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5ee1b28e81f4e357b3a7e6857823a57fed3899ba/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5ee1b28e81f4e357b3a7e6857823a57fed3899ba/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5ee1b28e81f4e357b3a7e6857823a57fed3899ba/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/d4716675661c573375328e05813e58929009ca7c/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/5ee1b28e81f4e357b3a7e6857823a57fed3899ba/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@d471667](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/d4716675661c573375328e05813e58929009ca7c)
+from [uiceds/cee-492-term-project-fall-2022-jakt@5ee1b28](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/5ee1b28e81f4e357b3a7e6857823a57fed3899ba)
 on December 9, 2022.
 </em></small>
 
@@ -191,11 +191,6 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 [2.3 Dimensionality Reduction]{.semibold}
 
 <p align="justify">PCA is performed to get a concise dataset representation, improve the model accuracy, and transform the data set. This analysis captured 97% of the variance in the original dataset with just two principal components, which is a good representation of the original data. Furthermore, it dramatically reduced the number of features to two, hinting at a strong possibility of a classification model.Outlier analysis too is done to identify outliers in the PCA coordinate frames for tuning and feature selection. These scatter plots with the outlier detection analysis are presented in the appendices for better understanding. A quick overview makes one feel that the first two principal components would be sufficient for the classification task. However, this is not the case. The plots in Fig. 17 in the appendix reveal that the 4th, 5th, 6th, 7th, and 8th PCA coordinate frames, too, offer significant promise for the project goal. Fig. 17 and Fig. 18 of the appendix showcase that cuts can be readily made to develop robust decision trees based on the Gini-impurity algorithm [9], or a Deep Neural Network could be easily employed.</p> 
-
-
-
-
-
 
 
 
