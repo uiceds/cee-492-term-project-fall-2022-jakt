@@ -53,9 +53,9 @@
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/ab877a959aa2bca435cdc8f75efbd22b004f3c26/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/ab877a959aa2bca435cdc8f75efbd22b004f3c26/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/ab877a959aa2bca435cdc8f75efbd22b004f3c26/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/92480d1e1e5006e0ec01c34945ab2f7ed7448d45/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/92480d1e1e5006e0ec01c34945ab2f7ed7448d45/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/92480d1e1e5006e0ec01c34945ab2f7ed7448d45/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +69,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/ab877a959aa2bca435cdc8f75efbd22b004f3c26/">permalink</a>)
+(<a href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/92480d1e1e5006e0ec01c34945ab2f7ed7448d45/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/ab877a959aa2bca435cdc8f75efbd22b004f3c26">uiceds/cee-492-term-project-fall-2022-jakt@ab877a9</a>
+from <a href="https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/92480d1e1e5006e0ec01c34945ab2f7ed7448d45">uiceds/cee-492-term-project-fall-2022-jakt@92480d1</a>
 on December 9, 2022.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -278,12 +278,16 @@ Additionally, the activation function between hidden layers was set to ReLU [14]
 <p align="justify">
 Having completed the model preparation and training, the open-source Sklearn [17] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.
 </p>
+<figure>
 <img src="images/P8.png" class="center" />
+</figure>
 <span class="semibold"><span class="center"><em>Fig. 8. Confusion matrix for case 1 test dataset, with 3 hidden layers of 32, 64, and 128 neurons respectively</em></span></span>
 <p align="justify">
 <strong>Outcome from Fig. 8:</strong> 65% accuracy was obtained on the training data, with a loss of about 0.6. The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset.
 </p>
+<figure>
 <img src="images/P9.png" class="center" />
+</figure>
 <span class="semibold"><span class="center"><em>Fig. 9. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span></span>
 <p align="justify">
 <strong>Outcome from Fig. 9:</strong> 87% accuracy was obtained on the training data
@@ -314,7 +318,9 @@ Having completed the model preparation and training, the open-source Sklearn [17
 </tr>
 </tbody>
 </table>
+<figure>
 <img src="images/P10.png" class="center" />
+</figure>
 <span class="semibold"><span class="center"><em>Fig 10. Confusion matrix for case 2 test dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span></span>
 <p align="justify">
 <strong>Outcome from Fig. 10:</strong> 68% accuracy was obtained on the training data, with a loss of about 0.7
@@ -337,8 +343,7 @@ Having completed the model preparation and training, the open-source Sklearn [17
 </tr>
 </tbody>
 </table>
-<span class="semibold"><img src="images/P11.png" class="center" />
-<span class="center"><em>Fig 11. Confusion matrix for case 2 validation dataset, with 7 hidden layers with 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span></span>
+<span class="semibold"><img src="images/P11.png" class="center" /></span>
 <p align="justify">
 <strong>Outcome from Fig. 11:</strong> 68% accuracy was obtained on the training data, with a loss of about 0.7
 </p>
@@ -368,12 +373,16 @@ Having completed the model preparation and training, the open-source Sklearn [17
 </tr>
 </tbody>
 </table>
+<figure>
 <img src="images/P12.png" class="center" />
+</figure>
 <span class="semibold"><span class="center"><em>Fig 12. Confusion matrix for case 3 test dataset with 3 hidden layers of 32, 64, and 128 neurons respectively</em></span></span>
 <p align="justify">
 <strong>Outcome from Fig. 12:</strong> 65% accuracy was obtained on the training data, with a loss of about 0.9.The accuracy on the training dataset was suboptimal and hence, no testing was performed on this dataset
 </p>
+<figure>
 <img src="images/P13.png" class="center" />
+</figure>
 <span class="semibold"><span class="center"><em>Fig 13. Confusion matrix for case 3 test dataset with 7 hidden layers of 32, 64, 128, 256, 128, 64 and 32 neurons respectively</em></span></span>
 <p align="justify">
 <strong>Outcome from Fig. 13:</strong> 78% accuracy was obtained on the training data, with a loss of about 0.5
