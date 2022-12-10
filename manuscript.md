@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2022-12-09'
+date-meta: '2022-12-10'
 author-meta:
 - Amirthavarshini Muraleetharan
 - Thomas Ngare
@@ -20,8 +20,8 @@ header-includes: |-
   <meta name="citation_title" content="Predictive Modeling of Effect of Weather Conditions on Road Construction Projects in USA" />
   <meta property="og:title" content="Predictive Modeling of Effect of Weather Conditions on Road Construction Projects in USA" />
   <meta property="twitter:title" content="Predictive Modeling of Effect of Weather Conditions on Road Construction Projects in USA" />
-  <meta name="dc.date" content="2022-12-09" />
-  <meta name="citation_publication_date" content="2022-12-09" />
+  <meta name="dc.date" content="2022-12-10" />
+  <meta name="citation_publication_date" content="2022-12-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -43,9 +43,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/" />
   <meta name="citation_pdf_url" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/b98d67347178f52c978876e43f4de4f04ad3a8be/" />
-  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/b98d67347178f52c978876e43f4de4f04ad3a8be/" />
-  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/b98d67347178f52c978876e43f4de4f04ad3a8be/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/2fc3c7105b21c645643d8c539d27eedaf5e47afe/" />
+  <meta name="manubot_html_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/2fc3c7105b21c645643d8c539d27eedaf5e47afe/" />
+  <meta name="manubot_pdf_url_versioned" content="https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/2fc3c7105b21c645643d8c539d27eedaf5e47afe/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +67,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/b98d67347178f52c978876e43f4de4f04ad3a8be/))
+([permalink](https://uiceds.github.io/cee-492-term-project-fall-2022-jakt/v/2fc3c7105b21c645643d8c539d27eedaf5e47afe/))
 was automatically generated
-from [uiceds/cee-492-term-project-fall-2022-jakt@b98d673](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/b98d67347178f52c978876e43f4de4f04ad3a8be)
-on December 9, 2022.
+from [uiceds/cee-492-term-project-fall-2022-jakt@2fc3c71](https://github.com/uiceds/cee-492-term-project-fall-2022-jakt/tree/2fc3c7105b21c645643d8c539d27eedaf5e47afe)
+on December 10, 2022.
 </em></small>
 
 ## Authors
@@ -205,13 +205,13 @@ This study explains how data wrangling is performed to clean, manipulate and mak
  
 [3.2 Methodology]{.semibold}
 
-<p align="justify">For the model development, a deep neural network (DNN) architecture – the sequential model from the Keras library in Tensorflow was leveraged [10]. DNN was resorted due to the high dimensionality of the feature-space and the non-existence of a physical model that relates weather conditions to road construction project duration. Hence with DNN, patterns in the data feature space would be automatically realized, weights would be generated to fit a model to the data and predict the output (project duration labels) given inputs of weather conditions (Temperature, Pressure, etc.) and road length. This sequential model accepts a single tensor of features and observations and returns a single tensor of labels for each observation as its output. Furthermore, the Keras library offers various loss functions depending on the kind of model to be built. The categorical cross-entropy loss function [11] was used for multi-class classification for this project. Python offers great flexibility and computational speed when addressing multi-class classification problems; hence it was adopted for model development. Additionally, R was also used to validate the modeling process with Python, and the results obtained agree with those of Python. The confusion matrix plots obtained from R are attached as Fig. 19 and Fig. 20 in the appendix of this report. The labels from the dataset (i.e., the dependent variable which is the project duration class) is represented in the one-hot [12] format. To get the intended predictions, three hidden layers with 32, 64 and 128 neurons respectively were initially defined. However, the final architecture included seven hidden layers as the initial three hidden layers resulted in only 65% training accuracy, which was considered suboptimal. Also, we tuned parameters like regularization, epoch (number of gradient descent steps, and batch size to enhance the process of building and training the neural network. Regularization was tuned between 1e-3 and 1e-6 for various trials, epoch was tuned to 500, and batch size was tuned to 10. These parameters were chosen based on recommendations by [13].</p>
+<p align="justify">For the model development, a deep neural network (DNN) architecture – the sequential model from the Keras library in Tensorflow was leveraged [10]. DNN was resorted due to the high dimensionality of the feature-space and the non-existence of a physical model that relates weather conditions to road construction project duration. Hence with DNN, patterns in the data feature space would be automatically realized, weights would be generated to fit a model to the data and predict the output (project duration labels) given inputs of weather conditions (Temperature, Pressure, etc.) and road length. This sequential model accepts a single tensor of features and observations and returns a single tensor of labels for each observation as its output. Furthermore, the Keras library offers various loss functions depending on the kind of model to be built. The categorical cross-entropy loss function [11] was used for multi-class classification for this project. Python offers great flexibility and computational speed when addressing multi-class classification problems; hence it was adopted for model development. Additionally, R was also used to validate the modeling process with Python, and the results obtained agreed with those of Python. The confusion matrix plots obtained from R are attached as Fig. 19 and Fig. 20 in the appendix of this report. The labels from the dataset (i.e., the dependent variable, the project duration class) are represented in the one-hot [12] format. Three hidden layers with 32, 64, and 128 neurons were initially defined to get the intended predictions. However, the final architecture included seven hidden layers, as the initial three hidden layers resulted in only 65% training accuracy, which was considered suboptimal. Also, we tuned parameters like regularization, epoch (number of gradient descent steps), and batch size to enhance the process of building and training the neural network. For instance, a regularization of 1e-3 to 1e-6 was tuned for various trials, the epoch was 500, and the batch size was 10. These parameters were chosen based on recommendations by [13].</p>
 
-<p align="justify">Additionally, the activation function between hidden layers was set to ReLU [14], since the input data were mainly numerical data that is continuous in space. However, the sigmoid [15] activation function was used between the last hidden layer and the output, because the output is categorical i.e., “short-term”, “medium-term” and “long-term”. This sigmoid function computes the probability of occurrence of each label per observation, that ranges from 0 through 1. The predicted label from various observations is the one that has maximum output probability and is assigned as 1, keeping other labels as 0. To enhance global optimality, stochastic gradient descent “sgd” [16] was also tried as the learning rate function in the model development.</p>
+<p align="justify">The activation function between hidden layers was also set to ReLU [14] since the input data were mainly continuous numerical data in space. However, the sigmoid [15] activation function was used between the last hidden layer and the output because the output is categorical, i.e., “short-term”, “medium-term”, and “long-term”. This sigmoid function computes the probability of occurrence of each label per observation, which ranges from 0 to 1. The predicted label from various observations is the one that has maximum output probability and is assigned as 1, keeping other labels as 0. As part of the model development, stochastic gradient descent "sgd" [16] was also applied as a learning rate function to enhance global optimality.</p>
 
 [3.3 Results]{.semibold}
 
-<p align="justify">Having completed the model preparation and training, the open-source Sklearn [17] package was leveraged to calculate prediction metrics like precision, recall, and f-score for each class, on the test dataset and plot confusion matrix for visualization. The confusion matrix plots and accuracy metrics after testing the models on the various test and validation datasets are presented below.</p>
+<p align="justify">Upon completing the model preparation and training, the open-source Sklearn [17] package was used to calculate prediction metrics like precision, recall, and f-score for each class on the test dataset and visualize the confusion matrix. After testing the models on the various test and validation datasets, the confusion matrix plots, and accuracy metrics are presented below.</p>
 
 ![](images/P8.png){.center}
 
@@ -267,9 +267,9 @@ This study explains how data wrangling is performed to clean, manipulate and mak
 
 **__4.0. Discussion and Recommendations__**
 
-<p align="justify">The model development could have resulted in prediction efficiency if the data was collected keeping the projects’ objective in mind. During the data wrangling stage, some observations were unrealistic as they had a very short duration for relatively long-span projects. Despite wrangling and cleaning, the assumptions evoked could not sufficiently produce the near-ideal dataset intended. Even with this challenge, the developed model performs quite well in some test cases, as seen in section 3.3. The model’s accuracy on the training data set was observed to increase with a denser neural network. For very ambitious trials, an accuracy of about 90% was obtained on training data, even though performance on testing data was far less than 60%. This phenomenon was attributed to the possible overfitting of the training data. Thus, such models were eschewed, and regularization enabled a more accurate assessment of generalizability. The developed models were validated on some portions of the original dataset, and the results are attached in the appendix.</p>
+<p align="justify">The model development could have resulted in prediction efficiency if the data was collected keeping the projects’ objective in mind. During the data wrangling stage, some observations were unrealistic as they had a very short duration for relatively long-span projects. Despite wrangling and cleaning, the assumptions evoked could not sufficiently produce the near-ideal dataset intended. Even with this challenge, the developed model performs quite well in some test cases, as seen in section 3.3. The model’s accuracy on the training data set was observed to increase with a denser neural network. For very ambitious trials, an accuracy of about 90% was obtained on training data, even though performance on testing data was far less than 60%. This phenomenon was attributed to the possible overfitting of the training data. Thus, such models were eschewed, and regularization enabled a more accurate assessment of generalizability. Some portions of the original dataset were validated using the developed models, and the results are included in the appendix.</p>
 
-<p align="justify">For the next steps, the authors propose to explore other techniques for improving the model to enhance generalizability. Since there is no consensus threshold that classifies project durations into the three labels chosen in this work, the authors believe that case 3 is the most realistic since it gives an almost equal chance for classifying a given observation into the derived classes, as seen from the confusion matrix plot in section 3.3. Additionally, the difficulties currently encountered in establishing appropriate thresholds to categorize observations as “short-term,” “medium-term,” or “long-term” could present a potential research opportunity: one of identifying which threshold produces the best/optimal classification results. This can be seen as a problem of parameter identification or inverse analysis to determine suitable thresholds for classifying the duration of road construction projects as “short-term”, “medium-term”, or “long-term”, based on which of the trail thresholds yields the best predictive model. Finally, the key lesson learned is that the developed model is as good as the data. Therefore, experiments for scientific research must be planned in a way that effectively collects data concerning the project’s stated hypothesis.</p>
+<p align="justify">As a next step, the authors propose looking at other techniques that can improve the model's generalizability. However, since no consensus threshold classifies project durations into the three labels chosen in this work, the authors believe that case 3 is the most realistic. This is because it gives an almost equal chance of classifying a given observation into the derived classes, as seen from the confusion matrix plot in section 3.3. Additionally, the difficulties currently encountered in establishing appropriate thresholds to categorize observations as “short-term,” “medium-term,” or “long-term” could present a potential research opportunity: one of identifying which threshold produces the best/optimal classification results. Furthermore, it is a problem of parameter identification or inverse analysis to determine which thresholds are the most effective in classifying the duration of road construction projects as “short-term”, “medium-term”, or “long-term”, based on which of the trail thresholds yields the most accurate prediction. Finally, the key lesson learned is that the developed model is as good as the data. Therefore, scientific research experiments must be planned to effectively collect data concerning the project’s stated hypothesis.</p>
 
 [References:]{.semibold}
 
