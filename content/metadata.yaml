@@ -1,26 +1,33 @@
 ---
-title: "Manuscript Title"
+title: "Predictive Modeling of Effect of Weather Conditions on Road Construction Projects in USA"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+
+  - github: amirthavarshini246
+    name: Amirthavarshini Muraleetharan
+    initials: AM
+    orcid: 677-010-487
+    email: am86@illinois.edu
+    affiliations: 
+    - Department of CEE, University of Illinois Urbana Champaign
+
+  - github: thomasNg
+    name: Thomas Ngare
+    initials: TN
+    orcid: 652-601-317
+    email: tmatiki2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
+      - Department of CEE, University of Illinois Urbana Champaign
+    
+  - github: kapilrs2
+    name: Kapil Shah
+    initials: KS
+    orcid: 668-376-620
+    email: kapilrs2@illinois.edu
     affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of CEE, University of Illinois Urbana Champaign
+   
