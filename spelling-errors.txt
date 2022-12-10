@@ -1,5 +1,5 @@
 Amin
-Amirthavarshini
+amirthavarshini
 APIs
 arxiv
 Boxplots
@@ -11,7 +11,7 @@ CSV
 dataset
 dataset’s
 Datasets
-Dimensionality
+dimensionality
 DNN
 durations
 EDA
@@ -36,7 +36,7 @@ Rajiv
 Ramnath
 ReLU
 sgd
-sigmoid
+Sigmoid
 Sklearn
 Sobhan
 Softmax

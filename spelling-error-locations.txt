@@ -139,9 +139,9 @@ content/01.abstract.md:196:sigmoid
 content/01.abstract.md:196:Sigmoid
 content/01.abstract.md:200:sklearn
 content/01.abstract.md:200:sklearn
-content/01.abstract.md:210:dataset
-content/01.abstract.md:219:PCA
-content/01.abstract.md:222:Boxplots
-content/01.abstract.md:222:PCA
-content/01.abstract.md:225:dataset
-content/01.abstract.md:228:dataset
+content/01.abstract.md:209:dataset
+content/01.abstract.md:218:PCA
+content/01.abstract.md:221:Boxplots
+content/01.abstract.md:221:PCA
+content/01.abstract.md:224:dataset
+content/01.abstract.md:227:dataset
